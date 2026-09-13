@@ -13,8 +13,8 @@
     <h1>SHOT & SHOTS-ON-TARGET FORECAST WORKSHEETS</h1>
   </header>
   <main>
-    <section id="loading" class="message">Loading eligible weekly worksheets…</section>
-    <section id="fixtures" class="worksheets" aria-live="polite"></section>
+    <section id="loading" class="message" role="status" aria-live="polite" aria-atomic="true">Loading eligible weekly worksheets…</section>
+    <section id="fixtures" class="worksheets"></section>
     <section id="empty" class="message hidden">
       No upcoming matches met every formula requirement for this week.
     </section>
@@ -22,6 +22,50 @@
   <footer>
     Only matches that pass every documented formula requirement are displayed.
   </footer>
+  <button
+    id="data-assistant-toggle"
+    class="assistant-toggle"
+    type="button"
+    aria-controls="data-assistant"
+    aria-haspopup="dialog"
+    aria-expanded="false"
+  >
+    Ask about the data
+  </button>
+  <aside id="data-assistant" class="assistant" role="dialog" aria-labelledby="assistant-title" aria-describedby="assistant-status" hidden>
+    <header class="assistant-header">
+      <div>
+        <h2 id="assistant-title">Dashboard data assistant</h2>
+        <span id="assistant-status" role="status" aria-live="polite" aria-atomic="true">Connecting to the published data…</span>
+      </div>
+      <button id="assistant-close" class="assistant-close" type="button" aria-label="Close data assistant">×</button>
+    </header>
+    <div id="assistant-messages" class="assistant-messages" role="log" aria-labelledby="assistant-title" aria-live="polite" aria-relevant="additions text"></div>
+    <div class="assistant-examples" aria-label="Example questions">
+      <button type="button" data-question="Show all matches">All matches</button>
+      <button type="button" data-question="Which match has the highest combined shots?">Highest shots</button>
+      <button type="button" data-question="Show matches with red cards">Red cards</button>
+    </div>
+    <div class="assistant-refresh">
+      <button
+        id="run-data-refresh"
+        type="button"
+        aria-describedby="refresh-help"
+        data-workflow-url="https://github.com/embcars2025/soccer-sports-bet/actions/workflows/refresh-dashboard.yml"
+        disabled
+      >Loading refresh option…</button>
+      <button id="check-data-update" type="button" aria-describedby="refresh-help">Check for updated data</button>
+      <a id="github-refresh-link" class="assistant-github-link hidden" href="https://github.com/embcars2025/soccer-sports-bet/actions/workflows/refresh-dashboard.yml" target="_blank" rel="noopener noreferrer">Open the private GitHub refresh workflow (new tab)</a>
+      <small id="refresh-help">Runs the same formula using the current time, includes newly completed games and updated source data, then republishes eligible matches through Sunday.</small>
+    </div>
+    <form id="assistant-form" class="assistant-form">
+      <label class="visually-hidden" for="assistant-input">Ask a question about the dashboard data</label>
+      <input id="assistant-input" type="text" autocomplete="off" placeholder="Ask about a team, match, shots, SOT…" required>
+      <button type="submit">Send</button>
+    </form>
+  </aside>
   <script src="./assets/app.js" defer></script>
+  <script src="./assets/chat-engine.js" defer></script>
+  <script src="./assets/chat.js" defer></script>
 </body>
 </html>
