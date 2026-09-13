@@ -1,10 +1,24 @@
 {
   "status": "PASS",
   "detail_errors": [],
-  "candidate_fixture_count": 3,
+  "candidate_fixture_count": 9,
   "published_fixture_count": 0,
-  "ineligible_fixture_count": 3,
+  "ineligible_fixture_count": 9,
   "ineligible_fixtures": [
+    {
+      "match_id": "31217",
+      "league": "EPL",
+      "home_team": "Coventry",
+      "away_team": "Brighton",
+      "reason": "Coventry has only 1 usable current-season matches; minimum is 3."
+    },
+    {
+      "match_id": "30811",
+      "league": "La_liga",
+      "home_team": "Celta Vigo",
+      "away_team": "Malaga",
+      "reason": "Malaga has only 2 usable current-season matches; minimum is 3."
+    },
     {
       "match_id": "30813",
       "league": "La_liga",
@@ -13,11 +27,39 @@
       "reason": "Exactly two prior-season league H2Hs are required; found 0."
     },
     {
+      "match_id": "31973",
+      "league": "Ligue_1",
+      "home_team": "Lille",
+      "away_team": "Troyes",
+      "reason": "Lille has only 2 usable current-season matches; minimum is 3."
+    },
+    {
       "match_id": "31974",
       "league": "Ligue_1",
       "home_team": "Le Mans",
       "away_team": "Lens",
       "reason": "Exactly two prior-season league H2Hs are required; found 0."
+    },
+    {
+      "match_id": "31594",
+      "league": "Serie_A",
+      "home_team": "Torino",
+      "away_team": "Roma",
+      "reason": "Torino has only 2 usable current-season matches; minimum is 3."
+    },
+    {
+      "match_id": "31595",
+      "league": "Serie_A",
+      "home_team": "Lecce",
+      "away_team": "Monza",
+      "reason": "Monza has only 2 usable current-season matches; minimum is 3."
+    },
+    {
+      "match_id": "31596",
+      "league": "Serie_A",
+      "home_team": "Como",
+      "away_team": "Parma Calcio 1913",
+      "reason": "Parma Calcio 1913 has only 2 usable current-season matches; minimum is 3."
     },
     {
       "match_id": "31597",
