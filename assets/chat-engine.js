@@ -7,17 +7,22 @@
 
   const STOP_WORDS = new Set([
     'a','about','all','and','are','can','data','do','for','from','give','has','have','i','in','is',
-    'match','matches','me','of','on','please','show','tell','the','this','to','what','which','with'
+    'match','matches','me','of','on','please','show','tell','the','this','to','what','which','with',
+    'de','del','el','en','la','las','lo','los','para','por','que','un','una','uno'
   ]);
 
   const LEAGUE_ALIASES = {
-    'Premier League': ['premier league', 'epl', 'english league'],
-    'La Liga': ['la liga', 'laliga', 'spanish league'],
-    'Ligue 1': ['ligue 1', 'ligue one', 'french league'],
-    'Serie A': ['serie a', 'italian league']
+    'Premier League': ['premier league', 'epl', 'english league', 'liga inglesa'],
+    'La Liga': ['la liga', 'laliga', 'spanish league', 'liga espanola'],
+    'Ligue 1': ['ligue 1', 'ligue one', 'french league', 'liga francesa'],
+    'Serie A': ['serie a', 'italian league', 'liga italiana']
   };
 
   const DAY_NAMES = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
+  const DAY_LABELS = {
+    sunday:'domingo', monday:'lunes', tuesday:'martes', wednesday:'miércoles',
+    thursday:'jueves', friday:'viernes', saturday:'sábado'
+  };
 
   function words(value) {
     return String(value ?? '')
@@ -27,6 +32,82 @@
       .replace(/&/g, ' and ')
       .replace(/[^a-z0-9]+/g, ' ')
       .trim();
+  }
+
+  function intentWords(value) {
+    let result = words(value);
+    const phrases = [
+      [/\bla liga\b/g, 'laliga'],
+      [/\bliga inglesa\b/g, 'english league'],
+      [/\bliga espanola\b/g, 'spanish league'],
+      [/\bliga francesa\b/g, 'french league'],
+      [/\bliga italiana\b/g, 'italian league'],
+      [/\b(?:tiros?|disparos?|remates?) (?:a|al) (?:puerta|porteria|arco)\b/g, 'shots on target'],
+      [/\b(?:tiradores?|jugadores?) (?:a|al) (?:puerta|porteria|arco)\b/g, 'shooters on target'],
+      [/\bentre los tres palos\b/g, 'shots on target'],
+      [/\bcara a cara\b/g, 'head to head'],
+      [/\benfrentamientos? directos?\b/g, 'head to head'],
+      [/\btemporada anterior\b/g, 'previous season'],
+      [/\btarjetas? rojas?\b/g, 'red cards'],
+      [/\b(?:expulsados?|expulsiones)\b/g, 'red cards'],
+      [/\btodos los datos\b/g, 'all data'],
+      [/\bdetalles completos\b/g, 'complete details'],
+      [/\bforma reciente\b/g, 'form'],
+      [/\bultimos partidos\b/g, 'form'],
+      [/\bcomponentes de la formula\b/g, 'formula components'],
+      [/\bultima actualizacion\b/g, 'last updated'],
+      [/\bultima vez que se actualizo\b/g, 'last refreshed'],
+      [/\bcuando se actualizaron? los datos\b/g, 'when updated'],
+      [/\bcuando se refrescaron? los datos\b/g, 'when refreshed'],
+      [/\bfecha de los datos\b/g, 'data date'],
+      [/\bbuscar datos actualizados\b/g, 'check for updated data'],
+      [/\bcomprobar (?:datos|actualizaciones)\b/g, 'check updated data'],
+      [/\b(?:comprueba|revisa|verifica) si hay datos nuevos\b/g, 'check for new data'],
+      [/\brecargar (?:la )?(?:pagina|tablero)\b/g, 'reload page'],
+      [/\bactualiza (?:la )?pagina\b/g, 'update the page'],
+      [/\b(?:actualiza|actualizar|refresca|refrescar) (?:los )?datos\b/g, 'refresh data'],
+      [/\b(?:actualiza|actualizar|refresca|refrescar) (?:el )?tablero\b/g, 'refresh dashboard'],
+      [/\b(?:actualiza|actualizar|refresca|refrescar) (?:la )?formula\b/g, 'refresh formula'],
+      [/\bpor favor\b/g, 'please'],
+      [/\bpor encima de\b/g, 'above'],
+      [/\bal menos\b/g, 'at least'],
+      [/\bcomo maximo\b/g, 'at most'],
+      [/\bmas de (?=\d)\b/g, 'over '],
+      [/\bmenos de (?=\d)\b/g, 'under ']
+    ];
+    phrases.forEach(([pattern, replacement]) => {
+      result = result.replace(pattern, replacement);
+    });
+    const tokenMap = {
+      ayuda:'help', ejemplos:'examples', comandos:'commands',
+      muestra:'show', muestrame:'show', mostrar:'show', ensena:'show', ensename:'show',
+      lista:'list', listar:'list', busca:'find', buscar:'find', dame:'give',
+      cual:'which', cuales:'which', quien:'who', quienes:'who', cuantos:'how many', cuantas:'how many',
+      todos:'all', todas:'all', cada:'each', y:'and',
+      partido:'match', partidos:'matches', encuentro:'match', encuentros:'matches', juegos:'games', calendario:'schedule',
+      equipo:'team', equipos:'teams', club:'club', clubes:'clubs',
+      liga:'league', ligas:'leagues',
+      jugador:'player', jugadores:'players', tirador:'shooter', tiradores:'shooters', rematador:'shooter', rematadores:'shooters',
+      mejores:'top', mejor:'top', maximo:'highest', maxima:'highest', mayor:'highest', mas:'most', lider:'top', lideres:'top',
+      menor:'lowest', minimo:'lowest', minima:'lowest', menos:'fewest',
+      tiro:'shot', tiros:'shots', disparo:'shot', disparos:'shots', remate:'shot', remates:'shots',
+      objetivo:'target', combinados:'combined', combinadas:'combined', combinado:'combined', combinada:'combined',
+      totales:'total', total:'total',
+      pronostico:'forecast', prediccion:'forecast',
+      forma:'form', reciente:'recent', recientes:'recent', muestras:'sample', seleccion:'sample',
+      promedio:'average', promedios:'averages', recibidos:'received', recibidas:'received',
+      posicion:'position', posiciones:'positions', clasificacion:'standings', rango:'rank',
+      formula:'formula', componente:'component', componentes:'components',
+      saque:'kickoff', inicio:'kickoff', fecha:'date', hora:'time', cuando:'when',
+      actualizar:'refresh', actualiza:'refresh', actualizalo:'refresh', refrescar:'refresh', refresca:'refresh',
+      revisar:'check', revisa:'check', verifica:'check', verificar:'check',
+      datos:'data', dato:'data', tablero:'dashboard', pagina:'page', ahora:'now',
+      uno:'one', dos:'two', tres:'three', cuatro:'four', cinco:'five',
+      seis:'six', siete:'seven', ocho:'eight', nueve:'nine', diez:'ten',
+      domingo:'sunday', lunes:'monday', martes:'tuesday', miercoles:'wednesday',
+      jueves:'thursday', viernes:'friday', sabado:'saturday'
+    };
+    return result.split(' ').map(token => tokenMap[token] || token).join(' ').trim();
   }
 
   function compact(value) {
@@ -41,13 +122,13 @@
 
   function number(value, digits = 1) {
     const parsed = Number(value);
-    return Number.isFinite(parsed) ? parsed.toFixed(digits) : 'unavailable';
+    return Number.isFinite(parsed) ? parsed.toFixed(digits) : 'no disponible';
   }
 
   function dateTime(value) {
     const parsed = new Date(value);
-    if (Number.isNaN(parsed.getTime())) return String(value ?? 'unavailable');
-    return new Intl.DateTimeFormat('en-US', {
+    if (Number.isNaN(parsed.getTime())) return String(value ?? 'no disponible');
+    return new Intl.DateTimeFormat('es-US', {
       weekday: 'short', month: 'short', day: 'numeric', year: 'numeric',
       hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York', timeZoneName: 'short'
     }).format(parsed);
@@ -55,8 +136,8 @@
 
   function shortDate(value) {
     const parsed = new Date(value);
-    if (Number.isNaN(parsed.getTime())) return String(value ?? 'unavailable');
-    return new Intl.DateTimeFormat('en-US', {
+    if (Number.isNaN(parsed.getTime())) return String(value ?? 'no disponible');
+    return new Intl.DateTimeFormat('es-US', {
       weekday: 'long', month: 'short', day: 'numeric', timeZone: 'America/New_York'
     }).format(parsed);
   }
@@ -72,6 +153,7 @@
   function createEngine(payload) {
     const loaded = Boolean(payload && Array.isArray(payload.fixtures));
     const fixtures = Array.isArray(payload?.fixtures) ? payload.fixtures : [];
+    const playerStats = Array.isArray(payload?.player_stats?.teams) ? payload.player_stats.teams : [];
     const teams = unique(fixtures.flatMap(f => [f.home_team, f.away_team])).sort();
     const leagues = unique(fixtures.map(f => f.league_name)).sort();
     const teamTokens = new Map();
@@ -131,22 +213,22 @@
       const leagueHit = mentionedLeague(query);
       if (leagueHit) parts.push(leagueHit);
       const dayHit = mentionedDay(query);
-      if (dayHit) parts.push(dayHit[0].toUpperCase() + dayHit.slice(1));
-      return parts.length ? parts.join(' · ') : 'this published week';
+      if (dayHit) parts.push(DAY_LABELS[dayHit] || dayHit);
+      return parts.length ? parts.join(' · ') : 'esta semana publicada';
     }
 
     function forecastLine(fixture) {
       const f = fixture.forecasts;
-      return `${fixtureName(fixture)} — ${fixture.home_team} ${number(f.home_shots)} shots / ${number(f.home_sot)} SOT; ` +
-        `${fixture.away_team} ${number(f.away_shots)} shots / ${number(f.away_sot)} SOT; ` +
-        `combined ${number(f.combined_shots)} shots / ${number(f.combined_sot)} SOT.`;
+      return `${fixtureName(fixture)} — ${fixture.home_team} ${number(f.home_shots)} tiros / ${number(f.home_sot)} tiros a puerta; ` +
+        `${fixture.away_team} ${number(f.away_shots)} tiros / ${number(f.away_sot)} tiros a puerta; ` +
+        `combinado ${number(f.combined_shots)} tiros / ${number(f.combined_sot)} tiros a puerta.`;
     }
 
     function listMatches(rows) {
-      if (!rows.length) return 'No published eligible matches fit that request.';
+      if (!rows.length) return 'Ningún partido elegible publicado coincide con esa solicitud.';
       return rows.map((fixture, index) =>
-        `${index + 1}. ${fixtureName(fixture)} — ${fixture.league_name}, ${shortDate(fixture.kickoff_utc)} at ` +
-        `${new Intl.DateTimeFormat('en-US', {hour:'numeric',minute:'2-digit',timeZone:'America/New_York',timeZoneName:'short'}).format(new Date(fixture.kickoff_utc))}`
+        `${index + 1}. ${fixtureName(fixture)} — ${fixture.league_name}, ${shortDate(fixture.kickoff_utc)} a las ` +
+        `${new Intl.DateTimeFormat('es-US', {hour:'numeric',minute:'2-digit',timeZone:'America/New_York',timeZoneName:'short'}).format(new Date(fixture.kickoff_utc))}`
       ).join('\n');
     }
 
@@ -173,20 +255,21 @@
           return player.team ? `${player.player} (${player.team})` : player.player;
         }).filter(Boolean);
         const cards = row.red_card
-          ? `; red card${players.length ? `: ${players.join(', ')}` : ''}${row.red_card_fallback ? '; minimum-sample fallback' : ''}`
+          ? `; tarjeta roja${players.length ? `: ${players.join(', ')}` : ''}${row.red_card_fallback ? '; usada para completar la muestra mínima' : ''}`
           : '';
-        return `• ${row.date} ${row.venue} vs ${row.opponent} (position ${row.opponent_position}), ${row.score}: ` +
+        const venue = row.venue === 'H' ? 'local' : (row.venue === 'A' ? 'visitante' : row.venue);
+        return `• ${row.date} ${venue} vs ${row.opponent} (posición ${row.opponent_position}), ${row.score}: ` +
           `T ${number(row.T)}, TA ${number(row.TA)}, TR ${number(row.TR)}, TAR ${number(row.TAR)}${cards}`;
       }).join('\n');
-      return `${team} selected current-form sample (${side.form.length}):\n${rows}\n` +
-        `Averages — T ${number(side.averages.T)}, TA ${number(side.averages.TA)}, ` +
+      return `${team}, muestra seleccionada de forma actual (${side.form.length}):\n${rows}\n` +
+        `Promedios — T ${number(side.averages.T)}, TA ${number(side.averages.TA)}, ` +
         `TR ${number(side.averages.TR)}, TAR ${number(side.averages.TAR)}.`;
     }
 
     function h2hLines(fixture) {
-      return `${fixture.previous_season_label} head-to-head:\n` + fixture.h2h.map(row =>
+      return `Cara a cara de ${fixture.previous_season_label}:\n` + fixture.h2h.map(row =>
         `• ${row.date}: ${row.fixture}, ${row.score}; ${fixture.home_team} T ${number(row.team_a_T)} / TA ${number(row.team_a_TA)}; ` +
-        `${fixture.away_team} T ${number(row.team_b_T)} / TA ${number(row.team_b_TA)}${row.same_venue ? '; same venue (T2/TA2)' : ''}`
+        `${fixture.away_team} T ${number(row.team_b_T)} / TA ${number(row.team_b_TA)}${row.same_venue ? '; misma sede (T2/TA2)' : ''}`
       ).join('\n');
     }
 
@@ -194,21 +277,21 @@
       const c = fixture.components;
       const home = fixture.home_components;
       const away = fixture.away_components;
-      return `Formula components for ${fixtureName(fixture)}:\n` +
-        `• Match: T1 ${number(c.T1)}, T2 ${number(c.T2)}, T3 ${number(c.T3)} → ${number(fixture.forecasts.combined_shots)} combined shots\n` +
-        `• Match: TA1 ${number(c.TA1)}, TA2 ${number(c.TA2)}, TA3 ${number(c.TA3)} → ${number(fixture.forecasts.combined_sot)} combined SOT\n` +
-        `• ${fixture.home_team}: current T/TA ${number(home.current_form.T)}/${number(home.current_form.TA)}, ` +
-        `same-venue ${number(home.same_venue_h2h.T)}/${number(home.same_venue_h2h.TA)}, ` +
-        `two-H2H average ${number(home.two_h2h_average.T)}/${number(home.two_h2h_average.TA)}\n` +
-        `• ${fixture.away_team}: current T/TA ${number(away.current_form.T)}/${number(away.current_form.TA)}, ` +
-        `same-venue ${number(away.same_venue_h2h.T)}/${number(away.same_venue_h2h.TA)}, ` +
-        `two-H2H average ${number(away.two_h2h_average.T)}/${number(away.two_h2h_average.TA)}.`;
+      return `Componentes de la fórmula para ${fixtureName(fixture)}:\n` +
+        `• Partido: T1 ${number(c.T1)}, T2 ${number(c.T2)}, T3 ${number(c.T3)} → ${number(fixture.forecasts.combined_shots)} tiros combinados\n` +
+        `• Partido: TA1 ${number(c.TA1)}, TA2 ${number(c.TA2)}, TA3 ${number(c.TA3)} → ${number(fixture.forecasts.combined_sot)} tiros a puerta combinados\n` +
+        `• ${fixture.home_team}: T/TA actuales ${number(home.current_form.T)}/${number(home.current_form.TA)}, ` +
+        `misma sede ${number(home.same_venue_h2h.T)}/${number(home.same_venue_h2h.TA)}, ` +
+        `promedio de dos cara a cara ${number(home.two_h2h_average.T)}/${number(home.two_h2h_average.TA)}\n` +
+        `• ${fixture.away_team}: T/TA actuales ${number(away.current_form.T)}/${number(away.current_form.TA)}, ` +
+        `misma sede ${number(away.same_venue_h2h.T)}/${number(away.same_venue_h2h.TA)}, ` +
+        `promedio de dos cara a cara ${number(away.two_h2h_average.T)}/${number(away.two_h2h_average.TA)}.`;
     }
 
     function allData(fixture) {
       return `${forecastLine(fixture)}\n` +
-        `League: ${fixture.league_name}. Kickoff: ${dateTime(fixture.kickoff_utc)}. Data cutoff: ${dateTime(fixture.data_cutoff_et)}.\n` +
-        `Positions: ${fixture.home_team} ${fixture.home_position}; ${fixture.away_team} ${fixture.away_position}.\n\n` +
+        `Liga: ${fixture.league_name}. Inicio: ${dateTime(fixture.kickoff_utc)}. Corte de datos: ${dateTime(fixture.data_cutoff_et)}.\n` +
+        `Posiciones: ${fixture.home_team} ${fixture.home_position}; ${fixture.away_team} ${fixture.away_position}.\n\n` +
         `${formLines(fixture, fixture.home_team)}\n\n${formLines(fixture, fixture.away_team)}\n\n` +
         `${h2hLines(fixture)}\n\n${componentLines(fixture)}`;
     }
@@ -223,17 +306,90 @@
             const names = (row.red_card_players || []).map(player => {
               if (!player?.player) return '';
               return player.team ? `${player.player} (${player.team})` : player.player;
-            }).filter(Boolean).join(', ') || 'player name unavailable';
-            found.push(`${fixtureName(fixture)} — ${team} sample, ${row.date} vs ${row.opponent}: ${names}` +
-              `${row.red_card_fallback ? ' (used to reach the minimum sample)' : ''}`);
+            }).filter(Boolean).join(', ') || 'nombre del jugador no disponible';
+            found.push(`${fixtureName(fixture)} — muestra de ${team}, ${row.date} vs ${row.opponent}: ${names}` +
+              `${row.red_card_fallback ? ' (usado para completar la muestra mínima)' : ''}`);
             matchIds.push(String(fixture.match_id));
           }
         }
       }
       return {
-        text: found.length ? `Red-card rows in the selected published samples:\n${unique(found).map(x => `• ${x}`).join('\n')}` :
-          'No red-card rows appear in those published selected samples.',
+        text: found.length ? `Filas con tarjeta roja en las muestras publicadas seleccionadas:\n${unique(found).map(x => `• ${x}`).join('\n')}` :
+          'No aparecen filas con tarjeta roja en esas muestras publicadas seleccionadas.',
         matchIds: unique(matchIds)
+      };
+    }
+
+    function playerRankingRequested(query) {
+      const q = words(query);
+      return /\b(top|highest|most|leading|leaders?|best)\b/.test(q) &&
+        /\b(shots?|shooters?|sot|target)\b/.test(q) &&
+        /\b(players?|shooters?|who)\b/.test(q);
+    }
+
+    function requestedTop(query) {
+      const names = {one:1,two:2,three:3,four:4,five:5,six:6,seven:7,eight:8,nine:9,ten:10};
+      const match = words(query).match(/\btop\s+(\d+|one|two|three|four|five|six|seven|eight|nine|ten)\b/) ||
+        words(query).match(/\b(\d+|one|two|three|four|five|six|seven|eight|nine|ten)\s+top\b/);
+      const requested = match ? (Number(match[1]) || names[match[1]]) : 3;
+      return Math.max(1, Math.min(requested || 3, 10));
+    }
+
+    function playerRankings(query) {
+      if (!playerStats.length) {
+        return {
+          text:'Los totales de tiros por jugador todavía no están disponibles en este conjunto de datos publicado. Aparecerán después de la próxima actualización de datos exitosa.',
+          matchIds:[]
+        };
+      }
+      const q = words(query);
+      const teamHits = mentionedTeams(query);
+      const selected = playerStats
+        .filter(team => teams.includes(team.team) && (!teamHits.length || teamHits.includes(team.team)))
+        .slice()
+        .sort((a, b) => String(a.team).localeCompare(String(b.team)));
+      if (!selected.length) {
+        return {text:'No hay totales de tiros por jugador disponibles para ese equipo del tablero.',matchIds:[]};
+      }
+
+      const asksSot = /\b(?:shots?|shooters?|players?) on target\b|\bsot\b/.test(q);
+      const withoutSot = q.replace(/\b(?:shots?|shooters?|players?) on target\b|\bsot\b/g, ' ');
+      const asksShots = /\b(shots?|shooters?)\b/.test(withoutSot) || !asksSot;
+      const limit = requestedTop(query);
+
+      function leaders(team, metric) {
+        const other = metric === 'sot' ? 'shots' : 'sot';
+        return (Array.isArray(team.players) ? team.players : []).slice().sort((a, b) =>
+          Number(b[metric] || 0) - Number(a[metric] || 0) ||
+          Number(b[other] || 0) - Number(a[other] || 0) ||
+          String(a.player || '').localeCompare(String(b.player || '')) ||
+          String(a.player_id || '').localeCompare(String(b.player_id || ''))
+        ).slice(0, limit);
+      }
+
+      function rankingLine(label, rows, metric) {
+        if (!rows.length) return `${label}: no hay tiradores registrados`;
+        return `${label}: ` + rows.map((player, index) =>
+          `${index + 1}. ${player.player} (${Number(player[metric] || 0)})`
+        ).join(', ');
+      }
+
+      const sections = selected.map(team => {
+        const rows = [];
+        if (asksShots) rows.push(rankingLine('Tiros', leaders(team, 'shots'), 'shots'));
+        if (asksSot) rows.push(rankingLine('Tiros a puerta', leaders(team, 'sot'), 'sot'));
+        return `${team.team} (${Number(team.matches_counted || 0)} partidos contabilizados)\n` +
+          rows.map(row => `• ${row}`).join('\n');
+      });
+      const season = payload?.player_stats?.season ? ` ${payload.player_stats.season}.` : '';
+      const scope = payload?.player_stats?.scope || 'Tiros registrados en la temporada actual hasta el corte publicado.';
+      const selectedNames = new Set(selected.map(team => team.team));
+      const matchIds = fixtures.filter(fixture =>
+        selectedNames.has(fixture.home_team) || selectedNames.has(fixture.away_team)
+      ).map(fixture => String(fixture.match_id));
+      return {
+        text:`Los ${limit} mejores jugadores.${season}\n${scope}\n\n${sections.join('\n\n')}`,
+        matchIds:unique(matchIds)
       };
     }
 
@@ -243,7 +399,7 @@
       const combined = /\b(combined|total|match)\b/.test(q) || !teamMode;
       return {
         key: combined ? (isSot ? 'combined_sot' : 'combined_shots') : (isSot ? 'sot' : 'shots'),
-        label: combined ? `combined ${isSot ? 'SOT' : 'shots'}` : (isSot ? 'SOT' : 'shots'),
+        label: combined ? `${isSot ? 'tiros a puerta' : 'tiros'} combinados` : (isSot ? 'tiros a puerta' : 'tiros'),
         isSot, combined
       };
     }
@@ -265,13 +421,16 @@
       }
       const ascending = /\b(lowest|least|smallest|bottom|fewest)\b/.test(words(query));
       values.sort((a, b) => ascending ? a.value - b.value : b.value - a.value);
-      const requested = Number((words(query).match(/\btop\s+(\d+)\b/) || [])[1] || 1);
+      const numberNames = {one:1,two:2,three:3,four:4,five:5,six:6,seven:7,eight:8,nine:9,ten:10};
+      const topMatch = words(query).match(/\btop\s+(\d+|one|two|three|four|five|six|seven|eight|nine|ten)\b/) ||
+        words(query).match(/\b(\d+|one|two|three|four|five|six|seven|eight|nine|ten)\s+top\b/);
+      const requested = topMatch ? (Number(topMatch[1]) || numberNames[topMatch[1]]) : 1;
       const limit = Math.max(1, Math.min(requested, 10));
       const selected = values.slice(0, limit);
-      if (!selected.length) return {text:'No published eligible matches fit that ranking.',matchIds:[]};
-      const direction = ascending ? 'Lowest' : 'Highest';
+      if (!selected.length) return {text:'Ningún partido elegible publicado coincide con esa clasificación.',matchIds:[]};
+      const direction = ascending ? 'Menor' : 'Mayor';
       return {
-        text: `${direction} ${metric.label} for ${filterLabel(query)}:\n` + selected.map((item, index) =>
+        text: `${direction} cantidad de ${metric.label} para ${filterLabel(query)}:\n` + selected.map((item, index) =>
           `${index + 1}. ${item.team ? `${item.team} — ${item.label}` : item.label}: ${number(item.value)}`
         ).join('\n'),
         matchIds: selected.map(x => String(x.matchId))
@@ -290,11 +449,15 @@
         const value = Number(fixture.forecasts[metric.key]);
         return lower ? (inclusive ? value <= limit : value < limit) : (inclusive ? value >= limit : value > limit);
       });
+      const operator = {
+        over:'más de', above:'por encima de', 'more than':'más de', 'at least':'al menos',
+        under:'menos de', below:'por debajo de', 'less than':'menos de', 'at most':'como máximo'
+      }[match[1]] || match[1];
       return {
         text: rows.length
-          ? `${rows.length} match${rows.length === 1 ? '' : 'es'} with ${metric.label} ${match[1]} ${limit}:\n` +
+          ? `${rows.length} partido${rows.length === 1 ? '' : 's'} con ${metric.label} ${operator} ${limit}:\n` +
             rows.map(f => `• ${fixtureName(f)} — ${number(f.forecasts[metric.key])}`).join('\n')
-          : `No published eligible matches have ${metric.label} ${match[1]} ${limit}.`,
+          : `Ningún partido elegible publicado tiene ${metric.label} ${operator} ${limit}.`,
         matchIds: rows.map(f => String(f.match_id))
       };
     }
@@ -310,15 +473,16 @@
     }
 
     function help() {
-      return 'I answer from every field in the published eligible worksheets. Try:\n' +
-        '• Show all matches, teams, La Liga matches, or Sunday matches\n' +
-        '• What is Villarreal vs Real Betis forecast?\n' +
-        '• Show all data, form, H2H, positions, or formula components for a match\n' +
-        '• Which match has the highest combined shots?\n' +
-        '• Top 3 teams by SOT\n' +
-        '• Show matches with combined shots over 25\n' +
-        '• Show matches with red cards\n' +
-        'The assistant uses the published dashboard only, so omitted fixtures and the private audit are not available here.';
+      return 'Respondo usando todos los campos de las hojas elegibles publicadas. Prueba:\n' +
+        '• Muestra todos los partidos, equipos, partidos de La Liga o partidos del domingo\n' +
+        '• ¿Cuál es el pronóstico de Villarreal vs Real Betis?\n' +
+        '• Muestra todos los datos, la forma, el cara a cara, las posiciones o los componentes de la fórmula de un partido\n' +
+        '• ¿Qué partido tiene más tiros combinados?\n' +
+        '• Los 3 mejores equipos por tiros a puerta\n' +
+        '• Los 3 mejores tiradores y líderes en tiros a puerta de cada equipo\n' +
+        '• Muestra partidos con más de 25 tiros combinados\n' +
+        '• Muestra partidos con tarjetas rojas\n' +
+        'El asistente usa únicamente el tablero publicado; los partidos omitidos y la auditoría privada no están disponibles aquí.';
     }
 
     function normalizedCommand(query) {
@@ -345,42 +509,46 @@
       const q = words(query);
       const patterns = [
         /^(?:show|list|find)(?: me)? (.+?) (?:matches|fixtures|games)$/,
+        /^(?:show|list|find)(?: me)? (?:los )?(?:matches|fixtures|games)(?: for| of| de| del) (.+)$/,
         /^how many (.+?) (?:matches|fixtures|games)(?: are there)?$/,
         /^(?:are there|any) (.+?) (?:matches|fixtures|games)$/
       ];
       for (const pattern of patterns) {
         const match = q.match(pattern);
         if (!match) continue;
-        const candidate = match[1].replace(/\b(?:all|eligible|published|upcoming|weekly|this week)\b/g, '').trim();
+        const candidate = match[1].replace(/\b(?:all|eligible|published|upcoming|weekly|this week|los|las|del|de)\b/g, '').trim();
         if (candidate && !/^(?:the|there)$/.test(candidate)) return candidate;
       }
       return null;
     }
 
     function answer(query) {
+      query = intentWords(query);
       const q = words(query);
-      if (!q) return {text:'Type a question about the published dashboard data.',matchIds:[]};
+      if (!q) return {text:'Escribe una pregunta sobre los datos publicados del tablero.',matchIds:[]};
       if (/\b(help|examples|commands|what can you do)\b/.test(q)) return {text:help(),matchIds:[]};
       if (refreshCommand(query)) return {text:'',matchIds:[],action:'refresh'};
       if (checkCommand(query)) return {text:'',matchIds:[],action:'check'};
-      if (!loaded) return {text:'The published dashboard data has not loaded yet. Please try again in a moment.',matchIds:[]};
+      if (!loaded) return {text:'Los datos publicados del tablero todavía no se han cargado. Inténtalo de nuevo en un momento.',matchIds:[]};
 
       if (/\b(cutoff|last updated|last refreshed|data date|when.*updated|when.*refreshed)\b/.test(q)) {
         const cutoffs = unique(fixtures.map(f => f.data_cutoff_et)).sort();
         const values = cutoffs.length ? cutoffs : [payload?.generated_at_utc].filter(Boolean);
-        return {text:values.length ? `Published data cutoff: ${values.map(dateTime).join(', ')}.` : 'The published dataset is valid but has no eligible fixtures this week.',matchIds:[]};
+        return {text:values.length ? `Corte de datos publicado: ${values.map(dateTime).join(', ')}.` : 'El conjunto de datos publicado es válido, pero no tiene partidos elegibles esta semana.',matchIds:[]};
       }
 
-      if (!fixtures.length) return {text:'No upcoming matches currently meet every rule for this published week.',matchIds:[]};
+      if (!fixtures.length) return {text:'Actualmente ningún próximo partido cumple todas las reglas de esta semana publicada.',matchIds:[]};
+
+      if (playerRankingRequested(query)) return playerRankings(query);
 
       const rows = filtered(query);
       const teamHits = mentionedTeams(query);
       const unknownTeam = unknownTeamFilter(query, teamHits);
       if (unknownTeam) {
-        return {text:`“${unknownTeam}” does not appear as a team in the published eligible worksheets.`,matchIds:[]};
+        return {text:`“${unknownTeam}” no aparece como equipo en las hojas elegibles publicadas.`,matchIds:[]};
       }
       if (teamHits.length && !rows.length) {
-        return {text:`No published eligible match contains ${teamHits.slice(0, 2).join(' and ')} together.`,matchIds:[]};
+        return {text:`Ningún partido elegible publicado contiene juntos a ${teamHits.slice(0, 2).join(' y ')}.`,matchIds:[]};
       }
 
       if (/\b(red card|red cards|sending off|sent off)\b/.test(q)) {
@@ -396,10 +564,10 @@
       if (/\bhow many|count|number of\b/.test(q) && /\b(teams|clubs|leagues|matches|fixtures|games)\b/.test(q)) {
         if (/\bteams|clubs\b/.test(q)) {
           const selectedTeams = unique(rows.flatMap(f => [f.home_team, f.away_team]));
-          return {text:`${selectedTeams.length} teams appear in ${filterLabel(query)}.`,matchIds:rows.map(f => String(f.match_id))};
+          return {text:`Aparecen ${selectedTeams.length} equipos en ${filterLabel(query)}.`,matchIds:rows.map(f => String(f.match_id))};
         }
-        if (/\bleagues\b/.test(q)) return {text:`${unique(rows.map(f => f.league_name)).length} leagues appear in ${filterLabel(query)}.`,matchIds:[]};
-        return {text:`${rows.length} published eligible match${rows.length === 1 ? '' : 'es'} fit ${filterLabel(query)}.`,matchIds:rows.map(f => String(f.match_id))};
+        if (/\bleagues\b/.test(q)) return {text:`Aparecen ${unique(rows.map(f => f.league_name)).length} ligas en ${filterLabel(query)}.`,matchIds:[]};
+        return {text:`${rows.length} partido${rows.length === 1 ? '' : 's'} elegible${rows.length === 1 ? '' : 's'} publicado${rows.length === 1 ? '' : 's'} coincide${rows.length === 1 ? '' : 'n'} con ${filterLabel(query)}.`,matchIds:rows.map(f => String(f.match_id))};
       }
 
       if (/\b(all data|everything|full details|complete details)\b/.test(q)) {
@@ -424,36 +592,36 @@
         }
         if (/\b(position|positions|standing|standings|rank)\b/.test(q)) {
           const positionLines = selectedRows.map(item => `• ${item.home_team} ${item.home_position}; ${item.away_team} ${item.away_position}`);
-          return {text:`Positions at the data cutoff:\n${unique(positionLines).join('\n')}`,matchIds:selectedRows.map(f => String(f.match_id))};
+          return {text:`Posiciones en el corte de datos:\n${unique(positionLines).join('\n')}`,matchIds:selectedRows.map(f => String(f.match_id))};
         }
         if (/\b(kickoff|date|time|when)\b/.test(q)) {
-          return {text:selectedRows.map(item => `${fixtureName(item)} kicks off ${dateTime(item.kickoff_utc)}.`).join('\n'),matchIds:selectedRows.map(f => String(f.match_id))};
+          return {text:selectedRows.map(item => `${fixtureName(item)} comienza el ${dateTime(item.kickoff_utc)}.`).join('\n'),matchIds:selectedRows.map(f => String(f.match_id))};
         }
         if (/\bleague\b/.test(q)) {
-          return {text:selectedRows.map(item => `${fixtureName(item)} is in ${item.league_name}.`).join('\n'),matchIds:selectedRows.map(f => String(f.match_id))};
+          return {text:selectedRows.map(item => `${fixtureName(item)} pertenece a ${item.league_name}.`).join('\n'),matchIds:selectedRows.map(f => String(f.match_id))};
         }
         return {text:selectedRows.map(forecastLine).join('\n'),matchIds:selectedRows.map(f => String(f.match_id))};
       }
 
       if (/\b(teams|clubs)\b/.test(q) && /\b(show|list|all)\b/.test(q)) {
         const selectedTeams = unique(rows.flatMap(f => [f.home_team, f.away_team])).sort();
-        return {text:`Teams in ${filterLabel(query)} (${selectedTeams.length}):\n${selectedTeams.join(', ')}`,matchIds:rows.map(f => String(f.match_id))};
+        return {text:`Equipos en ${filterLabel(query)} (${selectedTeams.length}):\n${selectedTeams.join(', ')}`,matchIds:rows.map(f => String(f.match_id))};
       }
 
       if (/\b(matches|fixtures|games|schedule)\b/.test(q) || mentionedLeague(query) || mentionedDay(query)) {
-        return {text:`Published eligible matches for ${filterLabel(query)} (${rows.length}):\n${listMatches(rows)}`,matchIds:rows.map(f => String(f.match_id))};
+        return {text:`Partidos elegibles publicados para ${filterLabel(query)} (${rows.length}):\n${listMatches(rows)}`,matchIds:rows.map(f => String(f.match_id))};
       }
 
       const searchHits = rawSearch(query);
       if (searchHits.length) {
         const best = searchHits.slice(0, 5).map(x => x.fixture);
         return {
-          text:`I found this wording in ${best.length} published worksheet${best.length === 1 ? '' : 's'}:\n${best.map(f => `• ${forecastLine(f)}`).join('\n')}\n\nAsk for “all data” with both team names to see a complete worksheet summary.`,
+          text:`Encontré esas palabras en ${best.length} hoja${best.length === 1 ? '' : 's'} publicada${best.length === 1 ? '' : 's'}:\n${best.map(f => `• ${forecastLine(f)}`).join('\n')}\n\nPide “todos los datos” con los nombres de ambos equipos para ver un resumen completo de la hoja.`,
           matchIds:best.map(f => String(f.match_id))
         };
       }
 
-      return {text:`I could not map that wording to the published worksheet data.\n\n${help()}`,matchIds:[]};
+      return {text:`No pude relacionar esa pregunta con los datos de las hojas publicadas.\n\n${help()}`,matchIds:[]};
     }
 
     return {answer, fixtures, teams, leagues, loaded};

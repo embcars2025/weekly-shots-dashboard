@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0A3161">
   <meta name="description" content="Weekly shots and shots-on-target forecast worksheets.">
   <title>Shot & Shots-on-Target Forecast Worksheets</title>
   <link rel="stylesheet" href="./assets/styles.css">
@@ -13,8 +14,36 @@
     <h1>SHOT & SHOTS-ON-TARGET FORECAST WORKSHEETS</h1>
   </header>
   <main>
+    <section class="dashboard-tools" lang="es" aria-label="Preguntas y filtros del tablero">
+      <div class="quick-question">
+        <div class="quick-question-host">
+          <img src="./assets/donald-trump-bobblehead.png" alt="Cabezona de Donald Trump, anfitrión de datos" width="96" height="96">
+          <div>
+            <p class="tool-kicker">ESCRITORIO INTERACTIVO DE DONALD</p>
+            <h2>Haz una pregunta sobre el tablero</h2>
+            <p>Escribe una pregunta y recibe una respuesta usando los datos publicados actualmente.</p>
+          </div>
+        </div>
+        <form id="quick-assistant-form" class="quick-question-form">
+          <label class="visually-hidden" for="quick-assistant-input">Haz una pregunta sobre los datos del tablero</label>
+          <input id="quick-assistant-input" type="text" autocomplete="off" placeholder="Prueba: Los 3 mejores tiradores y tiros a puerta de cada equipo" required>
+          <button type="submit">Preguntar</button>
+        </form>
+      </div>
+      <div class="pick-filter">
+        <p class="tool-kicker">FILTRO DE PICKS</p>
+        <label for="pick-date-filter">Mostrar picks de un día específico</label>
+        <select id="pick-date-filter" disabled>
+          <option value="all">Todos los días disponibles</option>
+        </select>
+        <p id="pick-filter-status" role="status" aria-live="polite">Cargando fechas disponibles…</p>
+      </div>
+    </section>
     <section id="loading" class="message" role="status" aria-live="polite" aria-atomic="true">Loading eligible weekly worksheets…</section>
     <section id="fixtures" class="worksheets"></section>
+    <section id="filter-empty" class="message hidden">
+      No hay picks publicados para esa fecha.
+    </section>
     <section id="empty" class="message hidden">
       No upcoming matches met every formula requirement for this week.
     </section>
@@ -25,26 +54,31 @@
   <button
     id="data-assistant-toggle"
     class="assistant-toggle"
+    lang="es"
     type="button"
     aria-controls="data-assistant"
     aria-haspopup="dialog"
     aria-expanded="false"
   >
-    Ask about the data
+    Abrir chat de datos
   </button>
-  <aside id="data-assistant" class="assistant" role="dialog" aria-labelledby="assistant-title" aria-describedby="assistant-status" hidden>
+  <aside id="data-assistant" class="assistant" lang="es" role="dialog" aria-labelledby="assistant-title" aria-describedby="assistant-status" hidden>
     <header class="assistant-header">
-      <div>
-        <h2 id="assistant-title">Dashboard data assistant</h2>
-        <span id="assistant-status" role="status" aria-live="polite" aria-atomic="true">Connecting to the published data…</span>
+      <div class="assistant-host">
+        <img src="./assets/donald-trump-bobblehead.png" alt="" width="58" height="58">
+        <div>
+          <h2 id="assistant-title">La cabezona de Donald Trump</h2>
+          <span id="assistant-status" role="status" aria-live="polite" aria-atomic="true">Conectando con los datos publicados…</span>
+        </div>
       </div>
-      <button id="assistant-close" class="assistant-close" type="button" aria-label="Close data assistant">×</button>
+      <button id="assistant-close" class="assistant-close" type="button" aria-label="Cerrar el chat de datos">×</button>
     </header>
     <div id="assistant-messages" class="assistant-messages" role="log" aria-labelledby="assistant-title" aria-live="polite" aria-relevant="additions text"></div>
-    <div class="assistant-examples" aria-label="Example questions">
-      <button type="button" data-question="Show all matches">All matches</button>
-      <button type="button" data-question="Which match has the highest combined shots?">Highest shots</button>
-      <button type="button" data-question="Show matches with red cards">Red cards</button>
+    <div class="assistant-examples" aria-label="Preguntas de ejemplo">
+      <button type="button" data-question="Muestra todos los partidos">Todos los partidos</button>
+      <button type="button" data-question="¿Qué partido tiene más tiros combinados?">Más tiros</button>
+      <button type="button" data-question="Los 3 mejores tiradores y en tiros a puerta de cada equipo">Líderes por jugador</button>
+      <button type="button" data-question="Muestra partidos con tarjetas rojas">Tarjetas rojas</button>
     </div>
     <div class="assistant-refresh">
       <button
@@ -53,15 +87,15 @@
         aria-describedby="refresh-help"
         data-workflow-url="https://github.com/embcars2025/soccer-sports-bet/actions/workflows/refresh-dashboard.yml"
         disabled
-      >Loading refresh option…</button>
-      <button id="check-data-update" type="button" aria-describedby="refresh-help">Check for updated data</button>
-      <a id="github-refresh-link" class="assistant-github-link hidden" href="https://github.com/embcars2025/soccer-sports-bet/actions/workflows/refresh-dashboard.yml" target="_blank" rel="noopener noreferrer">Open the private GitHub refresh workflow (new tab)</a>
-      <small id="refresh-help">Runs the same formula using the current time, includes newly completed games and updated source data, then republishes eligible matches through Sunday.</small>
+      >Cargando opción de actualización…</button>
+      <button id="check-data-update" type="button" aria-describedby="refresh-help">Comprobar datos nuevos</button>
+      <a id="github-refresh-link" class="assistant-github-link hidden" href="https://github.com/embcars2025/soccer-sports-bet/actions/workflows/refresh-dashboard.yml" target="_blank" rel="noopener noreferrer">Abrir el flujo privado de GitHub (pestaña nueva)</a>
+      <small id="refresh-help">Ejecuta la misma fórmula con la hora actual, incluye partidos recién terminados y datos de origen actualizados, y vuelve a publicar los partidos elegibles hasta el domingo.</small>
     </div>
     <form id="assistant-form" class="assistant-form">
-      <label class="visually-hidden" for="assistant-input">Ask a question about the dashboard data</label>
-      <input id="assistant-input" type="text" autocomplete="off" placeholder="Ask about a team, match, shots, SOT…" required>
-      <button type="submit">Send</button>
+      <label class="visually-hidden" for="assistant-input">Haz una pregunta sobre los datos del tablero</label>
+      <input id="assistant-input" type="text" autocomplete="off" placeholder="Pregunta por un equipo, partido, tiros o tiros a puerta…" required>
+      <button type="submit">Enviar</button>
     </form>
   </aside>
   <script src="./assets/app.js" defer></script>

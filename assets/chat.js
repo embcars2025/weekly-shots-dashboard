@@ -8,6 +8,8 @@
   const messages = document.querySelector('#assistant-messages');
   const form = document.querySelector('#assistant-form');
   const input = document.querySelector('#assistant-input');
+  const quickForm = document.querySelector('#quick-assistant-form');
+  const quickInput = document.querySelector('#quick-assistant-input');
   const refreshButton = document.querySelector('#run-data-refresh');
   const checkButton = document.querySelector('#check-data-update');
   const githubLink = document.querySelector('#github-refresh-link');
@@ -73,13 +75,27 @@
   }
 
   function formatCutoff(value) {
-    if (!value) return 'cutoff unavailable';
+    if (!value) return 'corte no disponible';
     const parsed = new Date(value);
     if (Number.isNaN(parsed.getTime())) return value;
-    return new Intl.DateTimeFormat('en-US', {
+    return new Intl.DateTimeFormat('es-US', {
       month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit',
       timeZone: 'America/New_York', timeZoneName: 'short'
     }).format(parsed);
+  }
+
+  function translatedRunStatus(value) {
+    return {
+      queued:'en cola', in_progress:'en curso', completed:'completada', running:'en curso',
+      pending:'pendiente', waiting:'en espera', requested:'solicitada'
+    }[value] || 'en curso';
+  }
+
+  function translatedConclusion(value) {
+    return {
+      success:'éxito', failure:'error', cancelled:'cancelada', timed_out:'tiempo agotado',
+      action_required:'acción requerida', neutral:'resultado neutral', skipped:'omitida', stale:'obsoleta'
+    }[value] || 'un error';
   }
 
   function safeWorkflowUrl() {
@@ -97,7 +113,7 @@
     item.className = 'assistant-message ' + role;
 
     const label = document.createElement('strong');
-    label.textContent = role === 'user' ? 'You' : 'Data assistant';
+    label.textContent = role === 'user' ? 'Tú' : 'La cabezona de Donald Trump';
     item.appendChild(label);
 
     if (text) {
@@ -113,7 +129,7 @@
       uniqueIds.forEach(function (matchId, index) {
         const button = document.createElement('button');
         button.type = 'button';
-        button.textContent = uniqueIds.length === 1 ? 'Show worksheet' : 'Show worksheet ' + (index + 1);
+        button.textContent = uniqueIds.length === 1 ? 'Ver hoja' : 'Ver hoja ' + (index + 1);
         button.addEventListener('click', function () {
           showWorksheet(matchId);
         });
@@ -135,9 +151,9 @@
   }
 
   function showWorksheet(matchId) {
-    let worksheet;
+    let worksheet = window.dashboardApp.revealMatch ? window.dashboardApp.revealMatch(matchId) : null;
     try {
-      worksheet = document.querySelector('.worksheet[data-match-id="' + CSS.escape(String(matchId)) + '"]');
+      worksheet = worksheet || document.querySelector('.worksheet[data-match-id="' + CSS.escape(String(matchId)) + '"]');
     } catch (_) {
       worksheet = Array.from(document.querySelectorAll('.worksheet')).find(function (item) {
         return item.dataset.matchId === String(matchId);
@@ -168,7 +184,7 @@
     if (!welcomed) {
       appendMessage(
         'assistant',
-        'Ask me for matches, teams, forecasts, shots, SOT, form, positions, H2H, formula components, red-card rows, rankings, or complete worksheet data. You can request a refresh at any time.'
+        'Hola Brayan yo soy la cabezona de Donald Trump el mejor presidente de el mundo. Me an contado mucho de ti y que no te caigo bien pero por lo que veo te ace falta mi ayuda ahora verdad?! Que quieres?!!!'
       );
       welcomed = true;
     }
@@ -184,15 +200,15 @@
 
   function normalRefreshLabel() {
     const pending = pendingRefresh();
-    if (pending && refreshConfig.mode === 'gateway') return 'Resume data refresh';
-    return refreshConfig.mode === 'gateway' ? 'Run data refresh' : 'Open GitHub to run refresh';
+    if (pending && refreshConfig.mode === 'gateway') return 'Reanudar actualización';
+    return refreshConfig.mode === 'gateway' ? 'Actualizar datos' : 'Abrir GitHub para actualizar';
   }
 
   function updateControls(refreshLabel) {
     refreshButton.disabled = busy || !configLoaded;
     checkButton.disabled = busy;
     refreshButton.textContent = refreshLabel || normalRefreshLabel();
-    checkButton.textContent = busy ? 'Please wait…' : 'Check for updated data';
+    checkButton.textContent = busy ? 'Espera…' : 'Comprobar datos nuevos';
     const githubMode = configLoaded && refreshConfig.mode !== 'gateway';
     githubLink.classList.toggle('hidden', !githubMode && !fallbackLinkVisible);
     if (githubMode) githubLink.href = safeWorkflowUrl();
@@ -206,8 +222,10 @@
   function setData(data) {
     engine = window.DashboardChatEngine.createEngine(data);
     const cutoff = cutoffOf(data) || buildIdOf(data);
-    status.textContent = engine.fixtures.length + ' eligible match' +
-      (engine.fixtures.length === 1 ? '' : 'es') + ' loaded · ' + formatCutoff(cutoff);
+    status.textContent = engine.fixtures.length + ' partido' +
+      (engine.fixtures.length === 1 ? '' : 's') + ' elegible' +
+      (engine.fixtures.length === 1 ? '' : 's') + ' cargado' +
+      (engine.fixtures.length === 1 ? '' : 's') + ' · ' + formatCutoff(cutoff);
   }
 
   async function fetchWithTimeout(url, options, timeoutMs) {
@@ -242,9 +260,9 @@
         {cache: 'no-store'},
         15000
       );
-      if (!response.ok) throw new Error('refresh status returned HTTP ' + response.status);
+      if (!response.ok) throw new Error('el estado de actualización devolvió HTTP ' + response.status);
       const nextState = await response.json();
-      if (!nextState || typeof nextState !== 'object') throw new Error('refresh status was invalid');
+      if (!nextState || typeof nextState !== 'object') throw new Error('el estado de actualización no era válido');
       refreshState = nextState;
       return nextState;
     } catch (error) {
@@ -256,7 +274,7 @@
   async function loadRefreshConfig() {
     try {
       const response = await fetchWithTimeout('./data/refresh-config.json', {cache: 'no-store'}, 15000);
-      if (!response.ok) throw new Error('refresh configuration returned HTTP ' + response.status);
+      if (!response.ok) throw new Error('la configuración de actualización devolvió HTTP ' + response.status);
       const config = await response.json();
       if (config && (config.mode === 'gateway' || config.mode === 'github')) refreshConfig = config;
     } catch (_) {
@@ -272,7 +290,7 @@
     let code = storageGet('weekly-dashboard-refresh-code') || '';
     if (!code) {
       try {
-        code = window.prompt('Enter your private dashboard refresh code. It will be kept only in this browser tab.') || '';
+        code = window.prompt('Ingresa tu código privado de actualización. Se guardará únicamente en esta pestaña del navegador.') || '';
       } catch (_) {
         code = '';
       }
@@ -311,20 +329,20 @@
     if (busy) return;
     const current = window.dashboardApp.getData();
     const oldMarker = datasetMarker(current);
-    setBusy(true, 'Checking…');
+    setBusy(true, 'Comprobando…');
     try {
       const data = await latestDashboard();
-      if (!data) throw new Error('the dashboard returned no data');
+      if (!data) throw new Error('el tablero no devolvió datos');
       window.dashboardApp.applyData(data, {force: true, announce: false});
       await loadRefreshState(false);
       const newMarker = datasetMarker(data);
       if (oldMarker && newMarker && oldMarker !== newMarker) {
-        appendMessage('assistant', 'Newly generated data loaded. Its cutoff is ' + formatCutoff(cutoffOf(data) || buildIdOf(data)) + '.');
+        appendMessage('assistant', 'Se cargaron datos recién generados. Su corte es ' + formatCutoff(cutoffOf(data) || buildIdOf(data)) + '.');
       } else {
-        appendMessage('assistant', 'I checked the published dataset. It still shows ' + formatCutoff(cutoffOf(data) || buildIdOf(data)) + '.');
+        appendMessage('assistant', 'Comprobé el conjunto de datos publicado. Todavía muestra el corte ' + formatCutoff(cutoffOf(data) || buildIdOf(data)) + '.');
       }
     } catch (error) {
-      appendMessage('assistant', 'I could not check the published dataset: ' + error.message + '. Please try again.');
+      appendMessage('assistant', 'No pude comprobar el conjunto de datos publicado: ' + error.message + '. Inténtalo de nuevo.');
     } finally {
       setBusy(false);
     }
@@ -351,7 +369,7 @@
           window.dashboardApp.applyData(data, {force: true, announce: false});
           appendMessage(
             'assistant',
-            'The refreshed dashboard is published. Its data cutoff is now ' +
+            'El tablero actualizado ya está publicado. Su corte de datos ahora es ' +
               formatCutoff(cutoffOf(data) || dataBuildId) + '.'
           );
           return true;
@@ -361,9 +379,9 @@
       }
     }
     if (hadFetchFailure) {
-      appendMessage('assistant', 'The formula run succeeded, but I could not verify the newly published dataset. Use “Check for updated data” in a moment.');
+      appendMessage('assistant', 'La fórmula terminó correctamente, pero no pude verificar el conjunto de datos recién publicado. Usa “Comprobar datos nuevos” en un momento.');
     } else {
-      appendMessage('assistant', 'The formula run succeeded, but the public page is still finishing its deployment. Use “Check for updated data” in a moment.');
+      appendMessage('assistant', 'La fórmula terminó correctamente, pero la página pública aún está terminando su despliegue. Usa “Comprobar datos nuevos” en un momento.');
     }
     return false;
   }
@@ -383,12 +401,12 @@
     if (opened) {
       appendMessage(
         'assistant',
-        'GitHub opened in a new tab. Choose “Run workflow” and leave both optional boxes blank so the updater uses the current time. When it finishes, return here and choose “Check for updated data.”'
+        'GitHub se abrió en una pestaña nueva. Elige “Run workflow” y deja vacías las dos casillas opcionales para que el actualizador use la hora actual. Cuando termine, vuelve aquí y elige “Comprobar datos nuevos”.'
       );
     } else {
       appendMessage(
         'assistant',
-        'Your browser blocked the new tab. Use the “Open the private GitHub refresh workflow” link below, leave both optional boxes blank, then return here to check for updated data.'
+        'Tu navegador bloqueó la pestaña nueva. Usa el enlace “Abrir el flujo privado de GitHub” que aparece abajo, deja vacías las dos casillas opcionales y luego vuelve aquí para comprobar los datos nuevos.'
       );
     }
   }
@@ -397,7 +415,7 @@
     const expected = new URL(refreshConfig.status_endpoint || refreshConfig.endpoint);
     const candidate = new URL(value, window.location.href);
     if (candidate.origin !== expected.origin || candidate.pathname !== '/api/refresh/status') {
-      throw new Error('the refresh service returned an invalid status address');
+      throw new Error('el servicio de actualización devolvió una dirección de estado no válida');
     }
     return candidate.href;
   }
@@ -413,25 +431,25 @@
         headers: code ? {Authorization: 'Bearer ' + code} : {},
         credentials: 'omit'
       }, 15000);
-      if (!response.ok) throw new Error('status check returned HTTP ' + response.status);
+      if (!response.ok) throw new Error('la consulta de estado devolvió HTTP ' + response.status);
       const result = await response.json();
       if (result.status === 'completed') {
         if (result.conclusion !== 'success') {
           forgetRefresh();
-          throw new Error('GitHub refresh ended with ' + (result.conclusion || 'an error'));
+          throw new Error('la actualización de GitHub terminó con ' + translatedConclusion(result.conclusion));
         }
-        appendMessage('assistant', 'The formula refresh finished successfully. I am waiting for the newly published dashboard now.');
+        appendMessage('assistant', 'La actualización de la fórmula terminó correctamente. Ahora estoy esperando el tablero recién publicado.');
         const published = await waitForPublishedUpdate(oldBuildId, oldMarker);
         if (published) forgetRefresh();
         return;
       }
-      status.textContent = 'Refresh ' + (result.status || 'running') + '…';
+      status.textContent = 'Actualización ' + translatedRunStatus(result.status) + '…';
     }
-    throw new Error('the refresh is still running after eight minutes');
+    throw new Error('la actualización sigue en curso después de ocho minutos');
   }
 
   async function resumeRefresh(pending, code) {
-    appendMessage('assistant', 'Resuming the data refresh that was already accepted.');
+    appendMessage('assistant', 'Reanudando la actualización de datos que ya fue aceptada.');
     await pollRefresh(pending.statusUrl, code, pending.oldBuildId || null, pending.oldMarker || null);
   }
 
@@ -447,12 +465,12 @@
 
     const code = refreshCode();
     if (refreshConfig.requires_code && !code) {
-      appendMessage('assistant', 'The refresh was not started because the private refresh code was not entered.');
+      appendMessage('assistant', 'La actualización no se inició porque no se ingresó el código privado.');
       return;
     }
 
     const pending = pendingRefresh();
-    setBusy(true, pending ? 'Resuming refresh…' : 'Starting refresh…');
+    setBusy(true, pending ? 'Reanudando…' : 'Iniciando…');
     let accepted = Boolean(pending);
     try {
       if (pending) {
@@ -463,7 +481,7 @@
       const current = window.dashboardApp.getData();
       const oldBuildId = buildIdOf(current);
       const oldMarker = datasetMarker(current);
-      appendMessage('assistant', 'Starting a fresh data pull and formula run using the current time…');
+      appendMessage('assistant', 'Iniciando una descarga nueva de datos y una ejecución de la fórmula con la hora actual…');
       const headers = {'Content-Type': 'application/json', 'X-Requested-With': 'weekly-dashboard'};
       if (code) headers.Authorization = 'Bearer ' + code;
       const response = await fetchWithTimeout(refreshConfig.endpoint, {
@@ -474,13 +492,13 @@
       });
       if (!response.ok) {
         if (response.status === 401) storageRemove('weekly-dashboard-refresh-code');
-        throw new Error(result.error || 'refresh request returned HTTP ' + response.status);
+        throw new Error(result.error || 'la solicitud de actualización devolvió HTTP ' + response.status);
       }
       accepted = true;
-      appendMessage('assistant', 'Refresh accepted. I will update the page when GitHub finishes.');
+      appendMessage('assistant', 'Actualización aceptada. Actualizaré la página cuando GitHub termine.');
       const rawStatusUrl = result.status_url || (result.run_id && refreshConfig.status_endpoint
         ? refreshConfig.status_endpoint + '?run_id=' + encodeURIComponent(result.run_id) : '');
-      if (!rawStatusUrl) throw new Error('the refresh service did not provide a run status');
+      if (!rawStatusUrl) throw new Error('el servicio de actualización no proporcionó un estado de ejecución');
       const statusUrl = validatedStatusUrl(rawStatusUrl);
       const tracking = {
         statusUrl: statusUrl,
@@ -494,13 +512,13 @@
       if (accepted) {
         appendMessage(
           'assistant',
-          'The refresh was accepted, but I could not keep tracking it: ' + error.message +
-            '. It may still be running. Use “Resume data refresh” or “Check for updated data”; do not start a second run.'
+          'La actualización fue aceptada, pero no pude seguir su estado: ' + error.message +
+            '. Puede que todavía esté en curso. Usa “Reanudar actualización” o “Comprobar datos nuevos”; no inicies otra ejecución.'
         );
       } else {
         showGitHubLink(
-          'I could not start the direct refresh: ' + error.message +
-            '. You can use the private GitHub workflow link below.'
+          'No pude iniciar la actualización directa: ' + error.message +
+            '. Puedes usar el enlace del flujo privado de GitHub que aparece abajo.'
         );
       }
     } finally {
@@ -515,6 +533,17 @@
       .filter(function (element) {
         return element.offsetParent !== null;
       });
+  }
+
+  function askQuestion(question) {
+    const value = String(question || '').trim();
+    if (!value) return;
+    openPanel();
+    appendMessage('user', value);
+    const result = engine.answer(value);
+    if (result.text) appendMessage('assistant', result.text, result.matchIds);
+    if (result.action === 'refresh') startRefresh();
+    if (result.action === 'check') checkForUpdate();
   }
 
   toggle.addEventListener('click', function () {
@@ -536,21 +565,25 @@
     event.preventDefault();
     const question = input.value.trim();
     if (!question) return;
-    appendMessage('user', question);
     input.value = '';
-    const result = engine.answer(question);
-    if (result.text) appendMessage('assistant', result.text, result.matchIds);
-    if (result.action === 'refresh') startRefresh();
-    if (result.action === 'check') checkForUpdate();
+    askQuestion(question);
+  });
+
+  quickForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+    const question = quickInput.value.trim();
+    if (!question) return;
+    quickInput.value = '';
+    askQuestion(question);
   });
 
   document.addEventListener('dashboard:data', function (event) {
     setData(event.detail.data);
   });
   document.addEventListener('dashboard:error', function (event) {
-    status.textContent = 'Published data unavailable';
+    status.textContent = 'Datos publicados no disponibles';
     if (event.detail.force && event.detail.announce) {
-      appendMessage('assistant', 'I could not check the published data: ' + event.detail.error.message + '.');
+      appendMessage('assistant', 'No pude comprobar los datos publicados: ' + event.detail.error.message + '.');
     }
   });
   document.addEventListener('keydown', function (event) {
