@@ -1,0 +1,12 @@
+{
+  "status": "awaiting_first_refresh",
+  "publication_state": "awaiting_first_refresh",
+  "generated_at_utc": null,
+  "refresh_effective_et": null,
+  "window_end_et": null,
+  "refresh_schedule": "manual_and_scoped_push",
+  "next_scheduled_refresh_et": null,
+  "candidate_fixture_count": 0,
+  "ready_fixture_count": 0,
+  "waiting_fixture_count": 0
+}

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a3161">
+  <meta name="description" content="Current-form-only shots and shots-on-target forecasts for League One newcomers.">
+  <title>League One Newcomers · T1 / TA1 Forecasts</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to newcomer forecasts</a>
+  <header class="site-header">
+    <nav class="view-nav" aria-label="Dashboard views">
+      <a href="../">Full Baseline Dashboard</a>
+      <span aria-current="page">League One Newcomers</span>
+    </nav>
+    <p class="eyebrow">SEPARATE DATA TRACK · CURRENT SEASON FORM</p>
+    <h1>LEAGUE ONE NEWCOMERS</h1>
+    <p class="subtitle">T1 / TA1 directional forecasts for the 11 promoted clubs</p>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section class="scope-alert" aria-labelledby="scope-title">
+      <div>
+        <p class="section-kicker">READ BEFORE USING</p>
+        <h2 id="scope-title">This is not the full-baseline forecast.</h2>
+      </div>
+      <p><strong>Only T1 and TA1 are available.</strong> T2 / TA2 (same-venue head-to-head) and T3 / TA3 (two-meeting head-to-head average) are unavailable for this newcomer track. These current-form-only values are directional and <strong>must not be compared directly</strong> with forecasts on the Full Baseline Dashboard.</p>
+    </section>
+
+    <section class="provenance" aria-label="Data sources and methodology">
+      <p><strong>Forecast inputs:</strong> current top-flight T1 / TA1 form and current-season player totals come from <a href="https://understat.com/" target="_blank" rel="noopener noreferrer">Understat</a>.</p>
+      <p><strong>Prior context only:</strong> second-tier match history comes from <a href="https://www.football-data.co.uk/data.php" target="_blank" rel="noopener noreferrer">Football-Data.co.uk</a>. It is shown for context, is never used in a forecast, and its raw CSV files are not exposed by this page.</p>
+      <p><strong>Coverage:</strong> 11 actual newcomers across the tracked leagues; France contributes two.</p>
+    </section>
+
+    <section class="control-grid" aria-label="Newcomer dashboard controls">
+      <div class="control-card">
+        <p class="section-kicker">DATE FILTER</p>
+        <label for="newcomer-date-filter">Show fixtures on a specific day</label>
+        <select id="newcomer-date-filter" disabled>
+          <option value="all">All available days</option>
+        </select>
+        <p id="date-filter-status" class="control-status" role="status" aria-live="polite">Loading available dates…</p>
+      </div>
+
+      <div class="control-card refresh-card" lang="es">
+        <p class="section-kicker">ACTUALIZACIÓN INDEPENDIENTE</p>
+        <h2>Datos de recién ascendidos</h2>
+        <div class="secure-code-field">
+          <label for="newcomer-refresh-code">Código privado de actualización</label>
+          <input id="newcomer-refresh-code" name="newcomer-refresh-code" type="password" autocomplete="current-password" spellcheck="false" inputmode="text" aria-describedby="newcomer-code-help">
+          <small id="newcomer-code-help">Se envía solamente al Worker autorizado y se borra del campo al terminar. Nunca lo compartas en el chat.</small>
+        </div>
+        <div class="button-row">
+          <button id="run-newcomer-refresh" type="button" disabled>Cargando opción de actualización…</button>
+          <button id="check-newcomer-update" class="secondary-button" type="button">Comprobar datos nuevos</button>
+        </div>
+        <a id="newcomer-workflow-link" class="workflow-link hidden" target="_blank" rel="noopener noreferrer">Abrir el flujo de recién ascendidos</a>
+        <p id="newcomer-refresh-status" class="control-status" role="status" aria-live="polite">Conectando con la configuración propia de esta página…</p>
+      </div>
+    </section>
+
+    <section class="query-card" lang="es" aria-labelledby="query-title">
+      <div class="query-intro">
+        <img class="query-host-avatar" src="../assets/donald-trump-bobblehead.png" alt="Cabezona de Donald Trump, anfitrión de datos" width="96" height="96">
+        <div>
+          <p class="section-kicker">CONSULTA DE JUGADORES</p>
+          <h2 id="query-title">Pregunta por los líderes de la temporada actual</h2>
+          <p class="query-greeting">Hola Brayan yo soy la cabezona de Donald Trump el mejor presidente de el mundo. Me an contado mucho de ti y que no te caigo bien pero por lo que veo te ace falta mi ayuda ahora verdad?! Que quieres?!!!</p>
+          <p>Las respuestas usan exclusivamente los jugadores publicados para estos equipos recién ascendidos.</p>
+        </div>
+      </div>
+      <form id="newcomer-query-form">
+        <label class="visually-hidden" for="newcomer-query-input">Pregunta por los tres mejores jugadores en tiros o tiros a puerta</label>
+        <input id="newcomer-query-input" type="text" autocomplete="off" required placeholder="Ejemplo: Los 3 mejores tiradores y en tiros a puerta de cada equipo">
+        <button type="submit">Preguntar</button>
+      </form>
+      <div class="query-examples" aria-label="Preguntas de ejemplo">
+        <button type="button" data-query="Los 3 mejores tiradores de cada equipo">Top 3 en tiros</button>
+        <button type="button" data-query="Los 3 mejores jugadores en tiros a puerta de cada equipo">Top 3 a puerta</button>
+        <button type="button" data-query="Los 3 mejores tiradores y en tiros a puerta de cada equipo">Ambas listas</button>
+      </div>
+      <div id="newcomer-query-result" class="query-result" role="status" aria-live="polite" aria-atomic="true">
+        <p>Los resultados aparecerán aquí cuando se carguen los datos.</p>
+      </div>
+    </section>
+
+    <section class="dataset-summary" aria-labelledby="teams-title">
+      <div>
+        <p class="section-kicker">PROMOTED CLUBS</p>
+        <h2 id="teams-title">The 11 League One newcomers</h2>
+      </div>
+      <p id="dataset-status" class="dataset-status" role="status" aria-live="polite">Loading the newcomer-only dataset…</p>
+    </section>
+    <section id="promoted-teams" class="team-roster" aria-label="Promoted teams"></section>
+
+    <section class="fixture-heading" aria-labelledby="fixtures-title">
+      <div>
+        <p class="section-kicker">CURRENT WEEK</p>
+        <h2 id="fixtures-title">T1 / TA1 newcomer worksheets</h2>
+      </div>
+      <div class="availability-legend" aria-label="Forecast availability legend">
+        <span><i class="legend-dot ready" aria-hidden="true"></i> T1 / TA1 ready</span>
+        <span><i class="legend-dot waiting" aria-hidden="true"></i> Waiting for current form</span>
+      </div>
+    </section>
+    <section id="loading" class="message" role="status" aria-live="polite">Loading newcomer-only worksheets…</section>
+    <section id="newcomer-fixtures" class="worksheets"></section>
+    <section id="date-empty" class="message hidden">No newcomer fixtures are published for that date.</section>
+    <section id="fixtures-empty" class="message hidden">No newcomer fixtures are currently published for this window.</section>
+  </main>
+
+  <footer>
+    Newcomer track: current-season form only · T2 / T3 unavailable · not comparable to the full baseline
+  </footer>
+  <script src="./app.js" defer></script>
+</body>
+</html>

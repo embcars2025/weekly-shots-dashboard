@@ -1,0 +1,358 @@
+{
+  "schema_version": "1.0.0",
+  "publication_state": "awaiting_first_refresh",
+  "generated_at_utc": null,
+  "data_cutoff_et": null,
+  "window_end_et": null,
+  "season": 2026,
+  "season_label": "2026-27",
+  "mode": "T1_ONLY",
+  "methodology": {
+    "baseline_version": "1.1.0",
+    "formula_reference_git_blob_sha1": "99ef7db23b116d6ee83824a91df753ce15e3c52f",
+    "newcomer_formula_version": "1.0.0",
+    "sample_selector": "formula_reference._select_form_sample",
+    "target_matches": 4,
+    "minimum_usable_matches": 3,
+    "sample_scope": "current top-flight season only",
+    "excluded_aliases_source": "update_dashboard.EXCLUDED_ALIASES",
+    "excluded_alias_count": 17,
+    "lower_tier_used_in_forecast": false,
+    "unavailable_components": [
+      "T2",
+      "TA2",
+      "T3",
+      "TA3"
+    ],
+    "refresh_schedule": "manual_and_scoped_push"
+  },
+  "sources": {
+    "lower_tier": [
+      {
+        "provider": "football-data.co.uk",
+        "division": "E1",
+        "league": "EPL",
+        "season": "2025-26",
+        "row_count": 552,
+        "team_count": 24,
+        "incomplete_non_target_rows": 0
+      },
+      {
+        "provider": "football-data.co.uk",
+        "division": "F2",
+        "league": "Ligue_1",
+        "season": "2025-26",
+        "row_count": 306,
+        "team_count": 18,
+        "incomplete_non_target_rows": 1
+      },
+      {
+        "provider": "football-data.co.uk",
+        "division": "I2",
+        "league": "Serie_A",
+        "season": "2025-26",
+        "row_count": 380,
+        "team_count": 20,
+        "incomplete_non_target_rows": 0
+      },
+      {
+        "provider": "football-data.co.uk",
+        "division": "SP2",
+        "league": "La_liga",
+        "season": "2025-26",
+        "row_count": 462,
+        "team_count": 22,
+        "incomplete_non_target_rows": 0
+      }
+    ],
+    "top_flight": [],
+    "match_details": {
+      "provider": "Understat",
+      "count": 0
+    }
+  },
+  "promoted_teams": [
+    {
+      "key": "coventry",
+      "team": "Coventry",
+      "understat_team": null,
+      "team_id": null,
+      "league": "EPL",
+      "league_name": "Premier League",
+      "lower_tier_division": "E1",
+      "source_alias": "Coventry",
+      "used_in_forecast": false,
+      "lower_tier_context": {
+        "season": 2025,
+        "season_label": "2025-26",
+        "matches_counted": 46,
+        "red_card_matches": 8,
+        "averages": {
+          "T": 16.32608695652174,
+          "TA": 5.565217391304348,
+          "TR": 11.652173913043478,
+          "TAR": 3.630434782608696
+        },
+        "matches": [],
+        "used_in_forecast": false
+      }
+    },
+    {
+      "key": "hull",
+      "team": "Hull",
+      "understat_team": null,
+      "team_id": null,
+      "league": "EPL",
+      "league_name": "Premier League",
+      "lower_tier_division": "E1",
+      "source_alias": "Hull",
+      "used_in_forecast": false,
+      "lower_tier_context": {
+        "season": 2025,
+        "season_label": "2025-26",
+        "matches_counted": 46,
+        "red_card_matches": 6,
+        "averages": {
+          "T": 11.195652173913043,
+          "TA": 4.108695652173913,
+          "TR": 14.826086956521738,
+          "TAR": 4.782608695652174
+        },
+        "matches": [],
+        "used_in_forecast": false
+      }
+    },
+    {
+      "key": "ipswich",
+      "team": "Ipswich",
+      "understat_team": null,
+      "team_id": null,
+      "league": "EPL",
+      "league_name": "Premier League",
+      "lower_tier_division": "E1",
+      "source_alias": "Ipswich",
+      "used_in_forecast": false,
+      "lower_tier_context": {
+        "season": 2025,
+        "season_label": "2025-26",
+        "matches_counted": 46,
+        "red_card_matches": 2,
+        "averages": {
+          "T": 15.065217391304348,
+          "TA": 5.086956521739131,
+          "TR": 10.565217391304348,
+          "TAR": 3.5869565217391304
+        },
+        "matches": [],
+        "used_in_forecast": false
+      }
+    },
+    {
+      "key": "deportivo-la-coruna",
+      "team": "Deportivo La Coruna",
+      "understat_team": null,
+      "team_id": null,
+      "league": "La_liga",
+      "league_name": "La Liga",
+      "lower_tier_division": "SP2",
+      "source_alias": "La Coruna",
+      "used_in_forecast": false,
+      "lower_tier_context": {
+        "season": 2025,
+        "season_label": "2025-26",
+        "matches_counted": 42,
+        "red_card_matches": 10,
+        "averages": {
+          "T": 12.857142857142858,
+          "TA": 4.404761904761905,
+          "TR": 12.666666666666666,
+          "TAR": 3.6904761904761907
+        },
+        "matches": [],
+        "used_in_forecast": false
+      }
+    },
+    {
+      "key": "malaga",
+      "team": "Malaga",
+      "understat_team": null,
+      "team_id": null,
+      "league": "La_liga",
+      "league_name": "La Liga",
+      "lower_tier_division": "SP2",
+      "source_alias": "Malaga",
+      "used_in_forecast": false,
+      "lower_tier_context": {
+        "season": 2025,
+        "season_label": "2025-26",
+        "matches_counted": 42,
+        "red_card_matches": 13,
+        "averages": {
+          "T": 14.071428571428571,
+          "TA": 5.523809523809524,
+          "TR": 13.071428571428571,
+          "TAR": 4.690476190476191
+        },
+        "matches": [],
+        "used_in_forecast": false
+      }
+    },
+    {
+      "key": "racing-santander",
+      "team": "Racing Santander",
+      "understat_team": null,
+      "team_id": null,
+      "league": "La_liga",
+      "league_name": "La Liga",
+      "lower_tier_division": "SP2",
+      "source_alias": "Santander",
+      "used_in_forecast": false,
+      "lower_tier_context": {
+        "season": 2025,
+        "season_label": "2025-26",
+        "matches_counted": 42,
+        "red_card_matches": 18,
+        "averages": {
+          "T": 14.214285714285714,
+          "TA": 5.904761904761905,
+          "TR": 12.976190476190476,
+          "TAR": 4.261904761904762
+        },
+        "matches": [],
+        "used_in_forecast": false
+      }
+    },
+    {
+      "key": "le-mans",
+      "team": "Le Mans",
+      "understat_team": null,
+      "team_id": null,
+      "league": "Ligue_1",
+      "league_name": "Ligue 1",
+      "lower_tier_division": "F2",
+      "source_alias": "Le Mans",
+      "used_in_forecast": false,
+      "lower_tier_context": {
+        "season": 2025,
+        "season_label": "2025-26",
+        "matches_counted": 34,
+        "red_card_matches": 5,
+        "averages": {
+          "T": 11.235294117647058,
+          "TA": 4.382352941176471,
+          "TR": 9.176470588235293,
+          "TAR": 2.8823529411764706
+        },
+        "matches": [],
+        "used_in_forecast": false
+      }
+    },
+    {
+      "key": "troyes",
+      "team": "Troyes",
+      "understat_team": null,
+      "team_id": null,
+      "league": "Ligue_1",
+      "league_name": "Ligue 1",
+      "lower_tier_division": "F2",
+      "source_alias": "Troyes",
+      "used_in_forecast": false,
+      "lower_tier_context": {
+        "season": 2025,
+        "season_label": "2025-26",
+        "matches_counted": 34,
+        "red_card_matches": 11,
+        "averages": {
+          "T": 13.852941176470589,
+          "TA": 5.0588235294117645,
+          "TR": 10.088235294117647,
+          "TAR": 3.323529411764706
+        },
+        "matches": [],
+        "used_in_forecast": false
+      }
+    },
+    {
+      "key": "frosinone",
+      "team": "Frosinone",
+      "understat_team": null,
+      "team_id": null,
+      "league": "Serie_A",
+      "league_name": "Serie A",
+      "lower_tier_division": "I2",
+      "source_alias": "Frosinone",
+      "used_in_forecast": false,
+      "lower_tier_context": {
+        "season": 2025,
+        "season_label": "2025-26",
+        "matches_counted": 38,
+        "red_card_matches": 6,
+        "averages": {
+          "T": 17.263157894736842,
+          "TA": 6.0,
+          "TR": 14.526315789473685,
+          "TAR": 4.7105263157894735
+        },
+        "matches": [],
+        "used_in_forecast": false
+      }
+    },
+    {
+      "key": "monza",
+      "team": "Monza",
+      "understat_team": null,
+      "team_id": null,
+      "league": "Serie_A",
+      "league_name": "Serie A",
+      "lower_tier_division": "I2",
+      "source_alias": "Monza",
+      "used_in_forecast": false,
+      "lower_tier_context": {
+        "season": 2025,
+        "season_label": "2025-26",
+        "matches_counted": 38,
+        "red_card_matches": 6,
+        "averages": {
+          "T": 14.5,
+          "TA": 4.842105263157895,
+          "TR": 12.131578947368421,
+          "TAR": 3.4473684210526314
+        },
+        "matches": [],
+        "used_in_forecast": false
+      }
+    },
+    {
+      "key": "venezia",
+      "team": "Venezia",
+      "understat_team": null,
+      "team_id": null,
+      "league": "Serie_A",
+      "league_name": "Serie A",
+      "lower_tier_division": "I2",
+      "source_alias": "Venezia",
+      "used_in_forecast": false,
+      "lower_tier_context": {
+        "season": 2025,
+        "season_label": "2025-26",
+        "matches_counted": 38,
+        "red_card_matches": 10,
+        "averages": {
+          "T": 17.210526315789473,
+          "TA": 5.921052631578948,
+          "TR": 10.078947368421053,
+          "TAR": 3.5789473684210527
+        },
+        "matches": [],
+        "used_in_forecast": false
+      }
+    }
+  ],
+  "fixtures": [],
+  "player_stats": {
+    "season": "2026-27",
+    "data_cutoff_et": null,
+    "scope": "Awaiting the first live Understat newcomer refresh.",
+    "teams": []
+  }
+}
