@@ -1,9 +1,9 @@
 {
   "status": "ready",
   "publication_state": "live",
-  "generated_at_utc": "2026-09-15T02:00:33.472074+00:00",
-  "refresh_effective_et": "2026-09-14T22:00:22.488934-04:00",
-  "data_cutoff_et": "2026-09-14T22:00:22.488934-04:00",
+  "generated_at_utc": "2026-09-16T03:25:59.843696+00:00",
+  "refresh_effective_et": "2026-09-15T23:25:46.877810-04:00",
+  "data_cutoff_et": "2026-09-15T23:25:46.877810-04:00",
   "window_end_et": "2026-09-20T23:59:59-04:00",
   "refresh_schedule": "manual_and_scoped_push",
   "next_scheduled_refresh_et": null,
