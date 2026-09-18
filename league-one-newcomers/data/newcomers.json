@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
   "publication_state": "live",
-  "generated_at_utc": "2026-09-17T03:46:29.285090+00:00",
-  "data_cutoff_et": "2026-09-16T23:46:21.203458-04:00",
+  "generated_at_utc": "2026-09-18T02:39:08.939990+00:00",
+  "data_cutoff_et": "2026-09-17T22:39:00.525332-04:00",
   "window_end_et": "2026-09-20T23:59:59-04:00",
   "season": 2026,
   "season_label": "2026-27",
@@ -105,7 +105,7 @@
     ],
     "match_details": {
       "provider": "Understat",
-      "count": 72
+      "count": 73
     }
   },
   "promoted_teams": [
@@ -387,189 +387,13 @@
   ],
   "fixtures": [
     {
-      "match_id": "30828",
-      "league": "La_liga",
-      "league_name": "La Liga",
-      "formula_mode": "T1_ONLY",
-      "kickoff_utc": "2026-09-17T19:30:00+00:00",
-      "kickoff_et": "2026-09-17T15:30:00-04:00",
-      "data_cutoff_et": "2026-09-16T23:46:21.203458-04:00",
-      "home_team": "Malaga",
-      "away_team": "Villarreal",
-      "home_position": 18,
-      "away_position": 19,
-      "newcomer_teams": [
-        "Malaga"
-      ],
-      "unavailable_components": {
-        "T2": "Unavailable: no prior-season same-division top-flight same-venue H2H exists for the promoted club.",
-        "TA2": "Unavailable: no prior-season same-division top-flight same-venue H2H exists for the promoted club.",
-        "T3": "Unavailable: two prior-season same-division top-flight H2Hs do not exist for the promoted club.",
-        "TA3": "Unavailable: two prior-season same-division top-flight H2Hs do not exist for the promoted club."
-      },
-      "status": "ready",
-      "wait_reason": null,
-      "minimum_usable_current_matches": 3,
-      "home_form": [
-        {
-          "date": "2026-09-13",
-          "venue": "A",
-          "opponent": "Celta Vigo",
-          "opponent_position": 16,
-          "score": "1-1",
-          "T": 12.0,
-          "TA": 2.0,
-          "TR": 17.0,
-          "TAR": 5.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-06",
-          "venue": "H",
-          "opponent": "Levante",
-          "opponent_position": 14,
-          "score": "0-0",
-          "T": 10.0,
-          "TA": 3.0,
-          "TR": 11.0,
-          "TAR": 3.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-24",
-          "venue": "H",
-          "opponent": "Deportivo La Coruna",
-          "opponent_position": 7,
-          "score": "1-1",
-          "T": 13.0,
-          "TA": 2.0,
-          "TR": 6.0,
-          "TAR": 4.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "away_form": [
-        {
-          "date": "2026-09-14",
-          "venue": "H",
-          "opponent": "Real Betis",
-          "opponent_position": 5,
-          "score": "1-2",
-          "T": 14.0,
-          "TA": 8.0,
-          "TR": 26.0,
-          "TAR": 12.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-05",
-          "venue": "H",
-          "opponent": "Deportivo La Coruna",
-          "opponent_position": 7,
-          "score": "2-3",
-          "T": 17.0,
-          "TA": 5.0,
-          "TR": 8.0,
-          "TAR": 3.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-28",
-          "venue": "A",
-          "opponent": "Alaves",
-          "opponent_position": 6,
-          "score": "0-1",
-          "T": 19.0,
-          "TA": 6.0,
-          "TR": 9.0,
-          "TAR": 2.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-16",
-          "venue": "A",
-          "opponent": "Racing Santander",
-          "opponent_position": 10,
-          "score": "2-2",
-          "T": 12.0,
-          "TA": 7.0,
-          "TR": 17.0,
-          "TAR": 3.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "home_averages": {
-        "T": 11.666666666666666,
-        "TA": 2.3333333333333335,
-        "TR": 11.333333333333334,
-        "TAR": 4.0
-      },
-      "away_averages": {
-        "T": 15.5,
-        "TA": 6.5,
-        "TR": 15.0,
-        "TAR": 5.0
-      },
-      "h2h": [],
-      "home_components": {
-        "current_form": {
-          "T": 11.666666666666666,
-          "TA": 2.3333333333333335,
-          "TR": 11.333333333333334,
-          "TAR": 4.0
-        },
-        "same_venue_h2h": null,
-        "two_h2h_average": null
-      },
-      "away_components": {
-        "current_form": {
-          "T": 15.5,
-          "TA": 6.5,
-          "TR": 15.0,
-          "TAR": 5.0
-        },
-        "same_venue_h2h": null,
-        "two_h2h_average": null
-      },
-      "components": {
-        "T1": 27.166666666666664,
-        "TA1": 8.833333333333334,
-        "T2": null,
-        "TA2": null,
-        "T3": null,
-        "TA3": null
-      },
-      "forecasts": {
-        "home_shots": 11.666666666666666,
-        "away_shots": 15.5,
-        "combined_shots": 27.166666666666664,
-        "home_sot": 2.3333333333333335,
-        "away_sot": 6.5,
-        "combined_sot": 8.833333333333334
-      }
-    },
-    {
       "match_id": "31600",
       "league": "Serie_A",
       "league_name": "Serie A",
       "formula_mode": "T1_ONLY",
       "kickoff_utc": "2026-09-18T18:45:00+00:00",
       "kickoff_et": "2026-09-18T14:45:00-04:00",
-      "data_cutoff_et": "2026-09-16T23:46:21.203458-04:00",
+      "data_cutoff_et": "2026-09-17T22:39:00.525332-04:00",
       "home_team": "Monza",
       "away_team": "Sassuolo",
       "home_position": 18,
@@ -731,7 +555,7 @@
       "formula_mode": "T1_ONLY",
       "kickoff_utc": "2026-09-19T13:00:00+00:00",
       "kickoff_et": "2026-09-19T09:00:00-04:00",
-      "data_cutoff_et": "2026-09-16T23:46:21.203458-04:00",
+      "data_cutoff_et": "2026-09-17T22:39:00.525332-04:00",
       "home_team": "Angers",
       "away_team": "Troyes",
       "home_position": 11,
@@ -921,7 +745,7 @@
       "formula_mode": "T1_ONLY",
       "kickoff_utc": "2026-09-19T13:00:00+00:00",
       "kickoff_et": "2026-09-19T09:00:00-04:00",
-      "data_cutoff_et": "2026-09-16T23:46:21.203458-04:00",
+      "data_cutoff_et": "2026-09-17T22:39:00.525332-04:00",
       "home_team": "Le Mans",
       "away_team": "Lorient",
       "home_position": 14,
@@ -1097,7 +921,7 @@
       "formula_mode": "T1_ONLY",
       "kickoff_utc": "2026-09-19T14:00:00+00:00",
       "kickoff_et": "2026-09-19T10:00:00-04:00",
-      "data_cutoff_et": "2026-09-16T23:46:21.203458-04:00",
+      "data_cutoff_et": "2026-09-17T22:39:00.525332-04:00",
       "home_team": "Everton",
       "away_team": "Ipswich",
       "home_position": 9,
@@ -1153,7 +977,7 @@
       "formula_mode": "T1_ONLY",
       "kickoff_utc": "2026-09-19T14:00:00+00:00",
       "kickoff_et": "2026-09-19T10:00:00-04:00",
-      "data_cutoff_et": "2026-09-16T23:46:21.203458-04:00",
+      "data_cutoff_et": "2026-09-17T22:39:00.525332-04:00",
       "home_team": "Newcastle United",
       "away_team": "Hull",
       "home_position": 12,
@@ -1209,7 +1033,7 @@
       "formula_mode": "T1_ONLY",
       "kickoff_utc": "2026-09-19T16:30:00+00:00",
       "kickoff_et": "2026-09-19T12:30:00-04:00",
-      "data_cutoff_et": "2026-09-16T23:46:21.203458-04:00",
+      "data_cutoff_et": "2026-09-17T22:39:00.525332-04:00",
       "home_team": "Nottingham Forest",
       "away_team": "Coventry",
       "home_position": 11,
@@ -1265,10 +1089,10 @@
       "formula_mode": "T1_ONLY",
       "kickoff_utc": "2026-09-19T16:30:00+00:00",
       "kickoff_et": "2026-09-19T12:30:00-04:00",
-      "data_cutoff_et": "2026-09-16T23:46:21.203458-04:00",
+      "data_cutoff_et": "2026-09-17T22:39:00.525332-04:00",
       "home_team": "Celta Vigo",
       "away_team": "Racing Santander",
-      "home_position": 16,
+      "home_position": 17,
       "away_position": 10,
       "newcomer_teams": [
         "Racing Santander"
@@ -1287,7 +1111,7 @@
           "date": "2026-09-13",
           "venue": "H",
           "opponent": "Malaga",
-          "opponent_position": 18,
+          "opponent_position": 19,
           "score": "1-1",
           "T": 17.0,
           "TA": 5.0,
@@ -1329,7 +1153,7 @@
           "date": "2026-08-22",
           "venue": "A",
           "opponent": "Valencia",
-          "opponent_position": 17,
+          "opponent_position": 18,
           "score": "0-0",
           "T": 7.0,
           "TA": 3.0,
@@ -1359,7 +1183,7 @@
           "date": "2026-08-23",
           "venue": "A",
           "opponent": "Getafe",
-          "opponent_position": 15,
+          "opponent_position": 16,
           "score": "0-1",
           "T": 6.0,
           "TA": 3.0,
@@ -1373,7 +1197,7 @@
           "date": "2026-08-16",
           "venue": "H",
           "opponent": "Villarreal",
-          "opponent_position": 19,
+          "opponent_position": 14,
           "score": "2-2",
           "T": 17.0,
           "TA": 3.0,
@@ -1441,7 +1265,7 @@
       "formula_mode": "T1_ONLY",
       "kickoff_utc": "2026-09-19T18:45:00+00:00",
       "kickoff_et": "2026-09-19T14:45:00-04:00",
-      "data_cutoff_et": "2026-09-16T23:46:21.203458-04:00",
+      "data_cutoff_et": "2026-09-17T22:39:00.525332-04:00",
       "home_team": "Venezia",
       "away_team": "Lazio",
       "home_position": 20,
@@ -1603,11 +1427,11 @@
       "formula_mode": "T1_ONLY",
       "kickoff_utc": "2026-09-20T12:00:00+00:00",
       "kickoff_et": "2026-09-20T08:00:00-04:00",
-      "data_cutoff_et": "2026-09-16T23:46:21.203458-04:00",
+      "data_cutoff_et": "2026-09-17T22:39:00.525332-04:00",
       "home_team": "Getafe",
       "away_team": "Malaga",
-      "home_position": 15,
-      "away_position": 18,
+      "home_position": 16,
+      "away_position": 19,
       "newcomer_teams": [
         "Malaga"
       ],
@@ -1666,10 +1490,24 @@
       ],
       "away_form": [
         {
+          "date": "2026-09-17",
+          "venue": "H",
+          "opponent": "Villarreal",
+          "opponent_position": 14,
+          "score": "1-3",
+          "T": 5.0,
+          "TA": 1.0,
+          "TR": 16.0,
+          "TAR": 7.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
           "date": "2026-09-13",
           "venue": "A",
           "opponent": "Celta Vigo",
-          "opponent_position": 16,
+          "opponent_position": 17,
           "score": "1-1",
           "T": 12.0,
           "TA": 2.0,
@@ -1683,7 +1521,7 @@
           "date": "2026-09-06",
           "venue": "H",
           "opponent": "Levante",
-          "opponent_position": 14,
+          "opponent_position": 15,
           "score": "0-0",
           "T": 10.0,
           "TA": 3.0,
@@ -1715,10 +1553,10 @@
         "TAR": 2.6666666666666665
       },
       "away_averages": {
-        "T": 11.666666666666666,
-        "TA": 2.3333333333333335,
-        "TR": 11.333333333333334,
-        "TAR": 4.0
+        "T": 10.0,
+        "TA": 2.0,
+        "TR": 12.5,
+        "TAR": 4.75
       },
       "h2h": [],
       "home_components": {
@@ -1733,17 +1571,17 @@
       },
       "away_components": {
         "current_form": {
-          "T": 11.666666666666666,
-          "TA": 2.3333333333333335,
-          "TR": 11.333333333333334,
-          "TAR": 4.0
+          "T": 10.0,
+          "TA": 2.0,
+          "TR": 12.5,
+          "TAR": 4.75
         },
         "same_venue_h2h": null,
         "two_h2h_average": null
       },
       "components": {
-        "T1": 24.333333333333332,
-        "TA1": 4.333333333333334,
+        "T1": 22.666666666666664,
+        "TA1": 4.0,
         "T2": null,
         "TA2": null,
         "T3": null,
@@ -1751,11 +1589,11 @@
       },
       "forecasts": {
         "home_shots": 12.666666666666666,
-        "away_shots": 11.666666666666666,
-        "combined_shots": 24.333333333333332,
+        "away_shots": 10.0,
+        "combined_shots": 22.666666666666664,
         "home_sot": 2.0,
-        "away_sot": 2.3333333333333335,
-        "combined_sot": 4.333333333333334
+        "away_sot": 2.0,
+        "combined_sot": 4.0
       }
     },
     {
@@ -1765,7 +1603,7 @@
       "formula_mode": "T1_ONLY",
       "kickoff_utc": "2026-09-20T13:00:00+00:00",
       "kickoff_et": "2026-09-20T09:00:00-04:00",
-      "data_cutoff_et": "2026-09-16T23:46:21.203458-04:00",
+      "data_cutoff_et": "2026-09-17T22:39:00.525332-04:00",
       "home_team": "Frosinone",
       "away_team": "Como",
       "home_position": 7,
@@ -1946,11 +1784,11 @@
       "formula_mode": "T1_ONLY",
       "kickoff_utc": "2026-09-20T16:30:00+00:00",
       "kickoff_et": "2026-09-20T12:30:00-04:00",
-      "data_cutoff_et": "2026-09-16T23:46:21.203458-04:00",
+      "data_cutoff_et": "2026-09-17T22:39:00.525332-04:00",
       "home_team": "Deportivo La Coruna",
       "away_team": "Real Betis",
       "home_position": 7,
-      "away_position": 5,
+      "away_position": 3,
       "newcomer_teams": [
         "Deportivo La Coruna"
       ],
@@ -1968,7 +1806,7 @@
           "date": "2026-09-13",
           "venue": "A",
           "opponent": "Getafe",
-          "opponent_position": 15,
+          "opponent_position": 16,
           "score": "1-1",
           "T": 10.0,
           "TA": 3.0,
@@ -1982,7 +1820,7 @@
           "date": "2026-09-05",
           "venue": "A",
           "opponent": "Villarreal",
-          "opponent_position": 19,
+          "opponent_position": 14,
           "score": "3-2",
           "T": 8.0,
           "TA": 3.0,
@@ -1996,7 +1834,7 @@
           "date": "2026-08-24",
           "venue": "A",
           "opponent": "Malaga",
-          "opponent_position": 18,
+          "opponent_position": 19,
           "score": "1-1",
           "T": 6.0,
           "TA": 4.0,
@@ -2026,7 +1864,7 @@
           "date": "2026-09-14",
           "venue": "A",
           "opponent": "Villarreal",
-          "opponent_position": 19,
+          "opponent_position": 14,
           "score": "2-1",
           "T": 26.0,
           "TA": 12.0,
@@ -2040,7 +1878,7 @@
           "date": "2026-08-29",
           "venue": "A",
           "opponent": "Levante",
-          "opponent_position": 14,
+          "opponent_position": 15,
           "score": "2-5",
           "T": 20.0,
           "TA": 6.0,
@@ -2054,7 +1892,7 @@
           "date": "2026-08-25",
           "venue": "A",
           "opponent": "Valencia",
-          "opponent_position": 17,
+          "opponent_position": 18,
           "score": "1-0",
           "T": 15.0,
           "TA": 3.0,
@@ -2132,7 +1970,7 @@
   ],
   "player_stats": {
     "season": "2026-27",
-    "data_cutoff_et": "2026-09-16T23:46:21.203458-04:00",
+    "data_cutoff_et": "2026-09-17T22:39:00.525332-04:00",
     "scope": "Current top-flight Understat shot events through the cutoff for the 11 reviewed newcomers; matches involving excluded clubs are removed.",
     "teams": [
       {
@@ -2410,19 +2248,19 @@
         "team_id": "137",
         "team": "Malaga",
         "canonical_team": "Malaga",
-        "matches_counted": 3,
+        "matches_counted": 4,
         "players": [
           {
             "player_id": "12115",
             "player": "Adrián Niño",
-            "shots": 3,
+            "shots": 4,
             "sot": 1
           },
           {
             "player_id": "11540",
             "player": "Carlos Dotor",
-            "shots": 2,
-            "sot": 1
+            "shots": 3,
+            "sot": 2
           },
           {
             "player_id": "14725",
@@ -2433,7 +2271,7 @@
           {
             "player_id": "14732",
             "player": "Chupe",
-            "shots": 10,
+            "shots": 11,
             "sot": 3
           },
           {
@@ -2463,7 +2301,7 @@
           {
             "player_id": "7258",
             "player": "Joaquín Muñoz",
-            "shots": 2,
+            "shots": 3,
             "sot": 0
           },
           {
@@ -2481,7 +2319,7 @@
           {
             "player_id": "8183",
             "player": "Pablo Martínez",
-            "shots": 2,
+            "shots": 3,
             "sot": 0
           },
           {
