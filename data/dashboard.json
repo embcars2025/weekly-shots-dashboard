@@ -1,800 +1,10 @@
 {
-  "generated_at_utc": "2026-09-18T02:37:23.804437+00:00",
+  "generated_at_utc": "2026-09-19T15:55:41.941020+00:00",
   "player_stats": {
     "season": "2026-27",
-    "data_cutoff_et": "2026-09-17T22:37:12.730063-04:00",
+    "data_cutoff_et": "2026-09-19T11:55:32.879098-04:00",
     "scope": "Tiros registrados en la temporada actual hasta el corte publicado, contando solo los partidos conservados que no involucran a clubes excluidos.",
     "teams": [
-      {
-        "league": "EPL",
-        "team_id": "71",
-        "team": "Aston Villa",
-        "matches_counted": 3,
-        "players": [
-          {
-            "player_id": "14446",
-            "player": "Alysson Edward",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "2203",
-            "player": "Emiliano Buendía",
-            "shots": 5,
-            "sot": 0
-          },
-          {
-            "player_id": "14193",
-            "player": "George Hemmings",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "11807",
-            "player": "Ian Maatsen",
-            "shots": 3,
-            "sot": 1
-          },
-          {
-            "player_id": "12733",
-            "player": "Ibrahim Mbaye",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "7723",
-            "player": "John McGinn",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "10048",
-            "player": "Nicolas Jackson",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "592",
-            "player": "Ross Barkley",
-            "shots": 6,
-            "sot": 1
-          },
-          {
-            "player_id": "1024",
-            "player": "Tyrone Mings",
-            "shots": 4,
-            "sot": 0
-          },
-          {
-            "player_id": "6080",
-            "player": "Victor Lindelöf",
-            "shots": 1,
-            "sot": 1
-          }
-        ]
-      },
-      {
-        "league": "EPL",
-        "team_id": "78",
-        "team": "Crystal Palace",
-        "matches_counted": 3,
-        "players": [
-          {
-            "player_id": "12409",
-            "player": "Adam Wharton",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "14770",
-            "player": "Anan Khalaili",
-            "shots": 6,
-            "sot": 1
-          },
-          {
-            "player_id": "782",
-            "player": "Ben Chilwell",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "8430",
-            "player": "Chris Richards",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "12408",
-            "player": "Daniel Muñoz",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "6756",
-            "player": "Dwight McNeil",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "6482",
-            "player": "Eddie Nketiah",
-            "shots": 2,
-            "sot": 2
-          },
-          {
-            "player_id": "8006",
-            "player": "Evann Guessand",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "13091",
-            "player": "Jaydee Canvot",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "5735",
-            "player": "Jean-Philippe Mateta",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "11070",
-            "player": "Jørgen Strand Larsen",
-            "shots": 4,
-            "sot": 3
-          },
-          {
-            "player_id": "14376",
-            "player": "Quinten Timber",
-            "shots": 3,
-            "sot": 1
-          },
-          {
-            "player_id": "8214",
-            "player": "Tyrick Mitchell",
-            "shots": 3,
-            "sot": 2
-          },
-          {
-            "player_id": "9024",
-            "player": "Yeremi Pino",
-            "shots": 3,
-            "sot": 0
-          }
-        ]
-      },
-      {
-        "league": "EPL",
-        "team_id": "245",
-        "team": "Leeds",
-        "matches_counted": 4,
-        "players": [
-          {
-            "player_id": "9910",
-            "player": "Anton Stach",
-            "shots": 6,
-            "sot": 2
-          },
-          {
-            "player_id": "13834",
-            "player": "Ao Tanaka",
-            "shots": 3,
-            "sot": 0
-          },
-          {
-            "player_id": "10751",
-            "player": "Brenden Aaronson",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "5595",
-            "player": "Daniel James",
-            "shots": 6,
-            "sot": 0
-          },
-          {
-            "player_id": "5555",
-            "player": "Dominic Calvert-Lewin",
-            "shots": 10,
-            "sot": 4
-          },
-          {
-            "player_id": "6369",
-            "player": "Ethan Ampadu",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "5596",
-            "player": "Harry Wilson",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "6807",
-            "player": "Jaka Bijol",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "7753",
-            "player": "James Justin",
-            "shots": 3,
-            "sot": 2
-          },
-          {
-            "player_id": "9205",
-            "player": "Jayden Bogle",
-            "shots": 4,
-            "sot": 4
-          },
-          {
-            "player_id": "6377",
-            "player": "Joe Rodon",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "6544",
-            "player": "Lukas Nmecha",
-            "shots": 3,
-            "sot": 0
-          },
-          {
-            "player_id": "212",
-            "player": "Nico Elvedi",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "11966",
-            "player": "Noah Okafor",
-            "shots": 4,
-            "sot": 1
-          },
-          {
-            "player_id": "13879",
-            "player": "Tarik Muharemovic",
-            "shots": 1,
-            "sot": 1
-          }
-        ]
-      },
-      {
-        "league": "EPL",
-        "team_id": "82",
-        "team": "Tottenham",
-        "matches_counted": 4,
-        "players": [
-          {
-            "player_id": "1688",
-            "player": "Andrew Robertson",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "10184",
-            "player": "Archie Gray",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "9040",
-            "player": "Conor Gallagher",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "1679",
-            "player": "Dominic Solanke",
-            "shots": 3,
-            "sot": 0
-          },
-          {
-            "player_id": "10807",
-            "player": "Jan Paul van Hecke",
-            "shots": 4,
-            "sot": 1
-          },
-          {
-            "player_id": "12912",
-            "player": "Lucas Bergvall",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "12948",
-            "player": "Mateus Fernandes",
-            "shots": 4,
-            "sot": 1
-          },
-          {
-            "player_id": "9780",
-            "player": "Mathys Tel",
-            "shots": 6,
-            "sot": 1
-          },
-          {
-            "player_id": "10050",
-            "player": "Micky van de Ven",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "12603",
-            "player": "Mikey Moore",
-            "shots": 4,
-            "sot": 3
-          },
-          {
-            "player_id": "12027",
-            "player": "Mohammed Kudus",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "8393",
-            "player": "Omar Marmoush",
-            "shots": 7,
-            "sot": 1
-          },
-          {
-            "player_id": "6912",
-            "player": "Pedro Porro",
-            "shots": 6,
-            "sot": 0
-          },
-          {
-            "player_id": "6108",
-            "player": "Rodrigo Bentancur",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "7958",
-            "player": "Sandro Tonali",
-            "shots": 5,
-            "sot": 1
-          },
-          {
-            "player_id": "11735",
-            "player": "Sávio",
-            "shots": 3,
-            "sot": 0
-          }
-        ]
-      },
-      {
-        "league": "La_liga",
-        "team_id": "158",
-        "team": "Alaves",
-        "matches_counted": 6,
-        "players": [
-          {
-            "player_id": "11825",
-            "player": "Abderrahmane Rebbach",
-            "shots": 5,
-            "sot": 3
-          },
-          {
-            "player_id": "9280",
-            "player": "Antonio Blanco",
-            "shots": 7,
-            "sot": 0
-          },
-          {
-            "player_id": "6400",
-            "player": "Antonio Martínez",
-            "shots": 11,
-            "sot": 0
-          },
-          {
-            "player_id": "5058",
-            "player": "Carles Aleñá",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "11826",
-            "player": "Carlos Benavídez",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "2308",
-            "player": "Denis Suárez",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "2280",
-            "player": "Jonny",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "1189",
-            "player": "Lucas Boyé",
-            "shots": 16,
-            "sot": 6
-          },
-          {
-            "player_id": "5110",
-            "player": "Mariano",
-            "shots": 9,
-            "sot": 8
-          },
-          {
-            "player_id": "14681",
-            "player": "Mikel Rodríguez",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "10364",
-            "player": "Nahuel Tenaglia",
-            "shots": 6,
-            "sot": 2
-          },
-          {
-            "player_id": "14392",
-            "player": "Ángel Pérez",
-            "shots": 9,
-            "sot": 4
-          },
-          {
-            "player_id": "13313",
-            "player": "Nicolás Valentini",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "10857",
-            "player": "Pablo Ibáñez",
-            "shots": 9,
-            "sot": 2
-          },
-          {
-            "player_id": "14519",
-            "player": "Ville Koski",
-            "shots": 2,
-            "sot": 2
-          },
-          {
-            "player_id": "13278",
-            "player": "Youssef Lekhedim",
-            "shots": 1,
-            "sot": 0
-          }
-        ]
-      },
-      {
-        "league": "La_liga",
-        "team_id": "147",
-        "team": "Athletic Club",
-        "matches_counted": 3,
-        "players": [
-          {
-            "player_id": "8948",
-            "player": "Aitor Paredes",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "5091",
-            "player": "Alex Berenguer",
-            "shots": 4,
-            "sot": 2
-          },
-          {
-            "player_id": "2498",
-            "player": "Aymeric Laporte",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "14777",
-            "player": "Beñat Gerenabarrena",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "7020",
-            "player": "Gorka Guruzeta",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "2399",
-            "player": "Iñaki Williams",
-            "shots": 8,
-            "sot": 5
-          },
-          {
-            "player_id": "9755",
-            "player": "Inigo Ruiz de Galarreta",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "9768",
-            "player": "Jesús Areso",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "13417",
-            "player": "Maroan Sannadi",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "9211",
-            "player": "Nico Williams",
-            "shots": 6,
-            "sot": 1
-          },
-          {
-            "player_id": "7779",
-            "player": "Oihan Sancet",
-            "shots": 10,
-            "sot": 2
-          },
-          {
-            "player_id": "13123",
-            "player": "Peio Canales",
-            "shots": 3,
-            "sot": 2
-          },
-          {
-            "player_id": "8765",
-            "player": "Roberto Navarro",
-            "shots": 3,
-            "sot": 2
-          },
-          {
-            "player_id": "5062",
-            "player": "Yeray Álvarez",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "2229",
-            "player": "Yuri",
-            "shots": 7,
-            "sot": 0
-          }
-        ]
-      },
-      {
-        "league": "La_liga",
-        "team_id": "207",
-        "team": "Elche",
-        "matches_counted": 4,
-        "players": [
-          {
-            "player_id": "14931",
-            "player": "Abiel Osorio",
-            "shots": 3,
-            "sot": 1
-          },
-          {
-            "player_id": "13838",
-            "player": "Ali Houary",
-            "shots": 4,
-            "sot": 2
-          },
-          {
-            "player_id": "12870",
-            "player": "Buba Sangaré",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "13837",
-            "player": "David Affengruber",
-            "shots": 4,
-            "sot": 0
-          },
-          {
-            "player_id": "2057",
-            "player": "Ezequiel Ponce",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "11362",
-            "player": "Facundo Buonanotte",
-            "shots": 6,
-            "sot": 3
-          },
-          {
-            "player_id": "13841",
-            "player": "Federico Redondo",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "8271",
-            "player": "Fernando Niño",
-            "shots": 8,
-            "sot": 6
-          },
-          {
-            "player_id": "8230",
-            "player": "German Valera",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "6750",
-            "player": "Gonzalo Villar",
-            "shots": 4,
-            "sot": 3
-          },
-          {
-            "player_id": "14400",
-            "player": "Lucas Cepeda",
-            "shots": 6,
-            "sot": 4
-          },
-          {
-            "player_id": "13839",
-            "player": "Marc Aguado",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "2353",
-            "player": "Pedro Bigas",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "15066",
-            "player": "Roy Revivo",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "10067",
-            "player": "Rubén Sánchez",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "8895",
-            "player": "Tete Morente",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "3425",
-            "player": "Thomas Lemar",
-            "shots": 3,
-            "sot": 1
-          },
-          {
-            "player_id": "8972",
-            "player": "Victor Chust",
-            "shots": 3,
-            "sot": 1
-          }
-        ]
-      },
-      {
-        "league": "La_liga",
-        "team_id": "141",
-        "team": "Espanyol",
-        "matches_counted": 5,
-        "players": [
-          {
-            "player_id": "10143",
-            "player": "Bryan Zaragoza",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "14700",
-            "player": "Cala",
-            "shots": 6,
-            "sot": 3
-          },
-          {
-            "player_id": "11924",
-            "player": "Clemens Riedel",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "5081",
-            "player": "Edu Expósito",
-            "shots": 11,
-            "sot": 0
-          },
-          {
-            "player_id": "12994",
-            "player": "Gabriel Moscardo",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "14074",
-            "player": "Javi Hernández",
-            "shots": 8,
-            "sot": 3
-          },
-          {
-            "player_id": "10209",
-            "player": "Jofre Carreras",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "6168",
-            "player": "Leandro Cabrera",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "13601",
-            "player": "Marcos Fernández",
-            "shots": 10,
-            "sot": 3
-          },
-          {
-            "player_id": "4175",
-            "player": "Pere Milla",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "7916",
-            "player": "Pol Lozano",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "12903",
-            "player": "Rafael Bauza",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "13350",
-            "player": "Roberto Fernández",
-            "shots": 11,
-            "sot": 6
-          },
-          {
-            "player_id": "13533",
-            "player": "Roger Hinojo",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "13829",
-            "player": "Tyrhys Dolan",
-            "shots": 4,
-            "sot": 1
-          },
-          {
-            "player_id": "6149",
-            "player": "Unai Núñez",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "8861",
-            "player": "Urko Gonzalez",
-            "shots": 1,
-            "sot": 0
-          }
-        ]
-      },
       {
         "league": "La_liga",
         "team_id": "151",
@@ -877,184 +87,6 @@
             "player_id": "14393",
             "player": "Thiago Fernández",
             "shots": 5,
-            "sot": 1
-          }
-        ]
-      },
-      {
-        "league": "La_liga",
-        "team_id": "157",
-        "team": "Osasuna",
-        "matches_counted": 5,
-        "players": [
-          {
-            "player_id": "12790",
-            "player": "Abel Bretones",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "8424",
-            "player": "Aimar Oroz",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "1235",
-            "player": "Ante Budimir",
-            "shots": 16,
-            "sot": 9
-          },
-          {
-            "player_id": "12537",
-            "player": "Asier Osambela",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "12472",
-            "player": "Iñigo Arguibide",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "11395",
-            "player": "Iker Muñoz",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "14915",
-            "player": "Jonathan Dubasin",
-            "shots": 4,
-            "sot": 2
-          },
-          {
-            "player_id": "7857",
-            "player": "Jon Moncayola",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "10858",
-            "player": "Jorge Herrando",
-            "shots": 2,
-            "sot": 2
-          },
-          {
-            "player_id": "5140",
-            "player": "Kike Barja",
-            "shots": 3,
-            "sot": 1
-          },
-          {
-            "player_id": "7050",
-            "player": "Lucas Torró",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "8042",
-            "player": "Raul García",
-            "shots": 8,
-            "sot": 2
-          },
-          {
-            "player_id": "8584",
-            "player": "Raul Moro",
-            "shots": 3,
-            "sot": 1
-          },
-          {
-            "player_id": "2183",
-            "player": "Rubén García",
-            "shots": 6,
-            "sot": 3
-          }
-        ]
-      },
-      {
-        "league": "La_liga",
-        "team_id": "145",
-        "team": "Rayo Vallecano",
-        "matches_counted": 4,
-        "players": [
-          {
-            "player_id": "7174",
-            "player": "Adrià Pedrosa",
-            "shots": 4,
-            "sot": 2
-          },
-          {
-            "player_id": "14059",
-            "player": "Alemão",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "7515",
-            "player": "Andrei Ratiu",
-            "shots": 7,
-            "sot": 1
-          },
-          {
-            "player_id": "5073",
-            "player": "Florian Lejeune",
-            "shots": 5,
-            "sot": 2
-          },
-          {
-            "player_id": "13809",
-            "player": "Giorgi Tsitaishvili",
-            "shots": 3,
-            "sot": 0
-          },
-          {
-            "player_id": "9812",
-            "player": "Isi Palazón",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "8107",
-            "player": "Jorge De Frutos",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "7071",
-            "player": "Álvaro García",
-            "shots": 5,
-            "sot": 4
-          },
-          {
-            "player_id": "9815",
-            "player": "Pathé Ciss",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "12863",
-            "player": "Pedro Díaz",
-            "shots": 5,
-            "sot": 0
-          },
-          {
-            "player_id": "9813",
-            "player": "Randy Nteka",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "7528",
-            "player": "Sergio Camello",
-            "shots": 8,
-            "sot": 5
-          },
-          {
-            "player_id": "4091",
-            "player": "Unai López",
-            "shots": 3,
             "sot": 1
           }
         ]
@@ -1667,140 +699,6 @@
       },
       {
         "league": "Ligue_1",
-        "team_id": "210",
-        "team": "Lens",
-        "matches_counted": 4,
-        "players": [
-          {
-            "player_id": "11046",
-            "player": "Abdallah Sima",
-            "shots": 7,
-            "sot": 2
-          },
-          {
-            "player_id": "7501",
-            "player": "Amadou Haidara",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "13733",
-            "player": "Andrija Bulatovic",
-            "shots": 6,
-            "sot": 2
-          },
-          {
-            "player_id": "3348",
-            "player": "Florian Sotoca",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "942",
-            "player": "Florian Thauvin",
-            "shots": 14,
-            "sot": 9
-          },
-          {
-            "player_id": "14781",
-            "player": "Franjo Ivanovic",
-            "shots": 5,
-            "sot": 4
-          },
-          {
-            "player_id": "6816",
-            "player": "Jean-Clair Todibo",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "7206",
-            "player": "Jonathan Gradit",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "13141",
-            "player": "Kyllian Antonio",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "14779",
-            "player": "Maik Nawrocki",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "5745",
-            "player": "Matthieu Udol",
-            "shots": 4,
-            "sot": 0
-          },
-          {
-            "player_id": "14608",
-            "player": "Mezian Soares",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "6148",
-            "player": "Michaël Cuisance",
-            "shots": 3,
-            "sot": 2
-          },
-          {
-            "player_id": "14782",
-            "player": "Michal Skóras",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "3697",
-            "player": "Odsonne Edouard",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "11142",
-            "player": "Pierre Ganiou",
-            "shots": 3,
-            "sot": 2
-          },
-          {
-            "player_id": "6006",
-            "player": "Ruben Aguilar",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "13053",
-            "player": "Saud Abdulhamid",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "13526",
-            "player": "Souleymane Sagnan",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "213",
-            "player": "Thorgan Hazard",
-            "shots": 3,
-            "sot": 0
-          },
-          {
-            "player_id": "14780",
-            "player": "Yacine Titraoui",
-            "shots": 1,
-            "sot": 0
-          }
-        ]
-      },
-      {
-        "league": "Ligue_1",
         "team_id": "160",
         "team": "Lille",
         "matches_counted": 3,
@@ -1967,62 +865,6 @@
       },
       {
         "league": "Ligue_1",
-        "team_id": "171",
-        "team": "Monaco",
-        "matches_counted": 3,
-        "players": [
-          {
-            "player_id": "2897",
-            "player": "Aleksandr Golovin",
-            "shots": 4,
-            "sot": 2
-          },
-          {
-            "player_id": "14871",
-            "player": "Anis Soubeir",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "6147",
-            "player": "Denis Zakaria",
-            "shots": 4,
-            "sot": 2
-          },
-          {
-            "player_id": "643",
-            "player": "Eric Dier",
-            "shots": 4,
-            "sot": 1
-          },
-          {
-            "player_id": "11799",
-            "player": "Lamine Camara",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "12255",
-            "player": "Paris Brunner",
-            "shots": 12,
-            "sot": 6
-          },
-          {
-            "player_id": "12426",
-            "player": "Stanis Idumbo Muzambo",
-            "shots": 8,
-            "sot": 2
-          },
-          {
-            "player_id": "10271",
-            "player": "Vanderson",
-            "shots": 2,
-            "sot": 0
-          }
-        ]
-      },
-      {
-        "league": "Ligue_1",
         "team_id": "170",
         "team": "Nice",
         "matches_counted": 4,
@@ -2127,92 +969,6 @@
       },
       {
         "league": "Ligue_1",
-        "team_id": "290",
-        "team": "Paris FC",
-        "matches_counted": 4,
-        "players": [
-          {
-            "player_id": "13805",
-            "player": "Adama Camara",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "9656",
-            "player": "Ilan Kebbal",
-            "shots": 9,
-            "sot": 3
-          },
-          {
-            "player_id": "10815",
-            "player": "Lassine Sinayoko",
-            "shots": 12,
-            "sot": 7
-          },
-          {
-            "player_id": "10620",
-            "player": "Luca Koleosho",
-            "shots": 6,
-            "sot": 1
-          },
-          {
-            "player_id": "3772",
-            "player": "Maxime Lopez",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "7169",
-            "player": "Moses Simon",
-            "shots": 3,
-            "sot": 1
-          },
-          {
-            "player_id": "13871",
-            "player": "Otávio",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "10347",
-            "player": "Pablo Pagis",
-            "shots": 6,
-            "sot": 0
-          },
-          {
-            "player_id": "5619",
-            "player": "Pierre Lees-Melou",
-            "shots": 4,
-            "sot": 0
-          },
-          {
-            "player_id": "13577",
-            "player": "Rudy Matondo",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "13800",
-            "player": "Samir Chergui",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "5696",
-            "player": "Vincent Marchetti",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "13385",
-            "player": "Zabi Gueu",
-            "shots": 2,
-            "sot": 0
-          }
-        ]
-      },
-      {
-        "league": "Ligue_1",
         "team_id": "163",
         "team": "Rennes",
         "matches_counted": 3,
@@ -2305,98 +1061,6 @@
       },
       {
         "league": "Ligue_1",
-        "team_id": "225",
-        "team": "Strasbourg",
-        "matches_counted": 4,
-        "players": [
-          {
-            "player_id": "9833",
-            "player": "Andrew Omobamidele",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "14023",
-            "player": "Conrad Harder",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "14753",
-            "player": "Diogo Sousa",
-            "shots": 5,
-            "sot": 4
-          },
-          {
-            "player_id": "13094",
-            "player": "Dário Essugo",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "13527",
-            "player": "Genesis Antwi",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "14359",
-            "player": "Gessime Yassine",
-            "shots": 9,
-            "sot": 5
-          },
-          {
-            "player_id": "8191",
-            "player": "Giovanni Reyna",
-            "shots": 6,
-            "sot": 3
-          },
-          {
-            "player_id": "10868",
-            "player": "Guela Doué",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "14755",
-            "player": "Jacobo Ortega",
-            "shots": 6,
-            "sot": 4
-          },
-          {
-            "player_id": "14756",
-            "player": "Jeyland Mitchell",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "13615",
-            "player": "Oso",
-            "shots": 4,
-            "sot": 0
-          },
-          {
-            "player_id": "14358",
-            "player": "Pape Diop",
-            "shots": 5,
-            "sot": 0
-          },
-          {
-            "player_id": "11618",
-            "player": "Samuel Amo-Ameyaw",
-            "shots": 5,
-            "sot": 4
-          },
-          {
-            "player_id": "12970",
-            "player": "Sebastian Nanasi",
-            "shots": 5,
-            "sot": 2
-          }
-        ]
-      },
-      {
-        "league": "Ligue_1",
         "team_id": "174",
         "team": "Toulouse",
         "matches_counted": 4,
@@ -2477,214 +1141,6 @@
             "player_id": "6874",
             "player": "Yann Gboho",
             "shots": 2,
-            "sot": 0
-          }
-        ]
-      },
-      {
-        "league": "Serie_A",
-        "team_id": "97",
-        "team": "Bologna",
-        "matches_counted": 4,
-        "players": [
-          {
-            "player_id": "11736",
-            "player": "Artem Dovbyk",
-            "shots": 4,
-            "sot": 1
-          },
-          {
-            "player_id": "9999",
-            "player": "Arthur Theate",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "14382",
-            "player": "Eivind Helland",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "10956",
-            "player": "Emil Holm",
-            "shots": 3,
-            "sot": 0
-          },
-          {
-            "player_id": "1424",
-            "player": "Federico Bernardeschi",
-            "shots": 8,
-            "sot": 4
-          },
-          {
-            "player_id": "15060",
-            "player": "Jay Enem",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "7005",
-            "player": "Jens Odgaard",
-            "shots": 6,
-            "sot": 1
-          },
-          {
-            "player_id": "10172",
-            "player": "Jonathan Rowe",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "11039",
-            "player": "Lewis Ferguson",
-            "shots": 3,
-            "sot": 0
-          },
-          {
-            "player_id": "14911",
-            "player": "Marco Libra",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "14910",
-            "player": "Mikel Amondarain",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "9866",
-            "player": "Nadir Zortea",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "7576",
-            "player": "Nicolò Cambiaghi",
-            "shots": 8,
-            "sot": 1
-          },
-          {
-            "player_id": "13698",
-            "player": "Rahim Alhassane",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "7375",
-            "player": "Roberto Piccoli",
-            "shots": 7,
-            "sot": 2
-          },
-          {
-            "player_id": "12904",
-            "player": "Samuel Mbangula",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "8912",
-            "player": "Tommaso Pobega",
-            "shots": 4,
-            "sot": 1
-          },
-          {
-            "player_id": "13894",
-            "player": "Torbjørn Heggem",
-            "shots": 1,
-            "sot": 0
-          }
-        ]
-      },
-      {
-        "league": "Serie_A",
-        "team_id": "116",
-        "team": "Cagliari",
-        "matches_counted": 3,
-        "players": [
-          {
-            "player_id": "10073",
-            "player": "Adam Obert",
-            "shots": 2,
-            "sot": 2
-          },
-          {
-            "player_id": "1634",
-            "player": "Alessandro Deiola",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "13342",
-            "player": "Alessandro Romano",
-            "shots": 5,
-            "sot": 4
-          },
-          {
-            "player_id": "15061",
-            "player": "Alessandro Sugamele",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "12997",
-            "player": "Alieu Fadera",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "8163",
-            "player": "Daniel Maldini",
-            "shots": 8,
-            "sot": 3
-          },
-          {
-            "player_id": "11883",
-            "player": "Gennaro Borrelli",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "971",
-            "player": "Harry Winks",
-            "shots": 3,
-            "sot": 1
-          },
-          {
-            "player_id": "10303",
-            "player": "Jacopo Fazzini",
-            "shots": 3,
-            "sot": 1
-          },
-          {
-            "player_id": "12868",
-            "player": "Mattia Felici",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "6706",
-            "player": "Ndary Adopo",
-            "shots": 3,
-            "sot": 2
-          },
-          {
-            "player_id": "14445",
-            "player": "Paul Mendy",
-            "shots": 7,
-            "sot": 3
-          },
-          {
-            "player_id": "14810",
-            "player": "Raphael Kofler",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "14019",
-            "player": "Zé Pedro",
-            "shots": 1,
             "sot": 0
           }
         ]
@@ -3110,971 +1566,17 @@
             "sot": 0
           }
         ]
-      },
-      {
-        "league": "Serie_A",
-        "team_id": "113",
-        "team": "Torino",
-        "matches_counted": 3,
-        "players": [
-          {
-            "player_id": "13599",
-            "player": "Alessio Cacciamani",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "7700",
-            "player": "Che Adams",
-            "shots": 2,
-            "sot": 2
-          },
-          {
-            "player_id": "10382",
-            "player": "Eray Cömert",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "1102",
-            "player": "Giovanni Simeone",
-            "shots": 4,
-            "sot": 1
-          },
-          {
-            "player_id": "11278",
-            "player": "Gvidas Gineitis",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "14898",
-            "player": "Kian Fitz-Jim",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "12609",
-            "player": "Niccolò Fortini",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "6276",
-            "player": "Nikola Vlasic",
-            "shots": 5,
-            "sot": 2
-          },
-          {
-            "player_id": "11902",
-            "player": "Pietro Comuzzo",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "3821",
-            "player": "Rolando Mandragora",
-            "shots": 5,
-            "sot": 4
-          },
-          {
-            "player_id": "11741",
-            "player": "Saúl Coco",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "10796",
-            "player": "Zakaria Aboukhlal",
-            "shots": 1,
-            "sot": 0
-          }
-        ]
-      },
-      {
-        "league": "Serie_A",
-        "team_id": "99",
-        "team": "Udinese",
-        "matches_counted": 3,
-        "players": [
-          {
-            "player_id": "3729",
-            "player": "Hassane Kamara",
-            "shots": 7,
-            "sot": 5
-          },
-          {
-            "player_id": "13811",
-            "player": "Idrissa Gueye",
-            "shots": 4,
-            "sot": 0
-          },
-          {
-            "player_id": "13955",
-            "player": "Jakub Piotrowski",
-            "shots": 4,
-            "sot": 1
-          },
-          {
-            "player_id": "12853",
-            "player": "Jesper Karlström",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "9993",
-            "player": "Jurgen Ekkelenkamp",
-            "shots": 7,
-            "sot": 3
-          },
-          {
-            "player_id": "1053",
-            "player": "Keinan Davis",
-            "shots": 5,
-            "sot": 2
-          },
-          {
-            "player_id": "13958",
-            "player": "Lennon Miller",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "8819",
-            "player": "Mergim Vojvoda",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "6686",
-            "player": "Nicolo Zaniolo",
-            "shots": 3,
-            "sot": 0
-          },
-          {
-            "player_id": "11531",
-            "player": "Unai Gómez",
-            "shots": 3,
-            "sot": 1
-          },
-          {
-            "player_id": "13956",
-            "player": "Vakoun Bayo",
-            "shots": 2,
-            "sot": 0
-          }
-        ]
       }
     ]
   },
   "fixtures": [
     {
-      "match_id": "30834",
-      "league": "La_liga",
-      "league_name": "La Liga",
-      "kickoff_utc": "2026-09-18T19:00:00+00:00",
-      "kickoff_et": "2026-09-18T15:00:00-04:00",
-      "data_cutoff_et": "2026-09-17T22:37:12.730063-04:00",
-      "previous_season_label": "2025-26",
-      "home_team": "Espanyol",
-      "away_team": "Elche",
-      "home_position": 8,
-      "away_position": 20,
-      "home_form": [
-        {
-          "date": "2026-09-12",
-          "venue": "A",
-          "opponent": "Osasuna",
-          "opponent_position": 13,
-          "score": "2-0",
-          "T": 6.0,
-          "TA": 3.0,
-          "TR": 11.0,
-          "TAR": 4.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-29",
-          "venue": "A",
-          "opponent": "Real Sociedad",
-          "opponent_position": 12,
-          "score": "1-2",
-          "T": 11.0,
-          "TA": 3.0,
-          "TR": 17.0,
-          "TAR": 10.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-16",
-          "venue": "H",
-          "opponent": "Levante",
-          "opponent_position": 15,
-          "score": "3-0",
-          "T": 16.0,
-          "TA": 6.0,
-          "TR": 4.0,
-          "TAR": 0.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "away_form": [
-        {
-          "date": "2026-09-12",
-          "venue": "A",
-          "opponent": "Athletic Club",
-          "opponent_position": 9,
-          "score": "1-1",
-          "T": 3.0,
-          "TA": 1.0,
-          "TR": 19.0,
-          "TAR": 3.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-28",
-          "venue": "A",
-          "opponent": "Racing Santander",
-          "opponent_position": 10,
-          "score": "2-3",
-          "T": 18.0,
-          "TA": 7.0,
-          "TR": 13.0,
-          "TAR": 6.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-17",
-          "venue": "A",
-          "opponent": "Deportivo La Coruna",
-          "opponent_position": 7,
-          "score": "1-1",
-          "T": 11.0,
-          "TA": 6.0,
-          "TR": 8.0,
-          "TAR": 3.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "home_averages": {
-        "T": 11.0,
-        "TA": 4.0,
-        "TR": 10.666666666666666,
-        "TAR": 4.666666666666667
-      },
-      "away_averages": {
-        "T": 10.666666666666666,
-        "TA": 4.666666666666667,
-        "TR": 13.333333333333334,
-        "TAR": 4.0
-      },
-      "h2h": [
-        {
-          "date": "2025-10-25",
-          "fixture": "Espanyol vs Elche",
-          "score": "1-0",
-          "home_team": "Espanyol",
-          "away_team": "Elche",
-          "team_a_T": 16.0,
-          "team_a_TA": 7.0,
-          "team_b_T": 13.0,
-          "team_b_TA": 4.0,
-          "same_venue": true
-        },
-        {
-          "date": "2026-03-01",
-          "fixture": "Elche vs Espanyol",
-          "score": "2-2",
-          "home_team": "Elche",
-          "away_team": "Espanyol",
-          "team_a_T": 9.0,
-          "team_a_TA": 4.0,
-          "team_b_T": 17.0,
-          "team_b_TA": 9.0,
-          "same_venue": false
-        }
-      ],
-      "home_components": {
-        "current_form": {
-          "T": 11.0,
-          "TA": 4.0,
-          "TR": 10.666666666666666,
-          "TAR": 4.666666666666667
-        },
-        "same_venue_h2h": {
-          "T": 16.0,
-          "TA": 7.0
-        },
-        "two_h2h_average": {
-          "T": 12.5,
-          "TA": 5.5
-        }
-      },
-      "away_components": {
-        "current_form": {
-          "T": 10.666666666666666,
-          "TA": 4.666666666666667,
-          "TR": 13.333333333333334,
-          "TAR": 4.0
-        },
-        "same_venue_h2h": {
-          "T": 13.0,
-          "TA": 4.0
-        },
-        "two_h2h_average": {
-          "T": 15.0,
-          "TA": 6.5
-        }
-      },
-      "components": {
-        "T1": 21.666666666666664,
-        "TA1": 8.666666666666668,
-        "T2": 29.0,
-        "TA2": 11.0,
-        "T3": 27.5,
-        "TA3": 12.0
-      },
-      "forecasts": {
-        "home_shots": 13.166666666666666,
-        "away_shots": 12.888888888888888,
-        "combined_shots": 26.055555555555554,
-        "home_sot": 5.5,
-        "away_sot": 5.055555555555556,
-        "combined_sot": 10.555555555555555
-      }
-    },
-    {
-      "match_id": "31221",
-      "league": "EPL",
-      "league_name": "Premier League",
-      "kickoff_utc": "2026-09-19T11:30:00+00:00",
-      "kickoff_et": "2026-09-19T07:30:00-04:00",
-      "data_cutoff_et": "2026-09-17T22:37:12.730063-04:00",
-      "previous_season_label": "2025-26",
-      "home_team": "Tottenham",
-      "away_team": "Aston Villa",
-      "home_position": 17,
-      "away_position": 19,
-      "home_form": [
-        {
-          "date": "2026-09-12",
-          "venue": "H",
-          "opponent": "Everton",
-          "opponent_position": 9,
-          "score": "0-0",
-          "T": 14.0,
-          "TA": 2.0,
-          "TR": 12.0,
-          "TAR": 3.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-05",
-          "venue": "A",
-          "opponent": "Nottingham Forest",
-          "opponent_position": 11,
-          "score": "0-0",
-          "T": 12.0,
-          "TA": 0.0,
-          "TR": 12.0,
-          "TAR": 2.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-29",
-          "venue": "H",
-          "opponent": "Newcastle United",
-          "opponent_position": 12,
-          "score": "0-2",
-          "T": 17.0,
-          "TA": 6.0,
-          "TR": 11.0,
-          "TAR": 2.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-22",
-          "venue": "A",
-          "opponent": "Brentford",
-          "opponent_position": 7,
-          "score": "0-3",
-          "T": 9.0,
-          "TA": 4.0,
-          "TR": 26.0,
-          "TAR": 8.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "away_form": [
-        {
-          "date": "2026-09-12",
-          "venue": "H",
-          "opponent": "Nottingham Forest",
-          "opponent_position": 11,
-          "score": "1-2",
-          "T": 7.0,
-          "TA": 5.0,
-          "TR": 22.0,
-          "TAR": 7.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-05",
-          "venue": "A",
-          "opponent": "Hull",
-          "opponent_position": 4,
-          "score": "0-0",
-          "T": 13.0,
-          "TA": 1.0,
-          "TR": 11.0,
-          "TAR": 4.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-23",
-          "venue": "A",
-          "opponent": "Brighton",
-          "opponent_position": 5,
-          "score": "0-4",
-          "T": 6.0,
-          "TA": 0.0,
-          "TR": 21.0,
-          "TAR": 6.0,
-          "red_card": true,
-          "red_card_fallback": true,
-          "red_card_players": [
-            {
-              "player": "João Gomes",
-              "team": "Aston Villa"
-            }
-          ]
-        }
-      ],
-      "home_averages": {
-        "T": 13.0,
-        "TA": 3.0,
-        "TR": 15.25,
-        "TAR": 3.75
-      },
-      "away_averages": {
-        "T": 8.666666666666666,
-        "TA": 2.0,
-        "TR": 18.0,
-        "TAR": 5.666666666666667
-      },
-      "h2h": [
-        {
-          "date": "2025-10-19",
-          "fixture": "Tottenham vs Aston Villa",
-          "score": "1-2",
-          "home_team": "Tottenham",
-          "away_team": "Aston Villa",
-          "team_a_T": 9.0,
-          "team_a_TA": 3.0,
-          "team_b_T": 8.0,
-          "team_b_TA": 2.0,
-          "same_venue": true
-        },
-        {
-          "date": "2026-05-03",
-          "fixture": "Aston Villa vs Tottenham",
-          "score": "1-2",
-          "home_team": "Aston Villa",
-          "away_team": "Tottenham",
-          "team_a_T": 10.0,
-          "team_a_TA": 5.0,
-          "team_b_T": 5.0,
-          "team_b_TA": 1.0,
-          "same_venue": false
-        }
-      ],
-      "home_components": {
-        "current_form": {
-          "T": 13.0,
-          "TA": 3.0,
-          "TR": 15.25,
-          "TAR": 3.75
-        },
-        "same_venue_h2h": {
-          "T": 9.0,
-          "TA": 3.0
-        },
-        "two_h2h_average": {
-          "T": 9.5,
-          "TA": 4.0
-        }
-      },
-      "away_components": {
-        "current_form": {
-          "T": 8.666666666666666,
-          "TA": 2.0,
-          "TR": 18.0,
-          "TAR": 5.666666666666667
-        },
-        "same_venue_h2h": {
-          "T": 8.0,
-          "TA": 2.0
-        },
-        "two_h2h_average": {
-          "T": 6.5,
-          "TA": 1.5
-        }
-      },
-      "components": {
-        "T1": 21.666666666666664,
-        "TA1": 5.0,
-        "T2": 17.0,
-        "TA2": 5.0,
-        "T3": 16.0,
-        "TA3": 5.5
-      },
-      "forecasts": {
-        "home_shots": 10.5,
-        "away_shots": 7.722222222222221,
-        "combined_shots": 18.22222222222222,
-        "home_sot": 3.3333333333333335,
-        "away_sot": 1.8333333333333333,
-        "combined_sot": 5.166666666666667
-      }
-    },
-    {
-      "match_id": "30836",
-      "league": "La_liga",
-      "league_name": "La Liga",
-      "kickoff_utc": "2026-09-19T12:00:00+00:00",
-      "kickoff_et": "2026-09-19T08:00:00-04:00",
-      "data_cutoff_et": "2026-09-17T22:37:12.730063-04:00",
-      "previous_season_label": "2025-26",
-      "home_team": "Osasuna",
-      "away_team": "Rayo Vallecano",
-      "home_position": 13,
-      "away_position": 11,
-      "home_form": [
-        {
-          "date": "2026-09-12",
-          "venue": "H",
-          "opponent": "Espanyol",
-          "opponent_position": 8,
-          "score": "0-2",
-          "T": 11.0,
-          "TA": 4.0,
-          "TR": 6.0,
-          "TAR": 3.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-06",
-          "venue": "A",
-          "opponent": "Alaves",
-          "opponent_position": 6,
-          "score": "2-5",
-          "T": 7.0,
-          "TA": 5.0,
-          "TR": 12.0,
-          "TAR": 7.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-31",
-          "venue": "H",
-          "opponent": "Getafe",
-          "opponent_position": 16,
-          "score": "1-0",
-          "T": 10.0,
-          "TA": 2.0,
-          "TR": 11.0,
-          "TAR": 1.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-24",
-          "venue": "H",
-          "opponent": "Levante",
-          "opponent_position": 15,
-          "score": "0-0",
-          "T": 12.0,
-          "TA": 7.0,
-          "TR": 11.0,
-          "TAR": 1.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "away_form": [
-        {
-          "date": "2026-09-15",
-          "venue": "H",
-          "opponent": "Espanyol",
-          "opponent_position": 8,
-          "score": "2-1",
-          "T": 16.0,
-          "TA": 2.0,
-          "TR": 19.0,
-          "TAR": 5.0,
-          "red_card": true,
-          "red_card_fallback": true,
-          "red_card_players": [
-            {
-              "player": "Omar El Hilali",
-              "team": "Espanyol"
-            }
-          ]
-        },
-        {
-          "date": "2026-09-05",
-          "venue": "H",
-          "opponent": "Racing Santander",
-          "opponent_position": 10,
-          "score": "3-2",
-          "T": 16.0,
-          "TA": 10.0,
-          "TR": 9.0,
-          "TAR": 4.0,
-          "red_card": true,
-          "red_card_fallback": true,
-          "red_card_players": [
-            {
-              "player": "Jorge De Frutos",
-              "team": "Rayo Vallecano"
-            },
-            {
-              "player": "Fran Pérez",
-              "team": "Rayo Vallecano"
-            }
-          ]
-        },
-        {
-          "date": "2026-08-20",
-          "venue": "H",
-          "opponent": "Alaves",
-          "opponent_position": 6,
-          "score": "1-1",
-          "T": 8.0,
-          "TA": 3.0,
-          "TR": 15.0,
-          "TAR": 3.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "home_averages": {
-        "T": 10.0,
-        "TA": 4.5,
-        "TR": 10.0,
-        "TAR": 3.0
-      },
-      "away_averages": {
-        "T": 13.333333333333334,
-        "TA": 5.0,
-        "TR": 14.333333333333334,
-        "TAR": 4.0
-      },
-      "h2h": [
-        {
-          "date": "2025-09-14",
-          "fixture": "Osasuna vs Rayo Vallecano",
-          "score": "2-0",
-          "home_team": "Osasuna",
-          "away_team": "Rayo Vallecano",
-          "team_a_T": 9.0,
-          "team_a_TA": 7.0,
-          "team_b_T": 19.0,
-          "team_b_TA": 6.0,
-          "same_venue": true
-        },
-        {
-          "date": "2026-01-24",
-          "fixture": "Rayo Vallecano vs Osasuna",
-          "score": "1-3",
-          "home_team": "Rayo Vallecano",
-          "away_team": "Osasuna",
-          "team_a_T": 14.0,
-          "team_a_TA": 5.0,
-          "team_b_T": 11.0,
-          "team_b_TA": 4.0,
-          "same_venue": false
-        }
-      ],
-      "home_components": {
-        "current_form": {
-          "T": 10.0,
-          "TA": 4.5,
-          "TR": 10.0,
-          "TAR": 3.0
-        },
-        "same_venue_h2h": {
-          "T": 9.0,
-          "TA": 7.0
-        },
-        "two_h2h_average": {
-          "T": 11.5,
-          "TA": 6.0
-        }
-      },
-      "away_components": {
-        "current_form": {
-          "T": 13.333333333333334,
-          "TA": 5.0,
-          "TR": 14.333333333333334,
-          "TAR": 4.0
-        },
-        "same_venue_h2h": {
-          "T": 19.0,
-          "TA": 6.0
-        },
-        "two_h2h_average": {
-          "T": 15.0,
-          "TA": 5.0
-        }
-      },
-      "components": {
-        "T1": 23.333333333333336,
-        "TA1": 9.5,
-        "T2": 28.0,
-        "TA2": 13.0,
-        "T3": 26.5,
-        "TA3": 11.0
-      },
-      "forecasts": {
-        "home_shots": 10.166666666666666,
-        "away_shots": 15.777777777777779,
-        "combined_shots": 25.944444444444446,
-        "home_sot": 5.833333333333333,
-        "away_sot": 5.333333333333333,
-        "combined_sot": 11.166666666666666
-      }
-    },
-    {
-      "match_id": "31981",
-      "league": "Ligue_1",
-      "league_name": "Ligue 1",
-      "kickoff_utc": "2026-09-19T13:00:00+00:00",
-      "kickoff_et": "2026-09-19T09:00:00-04:00",
-      "data_cutoff_et": "2026-09-17T22:37:12.730063-04:00",
-      "previous_season_label": "2025-26",
-      "home_team": "Auxerre",
-      "away_team": "Brest",
-      "home_position": 15,
-      "away_position": 7,
-      "home_form": [
-        {
-          "date": "2026-09-12",
-          "venue": "H",
-          "opponent": "Nice",
-          "opponent_position": 18,
-          "score": "1-0",
-          "T": 11.0,
-          "TA": 7.0,
-          "TR": 12.0,
-          "TAR": 4.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-04",
-          "venue": "A",
-          "opponent": "Lyon",
-          "opponent_position": 4,
-          "score": "1-3",
-          "T": 8.0,
-          "TA": 3.0,
-          "TR": 21.0,
-          "TAR": 7.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-29",
-          "venue": "H",
-          "opponent": "Angers",
-          "opponent_position": 11,
-          "score": "1-3",
-          "T": 19.0,
-          "TA": 7.0,
-          "TR": 15.0,
-          "TAR": 6.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "away_form": [
-        {
-          "date": "2026-09-05",
-          "venue": "A",
-          "opponent": "Le Havre",
-          "opponent_position": 16,
-          "score": "2-1",
-          "T": 19.0,
-          "TA": 9.0,
-          "TR": 18.0,
-          "TAR": 4.0,
-          "red_card": true,
-          "red_card_fallback": true,
-          "red_card_players": [
-            {
-              "player": "Junior Mwanga",
-              "team": "Le Havre"
-            }
-          ]
-        },
-        {
-          "date": "2026-08-29",
-          "venue": "H",
-          "opponent": "Toulouse",
-          "opponent_position": 17,
-          "score": "2-2",
-          "T": 26.0,
-          "TA": 7.0,
-          "TR": 6.0,
-          "TAR": 2.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-22",
-          "venue": "A",
-          "opponent": "Le Mans",
-          "opponent_position": 14,
-          "score": "2-2",
-          "T": 26.0,
-          "TA": 7.0,
-          "TR": 8.0,
-          "TAR": 5.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "home_averages": {
-        "T": 12.666666666666666,
-        "TA": 5.666666666666667,
-        "TR": 16.0,
-        "TAR": 5.666666666666667
-      },
-      "away_averages": {
-        "T": 23.666666666666668,
-        "TA": 7.666666666666667,
-        "TR": 10.666666666666666,
-        "TAR": 3.6666666666666665
-      },
-      "h2h": [
-        {
-          "date": "2026-01-04",
-          "fixture": "Brest vs Auxerre",
-          "score": "2-0",
-          "home_team": "Brest",
-          "away_team": "Auxerre",
-          "team_a_T": 10.0,
-          "team_a_TA": 1.0,
-          "team_b_T": 11.0,
-          "team_b_TA": 4.0,
-          "same_venue": false
-        },
-        {
-          "date": "2026-03-21",
-          "fixture": "Auxerre vs Brest",
-          "score": "3-0",
-          "home_team": "Auxerre",
-          "away_team": "Brest",
-          "team_a_T": 11.0,
-          "team_a_TA": 7.0,
-          "team_b_T": 9.0,
-          "team_b_TA": 2.0,
-          "same_venue": true
-        }
-      ],
-      "home_components": {
-        "current_form": {
-          "T": 12.666666666666666,
-          "TA": 5.666666666666667,
-          "TR": 16.0,
-          "TAR": 5.666666666666667
-        },
-        "same_venue_h2h": {
-          "T": 11.0,
-          "TA": 7.0
-        },
-        "two_h2h_average": {
-          "T": 10.5,
-          "TA": 4.0
-        }
-      },
-      "away_components": {
-        "current_form": {
-          "T": 23.666666666666668,
-          "TA": 7.666666666666667,
-          "TR": 10.666666666666666,
-          "TAR": 3.6666666666666665
-        },
-        "same_venue_h2h": {
-          "T": 9.0,
-          "TA": 2.0
-        },
-        "two_h2h_average": {
-          "T": 10.0,
-          "TA": 3.0
-        }
-      },
-      "components": {
-        "T1": 36.333333333333336,
-        "TA1": 13.333333333333334,
-        "T2": 20.0,
-        "TA2": 9.0,
-        "T3": 20.5,
-        "TA3": 7.0
-      },
-      "forecasts": {
-        "home_shots": 11.388888888888888,
-        "away_shots": 14.222222222222223,
-        "combined_shots": 25.611111111111114,
-        "home_sot": 5.555555555555556,
-        "away_sot": 4.222222222222222,
-        "combined_sot": 9.777777777777779
-      }
-    },
-    {
       "match_id": "31983",
       "league": "Ligue_1",
       "league_name": "Ligue 1",
-      "kickoff_utc": "2026-09-19T13:00:00+00:00",
-      "kickoff_et": "2026-09-19T09:00:00-04:00",
-      "data_cutoff_et": "2026-09-17T22:37:12.730063-04:00",
+      "kickoff_utc": "2026-09-19T18:45:00+00:00",
+      "kickoff_et": "2026-09-19T14:45:00-04:00",
+      "data_cutoff_et": "2026-09-19T11:55:32.879098-04:00",
       "previous_season_label": "2025-26",
       "home_team": "Lyon",
       "away_team": "Rennes",
@@ -4270,56 +1772,271 @@
       }
     },
     {
-      "match_id": "31976",
+      "match_id": "31979",
       "league": "Ligue_1",
       "league_name": "Ligue 1",
-      "kickoff_utc": "2026-09-19T13:00:00+00:00",
-      "kickoff_et": "2026-09-19T09:00:00-04:00",
-      "data_cutoff_et": "2026-09-17T22:37:12.730063-04:00",
+      "kickoff_utc": "2026-09-19T18:45:00+00:00",
+      "kickoff_et": "2026-09-19T14:45:00-04:00",
+      "data_cutoff_et": "2026-09-19T11:55:32.879098-04:00",
       "previous_season_label": "2025-26",
-      "home_team": "Monaco",
-      "away_team": "Lens",
-      "home_position": 2,
-      "away_position": 10,
+      "home_team": "Toulouse",
+      "away_team": "Le Havre",
+      "home_position": 17,
+      "away_position": 16,
       "home_form": [
         {
           "date": "2026-09-12",
           "venue": "A",
-          "opponent": "Strasbourg",
-          "opponent_position": 6,
-          "score": "1-1",
-          "T": 12.0,
-          "TA": 3.0,
-          "TR": 13.0,
-          "TAR": 2.0,
+          "opponent": "Lorient",
+          "opponent_position": 8,
+          "score": "2-2",
+          "T": 13.0,
+          "TA": 4.0,
+          "TR": 10.0,
+          "TAR": 3.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
         },
         {
-          "date": "2026-08-30",
+          "date": "2026-09-03",
           "venue": "H",
-          "opponent": "Marseille",
-          "opponent_position": 13,
-          "score": "2-0",
-          "T": 11.0,
-          "TA": 5.0,
-          "TR": 13.0,
-          "TAR": 2.0,
+          "opponent": "Lille",
+          "opponent_position": 2,
+          "score": "0-1",
+          "T": 24.0,
+          "TA": 10.0,
+          "TR": 10.0,
+          "TAR": 6.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-08-29",
+          "venue": "A",
+          "opponent": "Brest",
+          "opponent_position": 7,
+          "score": "2-2",
+          "T": 6.0,
+          "TA": 2.0,
+          "TR": 26.0,
+          "TAR": 7.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-08-22",
+          "venue": "H",
+          "opponent": "Lyon",
+          "opponent_position": 4,
+          "score": "0-2",
+          "T": 17.0,
+          "TA": 2.0,
+          "TR": 11.0,
+          "TAR": 3.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        }
+      ],
+      "away_form": [
+        {
+          "date": "2026-09-12",
+          "venue": "H",
+          "opponent": "Angers",
+          "opponent_position": 11,
+          "score": "0-0",
+          "T": 16.0,
+          "TA": 6.0,
+          "TR": 9.0,
+          "TAR": 1.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-08-29",
+          "venue": "A",
+          "opponent": "Lyon",
+          "opponent_position": 4,
+          "score": "1-1",
+          "T": 12.0,
+          "TA": 4.0,
+          "TR": 15.0,
+          "TAR": 5.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
         },
         {
           "date": "2026-08-23",
-          "venue": "A",
-          "opponent": "Le Havre",
-          "opponent_position": 16,
-          "score": "1-0",
+          "venue": "H",
+          "opponent": "Monaco",
+          "opponent_position": 1,
+          "score": "0-1",
+          "T": 14.0,
+          "TA": 4.0,
+          "TR": 15.0,
+          "TAR": 7.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        }
+      ],
+      "home_averages": {
+        "T": 15.0,
+        "TA": 4.5,
+        "TR": 14.25,
+        "TAR": 4.75
+      },
+      "away_averages": {
+        "T": 14.0,
+        "TA": 4.666666666666667,
+        "TR": 13.0,
+        "TAR": 4.333333333333333
+      },
+      "h2h": [
+        {
+          "date": "2025-11-02",
+          "fixture": "Toulouse vs Le Havre",
+          "score": "0-0",
+          "home_team": "Toulouse",
+          "away_team": "Le Havre",
+          "team_a_T": 19.0,
+          "team_a_TA": 2.0,
+          "team_b_T": 9.0,
+          "team_b_TA": 3.0,
+          "same_venue": true
+        },
+        {
+          "date": "2026-02-15",
+          "fixture": "Le Havre vs Toulouse",
+          "score": "2-1",
+          "home_team": "Le Havre",
+          "away_team": "Toulouse",
+          "team_a_T": 25.0,
+          "team_a_TA": 9.0,
+          "team_b_T": 5.0,
+          "team_b_TA": 2.0,
+          "same_venue": false
+        }
+      ],
+      "home_components": {
+        "current_form": {
           "T": 15.0,
-          "TA": 7.0,
-          "TR": 14.0,
+          "TA": 4.5,
+          "TR": 14.25,
+          "TAR": 4.75
+        },
+        "same_venue_h2h": {
+          "T": 19.0,
+          "TA": 2.0
+        },
+        "two_h2h_average": {
+          "T": 22.0,
+          "TA": 5.5
+        }
+      },
+      "away_components": {
+        "current_form": {
+          "T": 14.0,
+          "TA": 4.666666666666667,
+          "TR": 13.0,
+          "TAR": 4.333333333333333
+        },
+        "same_venue_h2h": {
+          "T": 9.0,
+          "TA": 3.0
+        },
+        "two_h2h_average": {
+          "T": 7.0,
+          "TA": 2.5
+        }
+      },
+      "components": {
+        "T1": 29.0,
+        "TA1": 9.166666666666668,
+        "T2": 28.0,
+        "TA2": 5.0,
+        "T3": 29.0,
+        "TA3": 8.0
+      },
+      "forecasts": {
+        "home_shots": 18.666666666666668,
+        "away_shots": 10.0,
+        "combined_shots": 28.666666666666668,
+        "home_sot": 4.0,
+        "away_sot": 3.3888888888888893,
+        "combined_sot": 7.388888888888889
+      }
+    },
+    {
+      "match_id": "31605",
+      "league": "Serie_A",
+      "league_name": "Serie A",
+      "kickoff_utc": "2026-09-20T10:30:00+00:00",
+      "kickoff_et": "2026-09-20T06:30:00-04:00",
+      "data_cutoff_et": "2026-09-19T11:55:32.879098-04:00",
+      "previous_season_label": "2025-26",
+      "home_team": "Fiorentina",
+      "away_team": "Napoli",
+      "home_position": 16,
+      "away_position": 10,
+      "home_form": [
+        {
+          "date": "2026-09-11",
+          "venue": "A",
+          "opponent": "Venezia",
+          "opponent_position": 20,
+          "score": "4-2",
+          "T": 19.0,
+          "TA": 10.0,
+          "TR": 10.0,
+          "TAR": 3.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-09-05",
+          "venue": "H",
+          "opponent": "Torino",
+          "opponent_position": 14,
+          "score": "1-2",
+          "T": 14.0,
+          "TA": 6.0,
+          "TR": 7.0,
           "TAR": 4.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-08-29",
+          "venue": "H",
+          "opponent": "Frosinone",
+          "opponent_position": 7,
+          "score": "0-3",
+          "T": 25.0,
+          "TA": 4.0,
+          "TR": 12.0,
+          "TAR": 6.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-08-24",
+          "venue": "A",
+          "opponent": "Roma",
+          "opponent_position": 1,
+          "score": "0-4",
+          "T": 9.0,
+          "TA": 4.0,
+          "TR": 17.0,
+          "TAR": 8.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
@@ -4328,12 +2045,155 @@
       "away_form": [
         {
           "date": "2026-09-13",
+          "venue": "H",
+          "opponent": "Bologna",
+          "opponent_position": 17,
+          "score": "1-0",
+          "T": 15.0,
+          "TA": 3.0,
+          "TR": 5.0,
+          "TAR": 2.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-08-30",
+          "venue": "H",
+          "opponent": "Como",
+          "opponent_position": 4,
+          "score": "1-2",
+          "T": 13.0,
+          "TA": 2.0,
+          "TR": 21.0,
+          "TAR": 6.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-08-22",
           "venue": "A",
-          "opponent": "Le Mans",
-          "opponent_position": 14,
-          "score": "2-2",
-          "T": 16.0,
+          "opponent": "Genoa",
+          "opponent_position": 19,
+          "score": "2-0",
+          "T": 13.0,
+          "TA": 4.0,
+          "TR": 11.0,
+          "TAR": 2.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        }
+      ],
+      "home_averages": {
+        "T": 16.75,
+        "TA": 6.0,
+        "TR": 11.5,
+        "TAR": 5.25
+      },
+      "away_averages": {
+        "T": 13.666666666666666,
+        "TA": 3.0,
+        "TR": 12.333333333333334,
+        "TAR": 3.3333333333333335
+      },
+      "h2h": [
+        {
+          "date": "2025-09-13",
+          "fixture": "Fiorentina vs Napoli",
+          "score": "1-3",
+          "home_team": "Fiorentina",
+          "away_team": "Napoli",
+          "team_a_T": 18.0,
+          "team_a_TA": 3.0,
+          "team_b_T": 14.0,
+          "team_b_TA": 9.0,
+          "same_venue": true
+        },
+        {
+          "date": "2026-01-31",
+          "fixture": "Napoli vs Fiorentina",
+          "score": "2-1",
+          "home_team": "Napoli",
+          "away_team": "Fiorentina",
+          "team_a_T": 15.0,
+          "team_a_TA": 5.0,
+          "team_b_T": 19.0,
+          "team_b_TA": 6.0,
+          "same_venue": false
+        }
+      ],
+      "home_components": {
+        "current_form": {
+          "T": 16.75,
           "TA": 6.0,
+          "TR": 11.5,
+          "TAR": 5.25
+        },
+        "same_venue_h2h": {
+          "T": 18.0,
+          "TA": 3.0
+        },
+        "two_h2h_average": {
+          "T": 16.5,
+          "TA": 4.0
+        }
+      },
+      "away_components": {
+        "current_form": {
+          "T": 13.666666666666666,
+          "TA": 3.0,
+          "TR": 12.333333333333334,
+          "TAR": 3.3333333333333335
+        },
+        "same_venue_h2h": {
+          "T": 14.0,
+          "TA": 9.0
+        },
+        "two_h2h_average": {
+          "T": 16.5,
+          "TA": 7.5
+        }
+      },
+      "components": {
+        "T1": 30.416666666666664,
+        "TA1": 9.0,
+        "T2": 32.0,
+        "TA2": 12.0,
+        "T3": 33.0,
+        "TA3": 11.5
+      },
+      "forecasts": {
+        "home_shots": 17.083333333333332,
+        "away_shots": 14.722222222222221,
+        "combined_shots": 31.805555555555554,
+        "home_sot": 4.333333333333333,
+        "away_sot": 6.5,
+        "combined_sot": 10.833333333333334
+      }
+    },
+    {
+      "match_id": "31981",
+      "league": "Ligue_1",
+      "league_name": "Ligue 1",
+      "kickoff_utc": "2026-09-20T13:00:00+00:00",
+      "kickoff_et": "2026-09-20T09:00:00-04:00",
+      "data_cutoff_et": "2026-09-19T11:55:32.879098-04:00",
+      "previous_season_label": "2025-26",
+      "home_team": "Auxerre",
+      "away_team": "Brest",
+      "home_position": 15,
+      "away_position": 7,
+      "home_form": [
+        {
+          "date": "2026-09-12",
+          "venue": "H",
+          "opponent": "Nice",
+          "opponent_position": 18,
+          "score": "1-0",
+          "T": 11.0,
+          "TA": 7.0,
           "TR": 12.0,
           "TAR": 4.0,
           "red_card": false,
@@ -4341,34 +2201,78 @@
           "red_card_players": []
         },
         {
-          "date": "2026-09-05",
+          "date": "2026-09-04",
+          "venue": "A",
+          "opponent": "Lyon",
+          "opponent_position": 4,
+          "score": "1-3",
+          "T": 8.0,
+          "TA": 3.0,
+          "TR": 21.0,
+          "TAR": 7.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-08-29",
           "venue": "H",
-          "opponent": "Lorient",
-          "opponent_position": 8,
-          "score": "0-1",
-          "T": 17.0,
-          "TA": 6.0,
-          "TR": 8.0,
-          "TAR": 3.0,
+          "opponent": "Angers",
+          "opponent_position": 11,
+          "score": "1-3",
+          "T": 19.0,
+          "TA": 7.0,
+          "TR": 15.0,
+          "TAR": 6.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        }
+      ],
+      "away_form": [
+        {
+          "date": "2026-09-05",
+          "venue": "A",
+          "opponent": "Le Havre",
+          "opponent_position": 16,
+          "score": "2-1",
+          "T": 19.0,
+          "TA": 9.0,
+          "TR": 18.0,
+          "TAR": 4.0,
           "red_card": true,
           "red_card_fallback": true,
           "red_card_players": [
             {
-              "player": "Souleymane Sagnan",
-              "team": "Lens"
+              "player": "Junior Mwanga",
+              "team": "Le Havre"
             }
           ]
         },
         {
           "date": "2026-08-29",
-          "venue": "A",
-          "opponent": "Strasbourg",
-          "opponent_position": 6,
-          "score": "1-2",
-          "T": 17.0,
+          "venue": "H",
+          "opponent": "Toulouse",
+          "opponent_position": 17,
+          "score": "2-2",
+          "T": 26.0,
           "TA": 7.0,
-          "TR": 16.0,
-          "TAR": 7.0,
+          "TR": 6.0,
+          "TAR": 2.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-08-22",
+          "venue": "A",
+          "opponent": "Le Mans",
+          "opponent_position": 14,
+          "score": "2-2",
+          "T": 26.0,
+          "TA": 7.0,
+          "TR": 8.0,
+          "TAR": 5.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
@@ -4376,103 +2280,290 @@
       ],
       "home_averages": {
         "T": 12.666666666666666,
-        "TA": 5.0,
-        "TR": 13.333333333333334,
-        "TAR": 2.6666666666666665
+        "TA": 5.666666666666667,
+        "TR": 16.0,
+        "TAR": 5.666666666666667
       },
       "away_averages": {
-        "T": 16.666666666666668,
-        "TA": 6.333333333333333,
-        "TR": 12.0,
-        "TAR": 4.666666666666667
+        "T": 23.666666666666668,
+        "TA": 7.666666666666667,
+        "TR": 10.666666666666666,
+        "TAR": 3.6666666666666665
       },
       "h2h": [
         {
-          "date": "2025-11-08",
-          "fixture": "Monaco vs Lens",
-          "score": "1-4",
-          "home_team": "Monaco",
-          "away_team": "Lens",
-          "team_a_T": 16.0,
-          "team_a_TA": 6.0,
-          "team_b_T": 20.0,
-          "team_b_TA": 12.0,
-          "same_venue": true
+          "date": "2026-01-04",
+          "fixture": "Brest vs Auxerre",
+          "score": "2-0",
+          "home_team": "Brest",
+          "away_team": "Auxerre",
+          "team_a_T": 10.0,
+          "team_a_TA": 1.0,
+          "team_b_T": 11.0,
+          "team_b_TA": 4.0,
+          "same_venue": false
         },
         {
-          "date": "2026-02-21",
-          "fixture": "Lens vs Monaco",
-          "score": "2-3",
-          "home_team": "Lens",
-          "away_team": "Monaco",
-          "team_a_T": 10.0,
-          "team_a_TA": 5.0,
-          "team_b_T": 18.0,
-          "team_b_TA": 7.0,
-          "same_venue": false
+          "date": "2026-03-21",
+          "fixture": "Auxerre vs Brest",
+          "score": "3-0",
+          "home_team": "Auxerre",
+          "away_team": "Brest",
+          "team_a_T": 11.0,
+          "team_a_TA": 7.0,
+          "team_b_T": 9.0,
+          "team_b_TA": 2.0,
+          "same_venue": true
         }
       ],
       "home_components": {
         "current_form": {
           "T": 12.666666666666666,
-          "TA": 5.0,
-          "TR": 13.333333333333334,
-          "TAR": 2.6666666666666665
+          "TA": 5.666666666666667,
+          "TR": 16.0,
+          "TAR": 5.666666666666667
         },
         "same_venue_h2h": {
-          "T": 16.0,
-          "TA": 6.0
+          "T": 11.0,
+          "TA": 7.0
         },
         "two_h2h_average": {
-          "T": 13.0,
-          "TA": 5.5
+          "T": 10.5,
+          "TA": 4.0
         }
       },
       "away_components": {
         "current_form": {
-          "T": 16.666666666666668,
-          "TA": 6.333333333333333,
-          "TR": 12.0,
-          "TAR": 4.666666666666667
+          "T": 23.666666666666668,
+          "TA": 7.666666666666667,
+          "TR": 10.666666666666666,
+          "TAR": 3.6666666666666665
         },
         "same_venue_h2h": {
-          "T": 20.0,
-          "TA": 12.0
+          "T": 9.0,
+          "TA": 2.0
         },
         "two_h2h_average": {
-          "T": 19.0,
-          "TA": 9.5
+          "T": 10.0,
+          "TA": 3.0
         }
       },
       "components": {
-        "T1": 29.333333333333336,
-        "TA1": 11.333333333333332,
-        "T2": 36.0,
-        "TA2": 18.0,
-        "T3": 32.0,
-        "TA3": 15.0
+        "T1": 36.333333333333336,
+        "TA1": 13.333333333333334,
+        "T2": 20.0,
+        "TA2": 9.0,
+        "T3": 20.5,
+        "TA3": 7.0
       },
       "forecasts": {
-        "home_shots": 13.888888888888888,
-        "away_shots": 18.555555555555557,
-        "combined_shots": 32.44444444444445,
-        "home_sot": 5.5,
-        "away_sot": 9.277777777777777,
-        "combined_sot": 14.777777777777777
+        "home_shots": 11.388888888888888,
+        "away_shots": 14.222222222222223,
+        "combined_shots": 25.611111111111114,
+        "home_sot": 5.555555555555556,
+        "away_sot": 4.222222222222222,
+        "combined_sot": 9.777777777777779
+      }
+    },
+    {
+      "match_id": "31607",
+      "league": "Serie_A",
+      "league_name": "Serie A",
+      "kickoff_utc": "2026-09-20T13:00:00+00:00",
+      "kickoff_et": "2026-09-20T09:00:00-04:00",
+      "data_cutoff_et": "2026-09-19T11:55:32.879098-04:00",
+      "previous_season_label": "2025-26",
+      "home_team": "Parma Calcio 1913",
+      "away_team": "Genoa",
+      "home_position": 18,
+      "away_position": 19,
+      "home_form": [
+        {
+          "date": "2026-09-14",
+          "venue": "A",
+          "opponent": "Como",
+          "opponent_position": 4,
+          "score": "1-2",
+          "T": 12.0,
+          "TA": 4.0,
+          "TR": 28.0,
+          "TAR": 7.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-09-06",
+          "venue": "H",
+          "opponent": "Monza",
+          "opponent_position": 15,
+          "score": "1-1",
+          "T": 7.0,
+          "TA": 3.0,
+          "TR": 16.0,
+          "TAR": 5.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-08-22",
+          "venue": "H",
+          "opponent": "Cagliari",
+          "opponent_position": 3,
+          "score": "0-1",
+          "T": 12.0,
+          "TA": 2.0,
+          "TR": 14.0,
+          "TAR": 5.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        }
+      ],
+      "away_form": [
+        {
+          "date": "2026-09-04",
+          "venue": "H",
+          "opponent": "Como",
+          "opponent_position": 4,
+          "score": "1-4",
+          "T": 11.0,
+          "TA": 2.0,
+          "TR": 20.0,
+          "TAR": 9.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-08-30",
+          "venue": "A",
+          "opponent": "Lazio",
+          "opponent_position": 5,
+          "score": "0-1",
+          "T": 8.0,
+          "TA": 1.0,
+          "TR": 15.0,
+          "TAR": 2.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-08-22",
+          "venue": "H",
+          "opponent": "Napoli",
+          "opponent_position": 10,
+          "score": "0-2",
+          "T": 11.0,
+          "TA": 2.0,
+          "TR": 13.0,
+          "TAR": 4.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        }
+      ],
+      "home_averages": {
+        "T": 10.333333333333334,
+        "TA": 3.0,
+        "TR": 19.333333333333332,
+        "TAR": 5.666666666666667
+      },
+      "away_averages": {
+        "T": 10.0,
+        "TA": 1.6666666666666667,
+        "TR": 16.0,
+        "TAR": 5.0
+      },
+      "h2h": [
+        {
+          "date": "2025-10-19",
+          "fixture": "Genoa vs Parma Calcio 1913",
+          "score": "0-0",
+          "home_team": "Genoa",
+          "away_team": "Parma Calcio 1913",
+          "team_a_T": 1.0,
+          "team_a_TA": 0.0,
+          "team_b_T": 23.0,
+          "team_b_TA": 7.0,
+          "same_venue": false
+        },
+        {
+          "date": "2026-01-18",
+          "fixture": "Parma Calcio 1913 vs Genoa",
+          "score": "0-0",
+          "home_team": "Parma Calcio 1913",
+          "away_team": "Genoa",
+          "team_a_T": 14.0,
+          "team_a_TA": 2.0,
+          "team_b_T": 11.0,
+          "team_b_TA": 3.0,
+          "same_venue": true
+        }
+      ],
+      "home_components": {
+        "current_form": {
+          "T": 10.333333333333334,
+          "TA": 3.0,
+          "TR": 19.333333333333332,
+          "TAR": 5.666666666666667
+        },
+        "same_venue_h2h": {
+          "T": 14.0,
+          "TA": 2.0
+        },
+        "two_h2h_average": {
+          "T": 7.5,
+          "TA": 1.0
+        }
+      },
+      "away_components": {
+        "current_form": {
+          "T": 10.0,
+          "TA": 1.6666666666666667,
+          "TR": 16.0,
+          "TAR": 5.0
+        },
+        "same_venue_h2h": {
+          "T": 11.0,
+          "TA": 3.0
+        },
+        "two_h2h_average": {
+          "T": 17.0,
+          "TA": 5.0
+        }
+      },
+      "components": {
+        "T1": 20.333333333333336,
+        "TA1": 4.666666666666667,
+        "T2": 25.0,
+        "TA2": 5.0,
+        "T3": 24.5,
+        "TA3": 6.0
+      },
+      "forecasts": {
+        "home_shots": 10.611111111111112,
+        "away_shots": 12.666666666666666,
+        "combined_shots": 23.277777777777782,
+        "home_sot": 2.0,
+        "away_sot": 3.2222222222222228,
+        "combined_sot": 5.222222222222222
       }
     },
     {
       "match_id": "31977",
       "league": "Ligue_1",
       "league_name": "Ligue 1",
-      "kickoff_utc": "2026-09-19T13:00:00+00:00",
-      "kickoff_et": "2026-09-19T09:00:00-04:00",
-      "data_cutoff_et": "2026-09-17T22:37:12.730063-04:00",
+      "kickoff_utc": "2026-09-20T15:15:00+00:00",
+      "kickoff_et": "2026-09-20T11:15:00-04:00",
+      "data_cutoff_et": "2026-09-19T11:55:32.879098-04:00",
       "previous_season_label": "2025-26",
       "home_team": "Nice",
       "away_team": "Lille",
       "home_position": 18,
-      "away_position": 1,
+      "away_position": 2,
       "home_form": [
         {
           "date": "2026-09-12",
@@ -4663,1602 +2754,12 @@
       }
     },
     {
-      "match_id": "31978",
-      "league": "Ligue_1",
-      "league_name": "Ligue 1",
-      "kickoff_utc": "2026-09-19T13:00:00+00:00",
-      "kickoff_et": "2026-09-19T09:00:00-04:00",
-      "data_cutoff_et": "2026-09-17T22:37:12.730063-04:00",
-      "previous_season_label": "2025-26",
-      "home_team": "Paris FC",
-      "away_team": "Strasbourg",
-      "home_position": 5,
-      "away_position": 6,
-      "home_form": [
-        {
-          "date": "2026-09-12",
-          "venue": "H",
-          "opponent": "Lyon",
-          "opponent_position": 4,
-          "score": "0-0",
-          "T": 6.0,
-          "TA": 4.0,
-          "TR": 5.0,
-          "TAR": 1.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-06",
-          "venue": "A",
-          "opponent": "Marseille",
-          "opponent_position": 13,
-          "score": "3-2",
-          "T": 18.0,
-          "TA": 7.0,
-          "TR": 14.0,
-          "TAR": 5.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-30",
-          "venue": "H",
-          "opponent": "Nice",
-          "opponent_position": 18,
-          "score": "3-0",
-          "T": 15.0,
-          "TA": 4.0,
-          "TR": 15.0,
-          "TAR": 4.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-22",
-          "venue": "A",
-          "opponent": "Troyes",
-          "opponent_position": 12,
-          "score": "0-0",
-          "T": 10.0,
-          "TA": 1.0,
-          "TR": 9.0,
-          "TAR": 2.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "away_form": [
-        {
-          "date": "2026-09-12",
-          "venue": "H",
-          "opponent": "Monaco",
-          "opponent_position": 2,
-          "score": "1-1",
-          "T": 13.0,
-          "TA": 2.0,
-          "TR": 12.0,
-          "TAR": 3.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-06",
-          "venue": "A",
-          "opponent": "Troyes",
-          "opponent_position": 12,
-          "score": "6-2",
-          "T": 19.0,
-          "TA": 12.0,
-          "TR": 27.0,
-          "TAR": 6.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-29",
-          "venue": "H",
-          "opponent": "Lens",
-          "opponent_position": 10,
-          "score": "2-1",
-          "T": 16.0,
-          "TA": 7.0,
-          "TR": 17.0,
-          "TAR": 7.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "home_averages": {
-        "T": 12.25,
-        "TA": 4.0,
-        "TR": 10.75,
-        "TAR": 3.0
-      },
-      "away_averages": {
-        "T": 16.0,
-        "TA": 7.0,
-        "TR": 18.666666666666668,
-        "TAR": 5.333333333333333
-      },
-      "h2h": [
-        {
-          "date": "2025-09-21",
-          "fixture": "Paris FC vs Strasbourg",
-          "score": "2-3",
-          "home_team": "Paris FC",
-          "away_team": "Strasbourg",
-          "team_a_T": 18.0,
-          "team_a_TA": 6.0,
-          "team_b_T": 8.0,
-          "team_b_TA": 4.0,
-          "same_venue": true
-        },
-        {
-          "date": "2026-03-15",
-          "fixture": "Strasbourg vs Paris FC",
-          "score": "0-0",
-          "home_team": "Strasbourg",
-          "away_team": "Paris FC",
-          "team_a_T": 11.0,
-          "team_a_TA": 2.0,
-          "team_b_T": 12.0,
-          "team_b_TA": 3.0,
-          "same_venue": false
-        }
-      ],
-      "home_components": {
-        "current_form": {
-          "T": 12.25,
-          "TA": 4.0,
-          "TR": 10.75,
-          "TAR": 3.0
-        },
-        "same_venue_h2h": {
-          "T": 18.0,
-          "TA": 6.0
-        },
-        "two_h2h_average": {
-          "T": 14.5,
-          "TA": 4.0
-        }
-      },
-      "away_components": {
-        "current_form": {
-          "T": 16.0,
-          "TA": 7.0,
-          "TR": 18.666666666666668,
-          "TAR": 5.333333333333333
-        },
-        "same_venue_h2h": {
-          "T": 8.0,
-          "TA": 4.0
-        },
-        "two_h2h_average": {
-          "T": 10.0,
-          "TA": 3.5
-        }
-      },
-      "components": {
-        "T1": 28.25,
-        "TA1": 11.0,
-        "T2": 26.0,
-        "TA2": 10.0,
-        "T3": 24.5,
-        "TA3": 7.5
-      },
-      "forecasts": {
-        "home_shots": 14.916666666666666,
-        "away_shots": 11.333333333333334,
-        "combined_shots": 26.25,
-        "home_sot": 4.666666666666667,
-        "away_sot": 4.833333333333333,
-        "combined_sot": 9.5
-      }
-    },
-    {
-      "match_id": "31979",
-      "league": "Ligue_1",
-      "league_name": "Ligue 1",
-      "kickoff_utc": "2026-09-19T13:00:00+00:00",
-      "kickoff_et": "2026-09-19T09:00:00-04:00",
-      "data_cutoff_et": "2026-09-17T22:37:12.730063-04:00",
-      "previous_season_label": "2025-26",
-      "home_team": "Toulouse",
-      "away_team": "Le Havre",
-      "home_position": 17,
-      "away_position": 16,
-      "home_form": [
-        {
-          "date": "2026-09-12",
-          "venue": "A",
-          "opponent": "Lorient",
-          "opponent_position": 8,
-          "score": "2-2",
-          "T": 13.0,
-          "TA": 4.0,
-          "TR": 10.0,
-          "TAR": 3.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-03",
-          "venue": "H",
-          "opponent": "Lille",
-          "opponent_position": 1,
-          "score": "0-1",
-          "T": 24.0,
-          "TA": 10.0,
-          "TR": 10.0,
-          "TAR": 6.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-29",
-          "venue": "A",
-          "opponent": "Brest",
-          "opponent_position": 7,
-          "score": "2-2",
-          "T": 6.0,
-          "TA": 2.0,
-          "TR": 26.0,
-          "TAR": 7.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-22",
-          "venue": "H",
-          "opponent": "Lyon",
-          "opponent_position": 4,
-          "score": "0-2",
-          "T": 17.0,
-          "TA": 2.0,
-          "TR": 11.0,
-          "TAR": 3.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "away_form": [
-        {
-          "date": "2026-09-12",
-          "venue": "H",
-          "opponent": "Angers",
-          "opponent_position": 11,
-          "score": "0-0",
-          "T": 16.0,
-          "TA": 6.0,
-          "TR": 9.0,
-          "TAR": 1.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-29",
-          "venue": "A",
-          "opponent": "Lyon",
-          "opponent_position": 4,
-          "score": "1-1",
-          "T": 12.0,
-          "TA": 4.0,
-          "TR": 15.0,
-          "TAR": 5.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-23",
-          "venue": "H",
-          "opponent": "Monaco",
-          "opponent_position": 2,
-          "score": "0-1",
-          "T": 14.0,
-          "TA": 4.0,
-          "TR": 15.0,
-          "TAR": 7.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "home_averages": {
-        "T": 15.0,
-        "TA": 4.5,
-        "TR": 14.25,
-        "TAR": 4.75
-      },
-      "away_averages": {
-        "T": 14.0,
-        "TA": 4.666666666666667,
-        "TR": 13.0,
-        "TAR": 4.333333333333333
-      },
-      "h2h": [
-        {
-          "date": "2025-11-02",
-          "fixture": "Toulouse vs Le Havre",
-          "score": "0-0",
-          "home_team": "Toulouse",
-          "away_team": "Le Havre",
-          "team_a_T": 19.0,
-          "team_a_TA": 2.0,
-          "team_b_T": 9.0,
-          "team_b_TA": 3.0,
-          "same_venue": true
-        },
-        {
-          "date": "2026-02-15",
-          "fixture": "Le Havre vs Toulouse",
-          "score": "2-1",
-          "home_team": "Le Havre",
-          "away_team": "Toulouse",
-          "team_a_T": 25.0,
-          "team_a_TA": 9.0,
-          "team_b_T": 5.0,
-          "team_b_TA": 2.0,
-          "same_venue": false
-        }
-      ],
-      "home_components": {
-        "current_form": {
-          "T": 15.0,
-          "TA": 4.5,
-          "TR": 14.25,
-          "TAR": 4.75
-        },
-        "same_venue_h2h": {
-          "T": 19.0,
-          "TA": 2.0
-        },
-        "two_h2h_average": {
-          "T": 22.0,
-          "TA": 5.5
-        }
-      },
-      "away_components": {
-        "current_form": {
-          "T": 14.0,
-          "TA": 4.666666666666667,
-          "TR": 13.0,
-          "TAR": 4.333333333333333
-        },
-        "same_venue_h2h": {
-          "T": 9.0,
-          "TA": 3.0
-        },
-        "two_h2h_average": {
-          "T": 7.0,
-          "TA": 2.5
-        }
-      },
-      "components": {
-        "T1": 29.0,
-        "TA1": 9.166666666666668,
-        "T2": 28.0,
-        "TA2": 5.0,
-        "T3": 29.0,
-        "TA3": 8.0
-      },
-      "forecasts": {
-        "home_shots": 18.666666666666668,
-        "away_shots": 10.0,
-        "combined_shots": 28.666666666666668,
-        "home_sot": 4.0,
-        "away_sot": 3.3888888888888893,
-        "combined_sot": 7.388888888888889
-      }
-    },
-    {
-      "match_id": "31602",
-      "league": "Serie_A",
-      "league_name": "Serie A",
-      "kickoff_utc": "2026-09-19T13:00:00+00:00",
-      "kickoff_et": "2026-09-19T09:00:00-04:00",
-      "data_cutoff_et": "2026-09-17T22:37:12.730063-04:00",
-      "previous_season_label": "2025-26",
-      "home_team": "Bologna",
-      "away_team": "Torino",
-      "home_position": 16,
-      "away_position": 14,
-      "home_form": [
-        {
-          "date": "2026-09-13",
-          "venue": "A",
-          "opponent": "Napoli",
-          "opponent_position": 10,
-          "score": "0-1",
-          "T": 5.0,
-          "TA": 2.0,
-          "TR": 15.0,
-          "TAR": 3.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-06",
-          "venue": "H",
-          "opponent": "Sassuolo",
-          "opponent_position": 9,
-          "score": "2-2",
-          "T": 21.0,
-          "TA": 5.0,
-          "TR": 15.0,
-          "TAR": 6.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-31",
-          "venue": "A",
-          "opponent": "Atalanta",
-          "opponent_position": 11,
-          "score": "0-1",
-          "T": 16.0,
-          "TA": 3.0,
-          "TR": 6.0,
-          "TAR": 2.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-24",
-          "venue": "H",
-          "opponent": "Lazio",
-          "opponent_position": 4,
-          "score": "0-1",
-          "T": 14.0,
-          "TA": 5.0,
-          "TR": 10.0,
-          "TAR": 3.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "away_form": [
-        {
-          "date": "2026-09-14",
-          "venue": "H",
-          "opponent": "Roma",
-          "opponent_position": 1,
-          "score": "0-2",
-          "T": 7.0,
-          "TA": 3.0,
-          "TR": 14.0,
-          "TAR": 5.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-05",
-          "venue": "A",
-          "opponent": "Fiorentina",
-          "opponent_position": 15,
-          "score": "2-1",
-          "T": 7.0,
-          "TA": 4.0,
-          "TR": 14.0,
-          "TAR": 6.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-29",
-          "venue": "A",
-          "opponent": "Sassuolo",
-          "opponent_position": 9,
-          "score": "1-2",
-          "T": 10.0,
-          "TA": 4.0,
-          "TR": 19.0,
-          "TAR": 7.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "home_averages": {
-        "T": 14.0,
-        "TA": 3.75,
-        "TR": 11.5,
-        "TAR": 3.5
-      },
-      "away_averages": {
-        "T": 8.0,
-        "TA": 3.6666666666666665,
-        "TR": 15.666666666666666,
-        "TAR": 6.0
-      },
-      "h2h": [
-        {
-          "date": "2025-10-29",
-          "fixture": "Bologna vs Torino",
-          "score": "0-0",
-          "home_team": "Bologna",
-          "away_team": "Torino",
-          "team_a_T": 11.0,
-          "team_a_TA": 2.0,
-          "team_b_T": 8.0,
-          "team_b_TA": 2.0,
-          "same_venue": true
-        },
-        {
-          "date": "2026-02-15",
-          "fixture": "Torino vs Bologna",
-          "score": "1-2",
-          "home_team": "Torino",
-          "away_team": "Bologna",
-          "team_a_T": 14.0,
-          "team_a_TA": 6.0,
-          "team_b_T": 7.0,
-          "team_b_TA": 2.0,
-          "same_venue": false
-        }
-      ],
-      "home_components": {
-        "current_form": {
-          "T": 14.0,
-          "TA": 3.75,
-          "TR": 11.5,
-          "TAR": 3.5
-        },
-        "same_venue_h2h": {
-          "T": 11.0,
-          "TA": 2.0
-        },
-        "two_h2h_average": {
-          "T": 12.5,
-          "TA": 4.0
-        }
-      },
-      "away_components": {
-        "current_form": {
-          "T": 8.0,
-          "TA": 3.6666666666666665,
-          "TR": 15.666666666666666,
-          "TAR": 6.0
-        },
-        "same_venue_h2h": {
-          "T": 8.0,
-          "TA": 2.0
-        },
-        "two_h2h_average": {
-          "T": 7.5,
-          "TA": 2.0
-        }
-      },
-      "components": {
-        "T1": 22.0,
-        "TA1": 7.416666666666666,
-        "T2": 19.0,
-        "TA2": 4.0,
-        "T3": 20.0,
-        "TA3": 6.0
-      },
-      "forecasts": {
-        "home_shots": 12.5,
-        "away_shots": 7.833333333333333,
-        "combined_shots": 20.333333333333332,
-        "home_sot": 3.25,
-        "away_sot": 2.5555555555555554,
-        "combined_sot": 5.8055555555555545
-      }
-    },
-    {
-      "match_id": "31601",
-      "league": "Serie_A",
-      "league_name": "Serie A",
-      "kickoff_utc": "2026-09-19T13:00:00+00:00",
-      "kickoff_et": "2026-09-19T09:00:00-04:00",
-      "data_cutoff_et": "2026-09-17T22:37:12.730063-04:00",
-      "previous_season_label": "2025-26",
-      "home_team": "Udinese",
-      "away_team": "Cagliari",
-      "home_position": 13,
-      "away_position": 5,
-      "home_form": [
-        {
-          "date": "2026-09-07",
-          "venue": "H",
-          "opponent": "Lazio",
-          "opponent_position": 4,
-          "score": "1-2",
-          "T": 10.0,
-          "TA": 6.0,
-          "TR": 19.0,
-          "TAR": 7.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-29",
-          "venue": "A",
-          "opponent": "Monza",
-          "opponent_position": 18,
-          "score": "3-2",
-          "T": 12.0,
-          "TA": 5.0,
-          "TR": 14.0,
-          "TAR": 5.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-22",
-          "venue": "H",
-          "opponent": "Como",
-          "opponent_position": 3,
-          "score": "1-1",
-          "T": 17.0,
-          "TA": 3.0,
-          "TR": 20.0,
-          "TAR": 6.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "away_form": [
-        {
-          "date": "2026-09-12",
-          "venue": "A",
-          "opponent": "Atalanta",
-          "opponent_position": 11,
-          "score": "2-1",
-          "T": 5.0,
-          "TA": 5.0,
-          "TR": 22.0,
-          "TAR": 4.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-07",
-          "venue": "H",
-          "opponent": "Lecce",
-          "opponent_position": 12,
-          "score": "1-0",
-          "T": 20.0,
-          "TA": 9.0,
-          "TR": 10.0,
-          "TAR": 3.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-22",
-          "venue": "A",
-          "opponent": "Parma Calcio 1913",
-          "opponent_position": 17,
-          "score": "1-0",
-          "T": 14.0,
-          "TA": 5.0,
-          "TR": 12.0,
-          "TAR": 2.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "home_averages": {
-        "T": 13.0,
-        "TA": 4.666666666666667,
-        "TR": 17.666666666666668,
-        "TAR": 6.0
-      },
-      "away_averages": {
-        "T": 13.0,
-        "TA": 6.333333333333333,
-        "TR": 14.666666666666666,
-        "TAR": 3.0
-      },
-      "h2h": [
-        {
-          "date": "2025-10-05",
-          "fixture": "Udinese vs Cagliari",
-          "score": "1-1",
-          "home_team": "Udinese",
-          "away_team": "Cagliari",
-          "team_a_T": 23.0,
-          "team_a_TA": 4.0,
-          "team_b_T": 8.0,
-          "team_b_TA": 2.0,
-          "same_venue": true
-        },
-        {
-          "date": "2026-05-09",
-          "fixture": "Cagliari vs Udinese",
-          "score": "0-2",
-          "home_team": "Cagliari",
-          "away_team": "Udinese",
-          "team_a_T": 9.0,
-          "team_a_TA": 6.0,
-          "team_b_T": 22.0,
-          "team_b_TA": 5.0,
-          "same_venue": false
-        }
-      ],
-      "home_components": {
-        "current_form": {
-          "T": 13.0,
-          "TA": 4.666666666666667,
-          "TR": 17.666666666666668,
-          "TAR": 6.0
-        },
-        "same_venue_h2h": {
-          "T": 23.0,
-          "TA": 4.0
-        },
-        "two_h2h_average": {
-          "T": 16.0,
-          "TA": 5.0
-        }
-      },
-      "away_components": {
-        "current_form": {
-          "T": 13.0,
-          "TA": 6.333333333333333,
-          "TR": 14.666666666666666,
-          "TAR": 3.0
-        },
-        "same_venue_h2h": {
-          "T": 8.0,
-          "TA": 2.0
-        },
-        "two_h2h_average": {
-          "T": 15.0,
-          "TA": 3.5
-        }
-      },
-      "components": {
-        "T1": 26.0,
-        "TA1": 11.0,
-        "T2": 31.0,
-        "TA2": 6.0,
-        "T3": 31.0,
-        "TA3": 8.5
-      },
-      "forecasts": {
-        "home_shots": 17.333333333333332,
-        "away_shots": 12.0,
-        "combined_shots": 29.333333333333332,
-        "home_sot": 4.555555555555556,
-        "away_sot": 3.944444444444444,
-        "combined_sot": 8.5
-      }
-    },
-    {
-      "match_id": "31225",
-      "league": "EPL",
-      "league_name": "Premier League",
-      "kickoff_utc": "2026-09-19T14:00:00+00:00",
-      "kickoff_et": "2026-09-19T10:00:00-04:00",
-      "data_cutoff_et": "2026-09-17T22:37:12.730063-04:00",
-      "previous_season_label": "2025-26",
-      "home_team": "Leeds",
-      "away_team": "Crystal Palace",
-      "home_position": 3,
-      "away_position": 16,
-      "home_form": [
-        {
-          "date": "2026-09-14",
-          "venue": "H",
-          "opponent": "Newcastle United",
-          "opponent_position": 12,
-          "score": "4-1",
-          "T": 15.0,
-          "TA": 6.0,
-          "TR": 7.0,
-          "TAR": 5.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-05",
-          "venue": "A",
-          "opponent": "Brighton",
-          "opponent_position": 5,
-          "score": "1-1",
-          "T": 10.0,
-          "TA": 5.0,
-          "TR": 20.0,
-          "TAR": 5.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-30",
-          "venue": "H",
-          "opponent": "Brentford",
-          "opponent_position": 7,
-          "score": "1-1",
-          "T": 12.0,
-          "TA": 2.0,
-          "TR": 22.0,
-          "TAR": 5.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-22",
-          "venue": "A",
-          "opponent": "Nottingham Forest",
-          "opponent_position": 11,
-          "score": "1-0",
-          "T": 11.0,
-          "TA": 3.0,
-          "TR": 12.0,
-          "TAR": 2.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "away_form": [
-        {
-          "date": "2026-09-12",
-          "venue": "H",
-          "opponent": "Ipswich",
-          "opponent_position": 10,
-          "score": "2-3",
-          "T": 11.0,
-          "TA": 4.0,
-          "TR": 12.0,
-          "TAR": 6.0,
-          "red_card": true,
-          "red_card_fallback": true,
-          "red_card_players": [
-            {
-              "player": "Axel Disasi",
-              "team": "Crystal Palace"
-            }
-          ]
-        },
-        {
-          "date": "2026-09-05",
-          "venue": "A",
-          "opponent": "Fulham",
-          "opponent_position": 18,
-          "score": "3-2",
-          "T": 10.0,
-          "TA": 5.0,
-          "TR": 25.0,
-          "TAR": 6.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-22",
-          "venue": "A",
-          "opponent": "Everton",
-          "opponent_position": 9,
-          "score": "0-2",
-          "T": 11.0,
-          "TA": 4.0,
-          "TR": 16.0,
-          "TAR": 5.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "home_averages": {
-        "T": 12.0,
-        "TA": 4.0,
-        "TR": 15.25,
-        "TAR": 4.25
-      },
-      "away_averages": {
-        "T": 10.666666666666666,
-        "TA": 4.333333333333333,
-        "TR": 17.666666666666668,
-        "TAR": 5.666666666666667
-      },
-      "h2h": [
-        {
-          "date": "2025-12-20",
-          "fixture": "Leeds vs Crystal Palace",
-          "score": "4-1",
-          "home_team": "Leeds",
-          "away_team": "Crystal Palace",
-          "team_a_T": 20.0,
-          "team_a_TA": 8.0,
-          "team_b_T": 9.0,
-          "team_b_TA": 3.0,
-          "same_venue": true
-        },
-        {
-          "date": "2026-03-15",
-          "fixture": "Crystal Palace vs Leeds",
-          "score": "0-0",
-          "home_team": "Crystal Palace",
-          "away_team": "Leeds",
-          "team_a_T": 10.0,
-          "team_a_TA": 3.0,
-          "team_b_T": 12.0,
-          "team_b_TA": 0.0,
-          "same_venue": false
-        }
-      ],
-      "home_components": {
-        "current_form": {
-          "T": 12.0,
-          "TA": 4.0,
-          "TR": 15.25,
-          "TAR": 4.25
-        },
-        "same_venue_h2h": {
-          "T": 20.0,
-          "TA": 8.0
-        },
-        "two_h2h_average": {
-          "T": 15.0,
-          "TA": 5.5
-        }
-      },
-      "away_components": {
-        "current_form": {
-          "T": 10.666666666666666,
-          "TA": 4.333333333333333,
-          "TR": 17.666666666666668,
-          "TAR": 5.666666666666667
-        },
-        "same_venue_h2h": {
-          "T": 9.0,
-          "TA": 3.0
-        },
-        "two_h2h_average": {
-          "T": 10.5,
-          "TA": 1.5
-        }
-      },
-      "components": {
-        "T1": 22.666666666666664,
-        "TA1": 8.333333333333332,
-        "T2": 29.0,
-        "TA2": 11.0,
-        "T3": 25.5,
-        "TA3": 7.0
-      },
-      "forecasts": {
-        "home_shots": 15.666666666666666,
-        "away_shots": 10.055555555555555,
-        "combined_shots": 25.722222222222218,
-        "home_sot": 5.833333333333333,
-        "away_sot": 2.944444444444444,
-        "combined_sot": 8.777777777777777
-      }
-    },
-    {
-      "match_id": "30830",
-      "league": "La_liga",
-      "league_name": "La Liga",
-      "kickoff_utc": "2026-09-19T14:15:00+00:00",
-      "kickoff_et": "2026-09-19T10:15:00-04:00",
-      "data_cutoff_et": "2026-09-17T22:37:12.730063-04:00",
-      "previous_season_label": "2025-26",
-      "home_team": "Athletic Club",
-      "away_team": "Alaves",
-      "home_position": 9,
-      "away_position": 6,
-      "home_form": [
-        {
-          "date": "2026-09-12",
-          "venue": "H",
-          "opponent": "Elche",
-          "opponent_position": 20,
-          "score": "1-1",
-          "T": 19.0,
-          "TA": 3.0,
-          "TR": 3.0,
-          "TAR": 1.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-30",
-          "venue": "A",
-          "opponent": "Celta Vigo",
-          "opponent_position": 17,
-          "score": "2-0",
-          "T": 17.0,
-          "TA": 7.0,
-          "TR": 8.0,
-          "TAR": 2.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-22",
-          "venue": "H",
-          "opponent": "Sevilla",
-          "opponent_position": 5,
-          "score": "1-3",
-          "T": 18.0,
-          "TA": 8.0,
-          "TR": 7.0,
-          "TAR": 4.0,
-          "red_card": true,
-          "red_card_fallback": true,
-          "red_card_players": [
-            {
-              "player": "Yuri",
-              "team": "Athletic Club"
-            }
-          ]
-        }
-      ],
-      "away_form": [
-        {
-          "date": "2026-09-15",
-          "venue": "H",
-          "opponent": "Valencia",
-          "opponent_position": 18,
-          "score": "0-1",
-          "T": 15.0,
-          "TA": 3.0,
-          "TR": 10.0,
-          "TAR": 3.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-06",
-          "venue": "H",
-          "opponent": "Osasuna",
-          "opponent_position": 13,
-          "score": "5-2",
-          "T": 12.0,
-          "TA": 7.0,
-          "TR": 7.0,
-          "TAR": 5.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-28",
-          "venue": "H",
-          "opponent": "Villarreal",
-          "opponent_position": 14,
-          "score": "1-0",
-          "T": 9.0,
-          "TA": 2.0,
-          "TR": 19.0,
-          "TAR": 6.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-20",
-          "venue": "A",
-          "opponent": "Rayo Vallecano",
-          "opponent_position": 11,
-          "score": "1-1",
-          "T": 15.0,
-          "TA": 3.0,
-          "TR": 8.0,
-          "TAR": 3.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "home_averages": {
-        "T": 18.0,
-        "TA": 6.0,
-        "TR": 6.0,
-        "TAR": 2.3333333333333335
-      },
-      "away_averages": {
-        "T": 12.75,
-        "TA": 3.75,
-        "TR": 11.0,
-        "TAR": 4.25
-      },
-      "h2h": [
-        {
-          "date": "2025-09-13",
-          "fixture": "Athletic Club vs Alaves",
-          "score": "0-1",
-          "home_team": "Athletic Club",
-          "away_team": "Alaves",
-          "team_a_T": 12.0,
-          "team_a_TA": 3.0,
-          "team_b_T": 4.0,
-          "team_b_TA": 2.0,
-          "same_venue": true
-        },
-        {
-          "date": "2026-05-02",
-          "fixture": "Alaves vs Athletic Club",
-          "score": "2-4",
-          "home_team": "Alaves",
-          "away_team": "Athletic Club",
-          "team_a_T": 9.0,
-          "team_a_TA": 4.0,
-          "team_b_T": 7.0,
-          "team_b_TA": 4.0,
-          "same_venue": false
-        }
-      ],
-      "home_components": {
-        "current_form": {
-          "T": 18.0,
-          "TA": 6.0,
-          "TR": 6.0,
-          "TAR": 2.3333333333333335
-        },
-        "same_venue_h2h": {
-          "T": 12.0,
-          "TA": 3.0
-        },
-        "two_h2h_average": {
-          "T": 10.5,
-          "TA": 3.5
-        }
-      },
-      "away_components": {
-        "current_form": {
-          "T": 12.75,
-          "TA": 3.75,
-          "TR": 11.0,
-          "TAR": 4.25
-        },
-        "same_venue_h2h": {
-          "T": 4.0,
-          "TA": 2.0
-        },
-        "two_h2h_average": {
-          "T": 5.5,
-          "TA": 3.0
-        }
-      },
-      "components": {
-        "T1": 30.75,
-        "TA1": 9.75,
-        "T2": 16.0,
-        "TA2": 5.0,
-        "T3": 16.0,
-        "TA3": 6.5
-      },
-      "forecasts": {
-        "home_shots": 13.5,
-        "away_shots": 7.416666666666667,
-        "combined_shots": 20.916666666666668,
-        "home_sot": 4.166666666666667,
-        "away_sot": 2.9166666666666665,
-        "combined_sot": 7.083333333333333
-      }
-    },
-    {
-      "match_id": "31605",
-      "league": "Serie_A",
-      "league_name": "Serie A",
-      "kickoff_utc": "2026-09-20T10:30:00+00:00",
-      "kickoff_et": "2026-09-20T06:30:00-04:00",
-      "data_cutoff_et": "2026-09-17T22:37:12.730063-04:00",
-      "previous_season_label": "2025-26",
-      "home_team": "Fiorentina",
-      "away_team": "Napoli",
-      "home_position": 15,
-      "away_position": 10,
-      "home_form": [
-        {
-          "date": "2026-09-11",
-          "venue": "A",
-          "opponent": "Venezia",
-          "opponent_position": 20,
-          "score": "4-2",
-          "T": 19.0,
-          "TA": 10.0,
-          "TR": 10.0,
-          "TAR": 3.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-05",
-          "venue": "H",
-          "opponent": "Torino",
-          "opponent_position": 14,
-          "score": "1-2",
-          "T": 14.0,
-          "TA": 6.0,
-          "TR": 7.0,
-          "TAR": 4.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-29",
-          "venue": "H",
-          "opponent": "Frosinone",
-          "opponent_position": 7,
-          "score": "0-3",
-          "T": 25.0,
-          "TA": 4.0,
-          "TR": 12.0,
-          "TAR": 6.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-24",
-          "venue": "A",
-          "opponent": "Roma",
-          "opponent_position": 1,
-          "score": "0-4",
-          "T": 9.0,
-          "TA": 4.0,
-          "TR": 17.0,
-          "TAR": 8.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "away_form": [
-        {
-          "date": "2026-09-13",
-          "venue": "H",
-          "opponent": "Bologna",
-          "opponent_position": 16,
-          "score": "1-0",
-          "T": 15.0,
-          "TA": 3.0,
-          "TR": 5.0,
-          "TAR": 2.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-30",
-          "venue": "H",
-          "opponent": "Como",
-          "opponent_position": 3,
-          "score": "1-2",
-          "T": 13.0,
-          "TA": 2.0,
-          "TR": 21.0,
-          "TAR": 6.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-22",
-          "venue": "A",
-          "opponent": "Genoa",
-          "opponent_position": 19,
-          "score": "2-0",
-          "T": 13.0,
-          "TA": 4.0,
-          "TR": 11.0,
-          "TAR": 2.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "home_averages": {
-        "T": 16.75,
-        "TA": 6.0,
-        "TR": 11.5,
-        "TAR": 5.25
-      },
-      "away_averages": {
-        "T": 13.666666666666666,
-        "TA": 3.0,
-        "TR": 12.333333333333334,
-        "TAR": 3.3333333333333335
-      },
-      "h2h": [
-        {
-          "date": "2025-09-13",
-          "fixture": "Fiorentina vs Napoli",
-          "score": "1-3",
-          "home_team": "Fiorentina",
-          "away_team": "Napoli",
-          "team_a_T": 18.0,
-          "team_a_TA": 3.0,
-          "team_b_T": 14.0,
-          "team_b_TA": 9.0,
-          "same_venue": true
-        },
-        {
-          "date": "2026-01-31",
-          "fixture": "Napoli vs Fiorentina",
-          "score": "2-1",
-          "home_team": "Napoli",
-          "away_team": "Fiorentina",
-          "team_a_T": 15.0,
-          "team_a_TA": 5.0,
-          "team_b_T": 19.0,
-          "team_b_TA": 6.0,
-          "same_venue": false
-        }
-      ],
-      "home_components": {
-        "current_form": {
-          "T": 16.75,
-          "TA": 6.0,
-          "TR": 11.5,
-          "TAR": 5.25
-        },
-        "same_venue_h2h": {
-          "T": 18.0,
-          "TA": 3.0
-        },
-        "two_h2h_average": {
-          "T": 16.5,
-          "TA": 4.0
-        }
-      },
-      "away_components": {
-        "current_form": {
-          "T": 13.666666666666666,
-          "TA": 3.0,
-          "TR": 12.333333333333334,
-          "TAR": 3.3333333333333335
-        },
-        "same_venue_h2h": {
-          "T": 14.0,
-          "TA": 9.0
-        },
-        "two_h2h_average": {
-          "T": 16.5,
-          "TA": 7.5
-        }
-      },
-      "components": {
-        "T1": 30.416666666666664,
-        "TA1": 9.0,
-        "T2": 32.0,
-        "TA2": 12.0,
-        "T3": 33.0,
-        "TA3": 11.5
-      },
-      "forecasts": {
-        "home_shots": 17.083333333333332,
-        "away_shots": 14.722222222222221,
-        "combined_shots": 31.805555555555554,
-        "home_sot": 4.333333333333333,
-        "away_sot": 6.5,
-        "combined_sot": 10.833333333333334
-      }
-    },
-    {
-      "match_id": "31607",
-      "league": "Serie_A",
-      "league_name": "Serie A",
-      "kickoff_utc": "2026-09-20T13:00:00+00:00",
-      "kickoff_et": "2026-09-20T09:00:00-04:00",
-      "data_cutoff_et": "2026-09-17T22:37:12.730063-04:00",
-      "previous_season_label": "2025-26",
-      "home_team": "Parma Calcio 1913",
-      "away_team": "Genoa",
-      "home_position": 17,
-      "away_position": 19,
-      "home_form": [
-        {
-          "date": "2026-09-14",
-          "venue": "A",
-          "opponent": "Como",
-          "opponent_position": 3,
-          "score": "1-2",
-          "T": 12.0,
-          "TA": 4.0,
-          "TR": 28.0,
-          "TAR": 7.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-06",
-          "venue": "H",
-          "opponent": "Monza",
-          "opponent_position": 18,
-          "score": "1-1",
-          "T": 7.0,
-          "TA": 3.0,
-          "TR": 16.0,
-          "TAR": 5.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-22",
-          "venue": "H",
-          "opponent": "Cagliari",
-          "opponent_position": 5,
-          "score": "0-1",
-          "T": 12.0,
-          "TA": 2.0,
-          "TR": 14.0,
-          "TAR": 5.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "away_form": [
-        {
-          "date": "2026-09-04",
-          "venue": "H",
-          "opponent": "Como",
-          "opponent_position": 3,
-          "score": "1-4",
-          "T": 11.0,
-          "TA": 2.0,
-          "TR": 20.0,
-          "TAR": 9.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-30",
-          "venue": "A",
-          "opponent": "Lazio",
-          "opponent_position": 4,
-          "score": "0-1",
-          "T": 8.0,
-          "TA": 1.0,
-          "TR": 15.0,
-          "TAR": 2.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-22",
-          "venue": "H",
-          "opponent": "Napoli",
-          "opponent_position": 10,
-          "score": "0-2",
-          "T": 11.0,
-          "TA": 2.0,
-          "TR": 13.0,
-          "TAR": 4.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "home_averages": {
-        "T": 10.333333333333334,
-        "TA": 3.0,
-        "TR": 19.333333333333332,
-        "TAR": 5.666666666666667
-      },
-      "away_averages": {
-        "T": 10.0,
-        "TA": 1.6666666666666667,
-        "TR": 16.0,
-        "TAR": 5.0
-      },
-      "h2h": [
-        {
-          "date": "2025-10-19",
-          "fixture": "Genoa vs Parma Calcio 1913",
-          "score": "0-0",
-          "home_team": "Genoa",
-          "away_team": "Parma Calcio 1913",
-          "team_a_T": 1.0,
-          "team_a_TA": 0.0,
-          "team_b_T": 23.0,
-          "team_b_TA": 7.0,
-          "same_venue": false
-        },
-        {
-          "date": "2026-01-18",
-          "fixture": "Parma Calcio 1913 vs Genoa",
-          "score": "0-0",
-          "home_team": "Parma Calcio 1913",
-          "away_team": "Genoa",
-          "team_a_T": 14.0,
-          "team_a_TA": 2.0,
-          "team_b_T": 11.0,
-          "team_b_TA": 3.0,
-          "same_venue": true
-        }
-      ],
-      "home_components": {
-        "current_form": {
-          "T": 10.333333333333334,
-          "TA": 3.0,
-          "TR": 19.333333333333332,
-          "TAR": 5.666666666666667
-        },
-        "same_venue_h2h": {
-          "T": 14.0,
-          "TA": 2.0
-        },
-        "two_h2h_average": {
-          "T": 7.5,
-          "TA": 1.0
-        }
-      },
-      "away_components": {
-        "current_form": {
-          "T": 10.0,
-          "TA": 1.6666666666666667,
-          "TR": 16.0,
-          "TAR": 5.0
-        },
-        "same_venue_h2h": {
-          "T": 11.0,
-          "TA": 3.0
-        },
-        "two_h2h_average": {
-          "T": 17.0,
-          "TA": 5.0
-        }
-      },
-      "components": {
-        "T1": 20.333333333333336,
-        "TA1": 4.666666666666667,
-        "T2": 25.0,
-        "TA2": 5.0,
-        "T3": 24.5,
-        "TA3": 6.0
-      },
-      "forecasts": {
-        "home_shots": 10.611111111111112,
-        "away_shots": 12.666666666666666,
-        "combined_shots": 23.277777777777782,
-        "home_sot": 2.0,
-        "away_sot": 3.2222222222222228,
-        "combined_sot": 5.222222222222222
-      }
-    },
-    {
       "match_id": "30839",
       "league": "La_liga",
       "league_name": "La Liga",
       "kickoff_utc": "2026-09-20T16:30:00+00:00",
       "kickoff_et": "2026-09-20T12:30:00-04:00",
-      "data_cutoff_et": "2026-09-17T22:37:12.730063-04:00",
+      "data_cutoff_et": "2026-09-19T11:55:32.879098-04:00",
       "previous_season_label": "2025-26",
       "home_team": "Villarreal",
       "away_team": "Levante",
@@ -6269,7 +2770,7 @@
           "date": "2026-09-17",
           "venue": "A",
           "opponent": "Malaga",
-          "opponent_position": 19,
+          "opponent_position": 20,
           "score": "3-1",
           "T": 16.0,
           "TA": 7.0,
@@ -6327,7 +2828,7 @@
           "date": "2026-09-06",
           "venue": "A",
           "opponent": "Malaga",
-          "opponent_position": 19,
+          "opponent_position": 20,
           "score": "0-0",
           "T": 11.0,
           "TA": 3.0,
@@ -6355,7 +2856,7 @@
           "date": "2026-08-24",
           "venue": "A",
           "opponent": "Osasuna",
-          "opponent_position": 13,
+          "opponent_position": 9,
           "score": "0-0",
           "T": 11.0,
           "TA": 1.0,
@@ -6369,7 +2870,7 @@
           "date": "2026-08-16",
           "venue": "A",
           "opponent": "Espanyol",
-          "opponent_position": 8,
+          "opponent_position": 11,
           "score": "0-3",
           "T": 4.0,
           "TA": 0.0,
@@ -6473,12 +2974,12 @@
       "league_name": "La Liga",
       "kickoff_utc": "2026-09-20T19:00:00+00:00",
       "kickoff_et": "2026-09-20T15:00:00-04:00",
-      "data_cutoff_et": "2026-09-17T22:37:12.730063-04:00",
+      "data_cutoff_et": "2026-09-19T11:55:32.879098-04:00",
       "previous_season_label": "2025-26",
       "home_team": "Valencia",
       "away_team": "Real Sociedad",
-      "home_position": 18,
-      "away_position": 12,
+      "home_position": 19,
+      "away_position": 13,
       "home_form": [
         {
           "date": "2026-09-15",
@@ -6526,7 +3027,7 @@
           "date": "2026-08-22",
           "venue": "H",
           "opponent": "Celta Vigo",
-          "opponent_position": 17,
+          "opponent_position": 18,
           "score": "0-0",
           "T": 8.0,
           "TA": 2.0,
@@ -6542,7 +3043,7 @@
           "date": "2026-09-03",
           "venue": "H",
           "opponent": "Celta Vigo",
-          "opponent_position": 17,
+          "opponent_position": 18,
           "score": "0-0",
           "T": 16.0,
           "TA": 5.0,
@@ -6556,7 +3057,7 @@
           "date": "2026-08-29",
           "venue": "H",
           "opponent": "Espanyol",
-          "opponent_position": 8,
+          "opponent_position": 11,
           "score": "2-1",
           "T": 17.0,
           "TA": 10.0,
