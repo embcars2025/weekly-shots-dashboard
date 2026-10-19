@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-10-18T05:21:06.519055+00:00",
-  "refresh_effective_et": "2026-10-18T01:20:57.543691-04:00",
-  "window_end_et": "2026-10-18T23:59:59-04:00",
-  "next_scheduled_refresh_et": "2026-10-19T00:00:00-04:00",
-  "published_eligible_fixture_count": 10
+  "generated_at_utc": "2026-10-19T04:25:35.432812+00:00",
+  "refresh_effective_et": "2026-10-19T00:25:19.696141-04:00",
+  "window_end_et": "2026-10-25T23:59:59-04:00",
+  "next_scheduled_refresh_et": "2026-10-26T00:00:00-04:00",
+  "published_eligible_fixture_count": 20
 }
