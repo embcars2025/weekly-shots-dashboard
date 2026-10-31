@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
   "publication_state": "live",
-  "generated_at_utc": "2026-10-24T02:44:14.302591+00:00",
-  "data_cutoff_et": "2026-10-23T22:44:03.799582-04:00",
-  "window_end_et": "2026-10-25T23:59:59-04:00",
+  "generated_at_utc": "2026-10-31T01:55:35.386309+00:00",
+  "data_cutoff_et": "2026-10-30T21:55:26.518550-04:00",
+  "window_end_et": "2026-11-01T23:59:59-05:00",
   "season": 2026,
   "season_label": "2026-27",
   "mode": "T1_ONLY",
@@ -105,7 +105,7 @@
     ],
     "match_details": {
       "provider": "Understat",
-      "count": 105
+      "count": 110
     }
   },
   "promoted_teams": [
@@ -387,17 +387,207 @@
   ],
   "fixtures": [
     {
-      "match_id": "31253",
+      "match_id": "31652",
+      "league": "Serie_A",
+      "league_name": "Serie A",
+      "formula_mode": "T1_ONLY",
+      "kickoff_utc": "2026-10-31T14:00:00+00:00",
+      "kickoff_et": "2026-10-31T10:00:00-04:00",
+      "data_cutoff_et": "2026-10-30T21:55:26.518550-04:00",
+      "home_team": "Bologna",
+      "away_team": "Monza",
+      "home_position": 11,
+      "away_position": 16,
+      "newcomer_teams": [
+        "Monza"
+      ],
+      "unavailable_components": {
+        "T2": "Unavailable: no prior-season same-division top-flight same-venue H2H exists for the promoted club.",
+        "TA2": "Unavailable: no prior-season same-division top-flight same-venue H2H exists for the promoted club.",
+        "T3": "Unavailable: two prior-season same-division top-flight H2Hs do not exist for the promoted club.",
+        "TA3": "Unavailable: two prior-season same-division top-flight H2Hs do not exist for the promoted club."
+      },
+      "status": "ready",
+      "wait_reason": null,
+      "minimum_usable_current_matches": 3,
+      "home_form": [
+        {
+          "date": "2026-10-24",
+          "venue": "A",
+          "opponent": "Cagliari",
+          "opponent_position": 10,
+          "score": "2-0",
+          "T": 10.0,
+          "TA": 5.0,
+          "TR": 4.0,
+          "TAR": 1.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-10-11",
+          "venue": "A",
+          "opponent": "Lecce",
+          "opponent_position": 14,
+          "score": "2-1",
+          "T": 10.0,
+          "TA": 5.0,
+          "TR": 19.0,
+          "TAR": 5.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-09-19",
+          "venue": "H",
+          "opponent": "Torino",
+          "opponent_position": 9,
+          "score": "1-1",
+          "T": 11.0,
+          "TA": 1.0,
+          "TR": 14.0,
+          "TAR": 3.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-09-13",
+          "venue": "A",
+          "opponent": "Napoli",
+          "opponent_position": 7,
+          "score": "0-1",
+          "T": 5.0,
+          "TA": 2.0,
+          "TR": 15.0,
+          "TAR": 3.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        }
+      ],
+      "away_form": [
+        {
+          "date": "2026-10-28",
+          "venue": "H",
+          "opponent": "Napoli",
+          "opponent_position": 7,
+          "score": "1-4",
+          "T": 12.0,
+          "TA": 5.0,
+          "TR": 16.0,
+          "TAR": 7.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-10-23",
+          "venue": "A",
+          "opponent": "Torino",
+          "opponent_position": 9,
+          "score": "2-3",
+          "T": 7.0,
+          "TA": 3.0,
+          "TR": 17.0,
+          "TAR": 7.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-10-19",
+          "venue": "H",
+          "opponent": "Cagliari",
+          "opponent_position": 10,
+          "score": "4-0",
+          "T": 14.0,
+          "TA": 6.0,
+          "TR": 16.0,
+          "TAR": 5.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-09-18",
+          "venue": "H",
+          "opponent": "Sassuolo",
+          "opponent_position": 15,
+          "score": "2-1",
+          "T": 15.0,
+          "TA": 6.0,
+          "TR": 20.0,
+          "TAR": 8.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        }
+      ],
+      "home_averages": {
+        "T": 9.0,
+        "TA": 3.25,
+        "TR": 13.0,
+        "TAR": 3.0
+      },
+      "away_averages": {
+        "T": 12.0,
+        "TA": 5.0,
+        "TR": 17.25,
+        "TAR": 6.75
+      },
+      "h2h": [],
+      "home_components": {
+        "current_form": {
+          "T": 9.0,
+          "TA": 3.25,
+          "TR": 13.0,
+          "TAR": 3.0
+        },
+        "same_venue_h2h": null,
+        "two_h2h_average": null
+      },
+      "away_components": {
+        "current_form": {
+          "T": 12.0,
+          "TA": 5.0,
+          "TR": 17.25,
+          "TAR": 6.75
+        },
+        "same_venue_h2h": null,
+        "two_h2h_average": null
+      },
+      "components": {
+        "T1": 21.0,
+        "TA1": 8.25,
+        "T2": null,
+        "TA2": null,
+        "T3": null,
+        "TA3": null
+      },
+      "forecasts": {
+        "home_shots": 9.0,
+        "away_shots": 12.0,
+        "combined_shots": 21.0,
+        "home_sot": 3.25,
+        "away_sot": 5.0,
+        "combined_sot": 8.25
+      }
+    },
+    {
+      "match_id": "31261",
       "league": "EPL",
       "league_name": "Premier League",
       "formula_mode": "T1_ONLY",
-      "kickoff_utc": "2026-10-24T14:00:00+00:00",
-      "kickoff_et": "2026-10-24T10:00:00-04:00",
-      "data_cutoff_et": "2026-10-23T22:44:03.799582-04:00",
+      "kickoff_utc": "2026-10-31T15:00:00+00:00",
+      "kickoff_et": "2026-10-31T11:00:00-04:00",
+      "data_cutoff_et": "2026-10-30T21:55:26.518550-04:00",
       "home_team": "Coventry",
-      "away_team": "Fulham",
-      "home_position": 18,
-      "away_position": 19,
+      "away_team": "Sunderland",
+      "home_position": 19,
+      "away_position": 20,
       "newcomer_teams": [
         "Coventry"
       ],
@@ -412,10 +602,24 @@
       "minimum_usable_current_matches": 3,
       "home_form": [
         {
+          "date": "2026-10-24",
+          "venue": "H",
+          "opponent": "Fulham",
+          "opponent_position": 15,
+          "score": "0-1",
+          "T": 13.0,
+          "TA": 2.0,
+          "TR": 12.0,
+          "TAR": 3.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
           "date": "2026-10-19",
           "venue": "A",
           "opponent": "Tottenham",
-          "opponent_position": 17,
+          "opponent_position": 14,
           "score": "1-3",
           "T": 12.0,
           "TA": 1.0,
@@ -429,7 +633,7 @@
           "date": "2026-10-12",
           "venue": "H",
           "opponent": "Newcastle United",
-          "opponent_position": 11,
+          "opponent_position": 8,
           "score": "4-1",
           "T": 9.0,
           "TA": 6.0,
@@ -443,7 +647,7 @@
           "date": "2026-09-19",
           "venue": "A",
           "opponent": "Nottingham Forest",
-          "opponent_position": 16,
+          "opponent_position": 18,
           "score": "1-0",
           "T": 10.0,
           "TA": 3.0,
@@ -452,380 +656,58 @@
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
-        },
-        {
-          "date": "2026-08-29",
-          "venue": "H",
-          "opponent": "Hull",
-          "opponent_position": 10,
-          "score": "0-1",
-          "T": 11.0,
-          "TA": 3.0,
-          "TR": 6.0,
-          "TAR": 2.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
         }
       ],
       "away_form": [
         {
-          "date": "2026-10-10",
-          "venue": "A",
-          "opponent": "Ipswich",
-          "opponent_position": 9,
-          "score": "1-2",
-          "T": 13.0,
-          "TA": 5.0,
+          "date": "2026-10-25",
+          "venue": "H",
+          "opponent": "Leeds",
+          "opponent_position": 7,
+          "score": "0-0",
+          "T": 15.0,
+          "TA": 4.0,
           "TR": 11.0,
-          "TAR": 5.0,
+          "TAR": 4.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
         },
         {
           "date": "2026-09-05",
-          "venue": "H",
-          "opponent": "Crystal Palace",
-          "opponent_position": 14,
-          "score": "2-3",
-          "T": 25.0,
-          "TA": 6.0,
-          "TR": 10.0,
-          "TAR": 5.0,
+          "venue": "A",
+          "opponent": "Brentford",
+          "opponent_position": 6,
+          "score": "1-1",
+          "T": 14.0,
+          "TA": 5.0,
+          "TR": 12.0,
+          "TAR": 2.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
         },
         {
           "date": "2026-08-30",
-          "venue": "A",
-          "opponent": "Sunderland",
-          "opponent_position": 20,
-          "score": "0-1",
-          "T": 11.0,
-          "TA": 0.0,
-          "TR": 12.0,
-          "TAR": 4.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "home_averages": {
-        "T": 10.5,
-        "TA": 3.25,
-        "TR": 16.25,
-        "TAR": 4.0
-      },
-      "away_averages": {
-        "T": 16.333333333333332,
-        "TA": 3.6666666666666665,
-        "TR": 11.0,
-        "TAR": 4.666666666666667
-      },
-      "h2h": [],
-      "home_components": {
-        "current_form": {
-          "T": 10.5,
-          "TA": 3.25,
-          "TR": 16.25,
-          "TAR": 4.0
-        },
-        "same_venue_h2h": null,
-        "two_h2h_average": null
-      },
-      "away_components": {
-        "current_form": {
-          "T": 16.333333333333332,
-          "TA": 3.6666666666666665,
-          "TR": 11.0,
-          "TAR": 4.666666666666667
-        },
-        "same_venue_h2h": null,
-        "two_h2h_average": null
-      },
-      "components": {
-        "T1": 26.833333333333332,
-        "TA1": 6.916666666666666,
-        "T2": null,
-        "TA2": null,
-        "T3": null,
-        "TA3": null
-      },
-      "forecasts": {
-        "home_shots": 10.5,
-        "away_shots": 16.333333333333332,
-        "combined_shots": 26.833333333333332,
-        "home_sot": 3.25,
-        "away_sot": 3.6666666666666665,
-        "combined_sot": 6.916666666666666
-      }
-    },
-    {
-      "match_id": "30865",
-      "league": "La_liga",
-      "league_name": "La Liga",
-      "formula_mode": "T1_ONLY",
-      "kickoff_utc": "2026-10-24T14:15:00+00:00",
-      "kickoff_et": "2026-10-24T10:15:00-04:00",
-      "data_cutoff_et": "2026-10-23T22:44:03.799582-04:00",
-      "home_team": "Racing Santander",
-      "away_team": "Espanyol",
-      "home_position": 16,
-      "away_position": 15,
-      "newcomer_teams": [
-        "Racing Santander"
-      ],
-      "unavailable_components": {
-        "T2": "Unavailable: no prior-season same-division top-flight same-venue H2H exists for the promoted club.",
-        "TA2": "Unavailable: no prior-season same-division top-flight same-venue H2H exists for the promoted club.",
-        "T3": "Unavailable: two prior-season same-division top-flight H2Hs do not exist for the promoted club.",
-        "TA3": "Unavailable: two prior-season same-division top-flight H2Hs do not exist for the promoted club."
-      },
-      "status": "ready",
-      "wait_reason": null,
-      "minimum_usable_current_matches": 3,
-      "home_form": [
-        {
-          "date": "2026-10-18",
-          "venue": "A",
-          "opponent": "Osasuna",
-          "opponent_position": 10,
-          "score": "0-2",
-          "T": 9.0,
-          "TA": 1.0,
-          "TR": 20.0,
-          "TAR": 7.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-10-11",
           "venue": "H",
-          "opponent": "Valencia",
-          "opponent_position": 19,
-          "score": "2-2",
-          "T": 20.0,
-          "TA": 11.0,
-          "TR": 10.0,
-          "TAR": 2.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-19",
-          "venue": "A",
-          "opponent": "Celta Vigo",
-          "opponent_position": 8,
-          "score": "0-5",
-          "T": 11.0,
-          "TA": 5.0,
-          "TR": 13.0,
-          "TAR": 9.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-28",
-          "venue": "H",
-          "opponent": "Elche",
-          "opponent_position": 18,
-          "score": "3-2",
-          "T": 13.0,
-          "TA": 6.0,
-          "TR": 18.0,
-          "TAR": 7.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "away_form": [
-        {
-          "date": "2026-10-09",
-          "venue": "A",
-          "opponent": "Malaga",
-          "opponent_position": 20,
-          "score": "1-1",
-          "T": 9.0,
+          "opponent": "Fulham",
+          "opponent_position": 15,
+          "score": "1-0",
+          "T": 12.0,
           "TA": 4.0,
-          "TR": 15.0,
-          "TAR": 7.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-12",
-          "venue": "A",
-          "opponent": "Osasuna",
-          "opponent_position": 10,
-          "score": "2-0",
-          "T": 6.0,
-          "TA": 3.0,
           "TR": 11.0,
-          "TAR": 4.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-29",
-          "venue": "A",
-          "opponent": "Real Sociedad",
-          "opponent_position": 5,
-          "score": "1-2",
-          "T": 11.0,
-          "TA": 3.0,
-          "TR": 17.0,
-          "TAR": 10.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-08-16",
-          "venue": "H",
-          "opponent": "Levante",
-          "opponent_position": 17,
-          "score": "3-0",
-          "T": 16.0,
-          "TA": 6.0,
-          "TR": 4.0,
           "TAR": 0.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
-        }
-      ],
-      "home_averages": {
-        "T": 13.25,
-        "TA": 5.75,
-        "TR": 15.25,
-        "TAR": 6.25
-      },
-      "away_averages": {
-        "T": 10.5,
-        "TA": 4.0,
-        "TR": 11.75,
-        "TAR": 5.25
-      },
-      "h2h": [],
-      "home_components": {
-        "current_form": {
-          "T": 13.25,
-          "TA": 5.75,
-          "TR": 15.25,
-          "TAR": 6.25
         },
-        "same_venue_h2h": null,
-        "two_h2h_average": null
-      },
-      "away_components": {
-        "current_form": {
-          "T": 10.5,
-          "TA": 4.0,
-          "TR": 11.75,
-          "TAR": 5.25
-        },
-        "same_venue_h2h": null,
-        "two_h2h_average": null
-      },
-      "components": {
-        "T1": 23.75,
-        "TA1": 9.75,
-        "T2": null,
-        "TA2": null,
-        "T3": null,
-        "TA3": null
-      },
-      "forecasts": {
-        "home_shots": 13.25,
-        "away_shots": 10.5,
-        "combined_shots": 23.75,
-        "home_sot": 5.75,
-        "away_sot": 4.0,
-        "combined_sot": 9.75
-      }
-    },
-    {
-      "match_id": "32010",
-      "league": "Ligue_1",
-      "league_name": "Ligue 1",
-      "formula_mode": "T1_ONLY",
-      "kickoff_utc": "2026-10-24T15:15:00+00:00",
-      "kickoff_et": "2026-10-24T11:15:00-04:00",
-      "data_cutoff_et": "2026-10-23T22:44:03.799582-04:00",
-      "home_team": "Toulouse",
-      "away_team": "Troyes",
-      "home_position": 12,
-      "away_position": 17,
-      "newcomer_teams": [
-        "Troyes"
-      ],
-      "unavailable_components": {
-        "T2": "Unavailable: no prior-season same-division top-flight same-venue H2H exists for the promoted club.",
-        "TA2": "Unavailable: no prior-season same-division top-flight same-venue H2H exists for the promoted club.",
-        "T3": "Unavailable: two prior-season same-division top-flight H2Hs do not exist for the promoted club.",
-        "TA3": "Unavailable: two prior-season same-division top-flight H2Hs do not exist for the promoted club."
-      },
-      "status": "ready",
-      "wait_reason": null,
-      "minimum_usable_current_matches": 3,
-      "home_form": [
         {
-          "date": "2026-10-16",
+          "date": "2026-08-22",
           "venue": "A",
-          "opponent": "Le Mans",
-          "opponent_position": 16,
-          "score": "3-0",
-          "T": 13.0,
-          "TA": 5.0,
-          "TR": 11.0,
-          "TAR": 1.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-10-10",
-          "venue": "A",
-          "opponent": "Monaco",
-          "opponent_position": 5,
-          "score": "2-2",
-          "T": 9.0,
-          "TA": 4.0,
-          "TR": 16.0,
-          "TAR": 4.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-19",
-          "venue": "H",
-          "opponent": "Le Havre",
-          "opponent_position": 18,
-          "score": "3-2",
-          "T": 14.0,
-          "TA": 5.0,
-          "TR": 18.0,
-          "TAR": 7.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-12",
-          "venue": "A",
-          "opponent": "Lorient",
-          "opponent_position": 7,
-          "score": "2-2",
-          "T": 13.0,
+          "opponent": "Ipswich",
+          "opponent_position": 12,
+          "score": "1-2",
+          "T": 11.0,
           "TA": 4.0,
           "TR": 10.0,
           "TAR": 3.0,
@@ -834,128 +716,71 @@
           "red_card_players": []
         }
       ],
-      "away_form": [
-        {
-          "date": "2026-10-17",
-          "venue": "H",
-          "opponent": "Lens",
-          "opponent_position": 9,
-          "score": "1-3",
-          "T": 12.0,
-          "TA": 5.0,
-          "TR": 13.0,
-          "TAR": 3.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-10-11",
-          "venue": "H",
-          "opponent": "Marseille",
-          "opponent_position": 10,
-          "score": "0-2",
-          "T": 15.0,
-          "TA": 3.0,
-          "TR": 5.0,
-          "TAR": 2.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-19",
-          "venue": "A",
-          "opponent": "Angers",
-          "opponent_position": 15,
-          "score": "0-2",
-          "T": 19.0,
-          "TA": 3.0,
-          "TR": 12.0,
-          "TAR": 3.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-13",
-          "venue": "A",
-          "opponent": "Lille",
-          "opponent_position": 4,
-          "score": "0-2",
-          "T": 8.0,
-          "TA": 1.0,
-          "TR": 13.0,
-          "TAR": 6.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
       "home_averages": {
-        "T": 12.25,
-        "TA": 4.5,
-        "TR": 13.75,
-        "TAR": 3.75
+        "T": 11.0,
+        "TA": 3.0,
+        "TR": 17.75,
+        "TAR": 4.25
       },
       "away_averages": {
-        "T": 13.5,
-        "TA": 3.0,
-        "TR": 10.75,
-        "TAR": 3.5
+        "T": 13.0,
+        "TA": 4.25,
+        "TR": 11.0,
+        "TAR": 2.25
       },
       "h2h": [],
       "home_components": {
         "current_form": {
-          "T": 12.25,
-          "TA": 4.5,
-          "TR": 13.75,
-          "TAR": 3.75
+          "T": 11.0,
+          "TA": 3.0,
+          "TR": 17.75,
+          "TAR": 4.25
         },
         "same_venue_h2h": null,
         "two_h2h_average": null
       },
       "away_components": {
         "current_form": {
-          "T": 13.5,
-          "TA": 3.0,
-          "TR": 10.75,
-          "TAR": 3.5
+          "T": 13.0,
+          "TA": 4.25,
+          "TR": 11.0,
+          "TAR": 2.25
         },
         "same_venue_h2h": null,
         "two_h2h_average": null
       },
       "components": {
-        "T1": 25.75,
-        "TA1": 7.5,
+        "T1": 24.0,
+        "TA1": 7.25,
         "T2": null,
         "TA2": null,
         "T3": null,
         "TA3": null
       },
       "forecasts": {
-        "home_shots": 12.25,
-        "away_shots": 13.5,
-        "combined_shots": 25.75,
-        "home_sot": 4.5,
-        "away_sot": 3.0,
-        "combined_sot": 7.5
+        "home_shots": 11.0,
+        "away_shots": 13.0,
+        "combined_shots": 24.0,
+        "home_sot": 3.0,
+        "away_sot": 4.25,
+        "combined_sot": 7.25
       }
     },
     {
-      "match_id": "31258",
+      "match_id": "31262",
       "league": "EPL",
       "league_name": "Premier League",
       "formula_mode": "T1_ONLY",
-      "kickoff_utc": "2026-10-25T14:00:00+00:00",
-      "kickoff_et": "2026-10-25T10:00:00-04:00",
-      "data_cutoff_et": "2026-10-23T22:44:03.799582-04:00",
+      "kickoff_utc": "2026-10-31T15:00:00+00:00",
+      "kickoff_et": "2026-10-31T11:00:00-04:00",
+      "data_cutoff_et": "2026-10-30T21:55:26.518550-04:00",
       "home_team": "Hull",
-      "away_team": "Brentford",
+      "away_team": "Ipswich",
       "home_position": 10,
-      "away_position": 6,
+      "away_position": 12,
       "newcomer_teams": [
-        "Hull"
+        "Hull",
+        "Ipswich"
       ],
       "unavailable_components": {
         "T2": "Unavailable: no prior-season same-division top-flight same-venue H2H exists for the promoted club.",
@@ -968,10 +793,24 @@
       "minimum_usable_current_matches": 3,
       "home_form": [
         {
+          "date": "2026-10-25",
+          "venue": "H",
+          "opponent": "Brentford",
+          "opponent_position": 6,
+          "score": "1-1",
+          "T": 12.0,
+          "TA": 2.0,
+          "TR": 14.0,
+          "TAR": 6.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
           "date": "2026-10-11",
           "venue": "H",
           "opponent": "Everton",
-          "opponent_position": 8,
+          "opponent_position": 11,
           "score": "2-2",
           "T": 9.0,
           "TA": 5.0,
@@ -985,7 +824,7 @@
           "date": "2026-09-19",
           "venue": "A",
           "opponent": "Newcastle United",
-          "opponent_position": 11,
+          "opponent_position": 8,
           "score": "1-2",
           "T": 21.0,
           "TA": 4.0,
@@ -999,7 +838,7 @@
           "date": "2026-09-05",
           "venue": "H",
           "opponent": "Aston Villa",
-          "opponent_position": 12,
+          "opponent_position": 9,
           "score": "0-0",
           "T": 11.0,
           "TA": 4.0,
@@ -1008,144 +847,116 @@
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
-        },
-        {
-          "date": "2026-08-29",
-          "venue": "A",
-          "opponent": "Coventry",
-          "opponent_position": 18,
-          "score": "1-0",
-          "T": 6.0,
-          "TA": 2.0,
-          "TR": 11.0,
-          "TAR": 3.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
         }
       ],
       "away_form": [
         {
-          "date": "2026-10-10",
-          "venue": "A",
-          "opponent": "Aston Villa",
-          "opponent_position": 12,
-          "score": "2-2",
-          "T": 14.0,
-          "TA": 4.0,
-          "TR": 20.0,
-          "TAR": 7.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-12",
-          "venue": "A",
-          "opponent": "Bournemouth",
-          "opponent_position": 15,
-          "score": "2-2",
-          "T": 8.0,
-          "TA": 2.0,
-          "TR": 20.0,
-          "TAR": 10.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-05",
+          "date": "2026-10-23",
           "venue": "H",
-          "opponent": "Sunderland",
-          "opponent_position": 20,
+          "opponent": "Nottingham Forest",
+          "opponent_position": 18,
           "score": "1-1",
-          "T": 12.0,
-          "TA": 2.0,
-          "TR": 14.0,
+          "T": 7.0,
+          "TA": 3.0,
+          "TR": 17.0,
           "TAR": 5.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
         },
         {
-          "date": "2026-08-30",
-          "venue": "A",
-          "opponent": "Leeds",
-          "opponent_position": 7,
-          "score": "1-1",
-          "T": 22.0,
+          "date": "2026-10-10",
+          "venue": "H",
+          "opponent": "Fulham",
+          "opponent_position": 15,
+          "score": "2-1",
+          "T": 11.0,
           "TA": 5.0,
-          "TR": 12.0,
-          "TAR": 2.0,
+          "TR": 13.0,
+          "TAR": 5.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-08-22",
+          "venue": "H",
+          "opponent": "Sunderland",
+          "opponent_position": 20,
+          "score": "2-1",
+          "T": 10.0,
+          "TA": 3.0,
+          "TR": 11.0,
+          "TAR": 4.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
         }
       ],
       "home_averages": {
-        "T": 11.75,
+        "T": 13.25,
         "TA": 3.75,
-        "TR": 12.75,
-        "TAR": 4.0
+        "TR": 13.5,
+        "TAR": 4.75
       },
       "away_averages": {
-        "T": 14.0,
-        "TA": 3.25,
-        "TR": 16.5,
-        "TAR": 6.0
+        "T": 9.333333333333334,
+        "TA": 3.6666666666666665,
+        "TR": 13.666666666666666,
+        "TAR": 4.666666666666667
       },
       "h2h": [],
       "home_components": {
         "current_form": {
-          "T": 11.75,
+          "T": 13.25,
           "TA": 3.75,
-          "TR": 12.75,
-          "TAR": 4.0
+          "TR": 13.5,
+          "TAR": 4.75
         },
         "same_venue_h2h": null,
         "two_h2h_average": null
       },
       "away_components": {
         "current_form": {
-          "T": 14.0,
-          "TA": 3.25,
-          "TR": 16.5,
-          "TAR": 6.0
+          "T": 9.333333333333334,
+          "TA": 3.6666666666666665,
+          "TR": 13.666666666666666,
+          "TAR": 4.666666666666667
         },
         "same_venue_h2h": null,
         "two_h2h_average": null
       },
       "components": {
-        "T1": 25.75,
-        "TA1": 7.0,
+        "T1": 22.583333333333336,
+        "TA1": 7.416666666666666,
         "T2": null,
         "TA2": null,
         "T3": null,
         "TA3": null
       },
       "forecasts": {
-        "home_shots": 11.75,
-        "away_shots": 14.0,
-        "combined_shots": 25.75,
+        "home_shots": 13.25,
+        "away_shots": 9.333333333333334,
+        "combined_shots": 22.583333333333336,
         "home_sot": 3.75,
-        "away_sot": 3.25,
-        "combined_sot": 7.0
+        "away_sot": 3.6666666666666665,
+        "combined_sot": 7.416666666666666
       }
     },
     {
-      "match_id": "31630",
-      "league": "Serie_A",
-      "league_name": "Serie A",
+      "match_id": "30871",
+      "league": "La_liga",
+      "league_name": "La Liga",
       "formula_mode": "T1_ONLY",
-      "kickoff_utc": "2026-10-25T14:00:00+00:00",
-      "kickoff_et": "2026-10-25T10:00:00-04:00",
-      "data_cutoff_et": "2026-10-23T22:44:03.799582-04:00",
-      "home_team": "Atalanta",
-      "away_team": "Frosinone",
-      "home_position": 11,
-      "away_position": 6,
+      "kickoff_utc": "2026-10-31T17:30:00+00:00",
+      "kickoff_et": "2026-10-31T13:30:00-04:00",
+      "data_cutoff_et": "2026-10-30T21:55:26.518550-04:00",
+      "home_team": "Real Betis",
+      "away_team": "Malaga",
+      "home_position": 4,
+      "away_position": 20,
       "newcomer_teams": [
-        "Frosinone"
+        "Malaga"
       ],
       "unavailable_components": {
         "T2": "Unavailable: no prior-season same-division top-flight same-venue H2H exists for the promoted club.",
@@ -1158,42 +969,56 @@
       "minimum_usable_current_matches": 3,
       "home_form": [
         {
-          "date": "2026-09-12",
+          "date": "2026-10-25",
+          "venue": "A",
+          "opponent": "Celta Vigo",
+          "opponent_position": 9,
+          "score": "0-0",
+          "T": 15.0,
+          "TA": 2.0,
+          "TR": 12.0,
+          "TAR": 4.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-10-11",
           "venue": "H",
-          "opponent": "Cagliari",
-          "opponent_position": 8,
-          "score": "1-2",
-          "T": 22.0,
-          "TA": 4.0,
-          "TR": 5.0,
+          "opponent": "Osasuna",
+          "opponent_position": 13,
+          "score": "5-2",
+          "T": 20.0,
+          "TA": 7.0,
+          "TR": 11.0,
           "TAR": 5.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
         },
         {
-          "date": "2026-08-31",
-          "venue": "H",
-          "opponent": "Bologna",
-          "opponent_position": 15,
-          "score": "1-0",
-          "T": 6.0,
-          "TA": 2.0,
-          "TR": 16.0,
-          "TAR": 3.0,
+          "date": "2026-09-20",
+          "venue": "A",
+          "opponent": "Deportivo La Coruna",
+          "opponent_position": 11,
+          "score": "1-1",
+          "T": 11.0,
+          "TA": 4.0,
+          "TR": 23.0,
+          "TAR": 7.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
         },
         {
-          "date": "2026-08-23",
-          "venue": "H",
-          "opponent": "Sassuolo",
-          "opponent_position": 13,
+          "date": "2026-09-14",
+          "venue": "A",
+          "opponent": "Villarreal",
+          "opponent_position": 10,
           "score": "2-1",
-          "T": 14.0,
-          "TA": 7.0,
-          "TR": 22.0,
+          "T": 26.0,
+          "TA": 12.0,
+          "TR": 14.0,
           "TAR": 8.0,
           "red_card": false,
           "red_card_fallback": false,
@@ -1202,123 +1027,314 @@
       ],
       "away_form": [
         {
-          "date": "2026-10-16",
-          "venue": "H",
-          "opponent": "Sassuolo",
-          "opponent_position": 13,
-          "score": "4-2",
-          "T": 21.0,
-          "TA": 10.0,
-          "TR": 14.0,
-          "TAR": 6.0,
+          "date": "2026-10-23",
+          "venue": "A",
+          "opponent": "Alaves",
+          "opponent_position": 7,
+          "score": "1-1",
+          "T": 7.0,
+          "TA": 3.0,
+          "TR": 18.0,
+          "TAR": 4.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
         },
         {
-          "date": "2026-10-10",
-          "venue": "A",
-          "opponent": "Napoli",
-          "opponent_position": 10,
-          "score": "0-3",
+          "date": "2026-10-18",
+          "venue": "H",
+          "opponent": "Real Sociedad",
+          "opponent_position": 5,
+          "score": "2-5",
           "T": 17.0,
-          "TA": 1.0,
-          "TR": 19.0,
-          "TAR": 8.0,
+          "TA": 6.0,
+          "TR": 21.0,
+          "TAR": 9.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-10-09",
+          "venue": "H",
+          "opponent": "Espanyol",
+          "opponent_position": 12,
+          "score": "1-1",
+          "T": 15.0,
+          "TA": 7.0,
+          "TR": 9.0,
+          "TAR": 4.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
         },
         {
           "date": "2026-09-20",
-          "venue": "H",
-          "opponent": "Como",
-          "opponent_position": 5,
-          "score": "2-0",
-          "T": 22.0,
-          "TA": 6.0,
-          "TR": 27.0,
-          "TAR": 8.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-06",
-          "venue": "H",
-          "opponent": "Venezia",
-          "opponent_position": 20,
-          "score": "3-2",
-          "T": 12.0,
-          "TA": 7.0,
-          "TR": 15.0,
-          "TAR": 4.0,
+          "venue": "A",
+          "opponent": "Getafe",
+          "opponent_position": 18,
+          "score": "0-1",
+          "T": 11.0,
+          "TA": 4.0,
+          "TR": 19.0,
+          "TAR": 7.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
         }
       ],
       "home_averages": {
-        "T": 14.0,
-        "TA": 4.333333333333333,
-        "TR": 14.333333333333334,
-        "TAR": 5.333333333333333
+        "T": 18.0,
+        "TA": 6.25,
+        "TR": 15.0,
+        "TAR": 6.0
       },
       "away_averages": {
-        "T": 18.0,
-        "TA": 6.0,
-        "TR": 18.75,
-        "TAR": 6.5
+        "T": 12.5,
+        "TA": 5.0,
+        "TR": 16.75,
+        "TAR": 6.0
       },
       "h2h": [],
       "home_components": {
         "current_form": {
-          "T": 14.0,
-          "TA": 4.333333333333333,
-          "TR": 14.333333333333334,
-          "TAR": 5.333333333333333
+          "T": 18.0,
+          "TA": 6.25,
+          "TR": 15.0,
+          "TAR": 6.0
         },
         "same_venue_h2h": null,
         "two_h2h_average": null
       },
       "away_components": {
         "current_form": {
-          "T": 18.0,
-          "TA": 6.0,
-          "TR": 18.75,
-          "TAR": 6.5
+          "T": 12.5,
+          "TA": 5.0,
+          "TR": 16.75,
+          "TAR": 6.0
         },
         "same_venue_h2h": null,
         "two_h2h_average": null
       },
       "components": {
-        "T1": 32.0,
-        "TA1": 10.333333333333332,
+        "T1": 30.5,
+        "TA1": 11.25,
         "T2": null,
         "TA2": null,
         "T3": null,
         "TA3": null
       },
       "forecasts": {
-        "home_shots": 14.0,
-        "away_shots": 18.0,
-        "combined_shots": 32.0,
-        "home_sot": 4.333333333333333,
-        "away_sot": 6.0,
-        "combined_sot": 10.333333333333332
+        "home_shots": 18.0,
+        "away_shots": 12.5,
+        "combined_shots": 30.5,
+        "home_sot": 6.25,
+        "away_sot": 5.0,
+        "combined_sot": 11.25
       }
     },
     {
-      "match_id": "31633",
+      "match_id": "32020",
+      "league": "Ligue_1",
+      "league_name": "Ligue 1",
+      "formula_mode": "T1_ONLY",
+      "kickoff_utc": "2026-10-31T19:45:00+00:00",
+      "kickoff_et": "2026-10-31T15:45:00-04:00",
+      "data_cutoff_et": "2026-10-30T21:55:26.518550-04:00",
+      "home_team": "Troyes",
+      "away_team": "Le Mans",
+      "home_position": 17,
+      "away_position": 15,
+      "newcomer_teams": [
+        "Troyes",
+        "Le Mans"
+      ],
+      "unavailable_components": {
+        "T2": "Unavailable: no prior-season same-division top-flight same-venue H2H exists for the promoted club.",
+        "TA2": "Unavailable: no prior-season same-division top-flight same-venue H2H exists for the promoted club.",
+        "T3": "Unavailable: two prior-season same-division top-flight H2Hs do not exist for the promoted club.",
+        "TA3": "Unavailable: two prior-season same-division top-flight H2Hs do not exist for the promoted club."
+      },
+      "status": "ready",
+      "wait_reason": null,
+      "minimum_usable_current_matches": 3,
+      "home_form": [
+        {
+          "date": "2026-10-24",
+          "venue": "A",
+          "opponent": "Toulouse",
+          "opponent_position": 11,
+          "score": "0-0",
+          "T": 8.0,
+          "TA": 0.0,
+          "TR": 7.0,
+          "TAR": 3.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-10-17",
+          "venue": "H",
+          "opponent": "Lens",
+          "opponent_position": 8,
+          "score": "1-3",
+          "T": 12.0,
+          "TA": 5.0,
+          "TR": 13.0,
+          "TAR": 3.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-10-11",
+          "venue": "H",
+          "opponent": "Marseille",
+          "opponent_position": 9,
+          "score": "0-2",
+          "T": 15.0,
+          "TA": 3.0,
+          "TR": 5.0,
+          "TAR": 2.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-09-19",
+          "venue": "A",
+          "opponent": "Angers",
+          "opponent_position": 14,
+          "score": "0-2",
+          "T": 19.0,
+          "TA": 3.0,
+          "TR": 12.0,
+          "TAR": 3.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        }
+      ],
+      "away_form": [
+        {
+          "date": "2026-10-25",
+          "venue": "A",
+          "opponent": "Auxerre",
+          "opponent_position": 12,
+          "score": "1-1",
+          "T": 11.0,
+          "TA": 2.0,
+          "TR": 13.0,
+          "TAR": 5.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-10-16",
+          "venue": "H",
+          "opponent": "Toulouse",
+          "opponent_position": 11,
+          "score": "0-3",
+          "T": 11.0,
+          "TA": 1.0,
+          "TR": 13.0,
+          "TAR": 5.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-09-19",
+          "venue": "H",
+          "opponent": "Lorient",
+          "opponent_position": 10,
+          "score": "2-1",
+          "T": 11.0,
+          "TA": 7.0,
+          "TR": 9.0,
+          "TAR": 2.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-09-13",
+          "venue": "H",
+          "opponent": "Lens",
+          "opponent_position": 8,
+          "score": "2-2",
+          "T": 12.0,
+          "TA": 4.0,
+          "TR": 16.0,
+          "TAR": 6.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        }
+      ],
+      "home_averages": {
+        "T": 13.5,
+        "TA": 2.75,
+        "TR": 9.25,
+        "TAR": 2.75
+      },
+      "away_averages": {
+        "T": 11.25,
+        "TA": 3.5,
+        "TR": 12.75,
+        "TAR": 4.5
+      },
+      "h2h": [],
+      "home_components": {
+        "current_form": {
+          "T": 13.5,
+          "TA": 2.75,
+          "TR": 9.25,
+          "TAR": 2.75
+        },
+        "same_venue_h2h": null,
+        "two_h2h_average": null
+      },
+      "away_components": {
+        "current_form": {
+          "T": 11.25,
+          "TA": 3.5,
+          "TR": 12.75,
+          "TAR": 4.5
+        },
+        "same_venue_h2h": null,
+        "two_h2h_average": null
+      },
+      "components": {
+        "T1": 24.75,
+        "TA1": 6.25,
+        "T2": null,
+        "TA2": null,
+        "T3": null,
+        "TA3": null
+      },
+      "forecasts": {
+        "home_shots": 13.5,
+        "away_shots": 11.25,
+        "combined_shots": 24.75,
+        "home_sot": 2.75,
+        "away_sot": 3.5,
+        "combined_sot": 6.25
+      }
+    },
+    {
+      "match_id": "31653",
       "league": "Serie_A",
       "league_name": "Serie A",
       "formula_mode": "T1_ONLY",
-      "kickoff_utc": "2026-10-25T14:00:00+00:00",
-      "kickoff_et": "2026-10-25T10:00:00-04:00",
-      "data_cutoff_et": "2026-10-23T22:44:03.799582-04:00",
-      "home_team": "Genoa",
+      "kickoff_utc": "2026-11-01T11:30:00+00:00",
+      "kickoff_et": "2026-11-01T06:30:00-05:00",
+      "data_cutoff_et": "2026-10-30T21:55:26.518550-04:00",
+      "home_team": "Como",
       "away_team": "Venezia",
-      "home_position": 17,
+      "home_position": 4,
       "away_position": 20,
       "newcomer_teams": [
         "Venezia"
@@ -1334,29 +1350,43 @@
       "minimum_usable_current_matches": 3,
       "home_form": [
         {
-          "date": "2026-10-17",
+          "date": "2026-10-27",
           "venue": "A",
-          "opponent": "Roma",
-          "opponent_position": 3,
-          "score": "0-2",
-          "T": 9.0,
-          "TA": 1.0,
-          "TR": 15.0,
+          "opponent": "Torino",
+          "opponent_position": 9,
+          "score": "3-1",
+          "T": 18.0,
+          "TA": 5.0,
+          "TR": 11.0,
           "TAR": 5.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
         },
         {
-          "date": "2026-10-10",
+          "date": "2026-10-24",
           "venue": "H",
+          "opponent": "Sassuolo",
+          "opponent_position": 15,
+          "score": "2-0",
+          "T": 14.0,
+          "TA": 6.0,
+          "TR": 7.0,
+          "TAR": 0.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-10-18",
+          "venue": "A",
           "opponent": "Fiorentina",
           "opponent_position": 18,
-          "score": "2-1",
-          "T": 10.0,
-          "TA": 4.0,
-          "TR": 13.0,
-          "TAR": 3.0,
+          "score": "3-1",
+          "T": 16.0,
+          "TA": 8.0,
+          "TR": 19.0,
+          "TAR": 7.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
@@ -1364,27 +1394,13 @@
         {
           "date": "2026-09-20",
           "venue": "A",
-          "opponent": "Parma Calcio 1913",
-          "opponent_position": 19,
-          "score": "1-2",
-          "T": 12.0,
-          "TA": 5.0,
-          "TR": 5.0,
-          "TAR": 2.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-04",
-          "venue": "H",
-          "opponent": "Como",
-          "opponent_position": 5,
-          "score": "1-4",
-          "T": 11.0,
-          "TA": 2.0,
-          "TR": 20.0,
-          "TAR": 9.0,
+          "opponent": "Frosinone",
+          "opponent_position": 6,
+          "score": "0-2",
+          "T": 27.0,
+          "TA": 8.0,
+          "TR": 22.0,
+          "TAR": 6.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
@@ -1392,10 +1408,24 @@
       ],
       "away_form": [
         {
+          "date": "2026-10-25",
+          "venue": "A",
+          "opponent": "Genoa",
+          "opponent_position": 13,
+          "score": "0-1",
+          "T": 19.0,
+          "TA": 5.0,
+          "TR": 7.0,
+          "TAR": 4.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
           "date": "2026-10-17",
           "venue": "H",
           "opponent": "Napoli",
-          "opponent_position": 10,
+          "opponent_position": 7,
           "score": "1-0",
           "T": 9.0,
           "TA": 4.0,
@@ -1432,86 +1462,72 @@
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
-        },
-        {
-          "date": "2026-09-06",
-          "venue": "A",
-          "opponent": "Frosinone",
-          "opponent_position": 6,
-          "score": "2-3",
-          "T": 15.0,
-          "TA": 4.0,
-          "TR": 12.0,
-          "TAR": 7.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
         }
       ],
       "home_averages": {
-        "T": 10.5,
-        "TA": 3.0,
-        "TR": 13.25,
-        "TAR": 4.75
+        "T": 18.75,
+        "TA": 6.75,
+        "TR": 14.75,
+        "TAR": 4.5
       },
       "away_averages": {
-        "T": 12.75,
-        "TA": 4.25,
-        "TR": 18.0,
-        "TAR": 7.25
+        "T": 13.75,
+        "TA": 4.5,
+        "TR": 16.75,
+        "TAR": 6.5
       },
       "h2h": [],
       "home_components": {
         "current_form": {
-          "T": 10.5,
-          "TA": 3.0,
-          "TR": 13.25,
-          "TAR": 4.75
+          "T": 18.75,
+          "TA": 6.75,
+          "TR": 14.75,
+          "TAR": 4.5
         },
         "same_venue_h2h": null,
         "two_h2h_average": null
       },
       "away_components": {
         "current_form": {
-          "T": 12.75,
-          "TA": 4.25,
-          "TR": 18.0,
-          "TAR": 7.25
+          "T": 13.75,
+          "TA": 4.5,
+          "TR": 16.75,
+          "TAR": 6.5
         },
         "same_venue_h2h": null,
         "two_h2h_average": null
       },
       "components": {
-        "T1": 23.25,
-        "TA1": 7.25,
+        "T1": 32.5,
+        "TA1": 11.25,
         "T2": null,
         "TA2": null,
         "T3": null,
         "TA3": null
       },
       "forecasts": {
-        "home_shots": 10.5,
-        "away_shots": 12.75,
-        "combined_shots": 23.25,
-        "home_sot": 3.0,
-        "away_sot": 4.25,
-        "combined_sot": 7.25
+        "home_shots": 18.75,
+        "away_shots": 13.75,
+        "combined_shots": 32.5,
+        "home_sot": 6.75,
+        "away_sot": 4.5,
+        "combined_sot": 11.25
       }
     },
     {
-      "match_id": "32004",
-      "league": "Ligue_1",
-      "league_name": "Ligue 1",
+      "match_id": "31654",
+      "league": "Serie_A",
+      "league_name": "Serie A",
       "formula_mode": "T1_ONLY",
-      "kickoff_utc": "2026-10-25T16:15:00+00:00",
-      "kickoff_et": "2026-10-25T12:15:00-04:00",
-      "data_cutoff_et": "2026-10-23T22:44:03.799582-04:00",
-      "home_team": "Auxerre",
-      "away_team": "Le Mans",
-      "home_position": 13,
-      "away_position": 16,
+      "kickoff_utc": "2026-11-01T14:00:00+00:00",
+      "kickoff_et": "2026-11-01T09:00:00-05:00",
+      "data_cutoff_et": "2026-10-30T21:55:26.518550-04:00",
+      "home_team": "Frosinone",
+      "away_team": "Torino",
+      "home_position": 6,
+      "away_position": 9,
       "newcomer_teams": [
-        "Le Mans"
+        "Frosinone"
       ],
       "unavailable_components": {
         "T2": "Unavailable: no prior-season same-division top-flight same-venue H2H exists for the promoted club.",
@@ -1524,13 +1540,13 @@
       "minimum_usable_current_matches": 3,
       "home_form": [
         {
-          "date": "2026-10-18",
-          "venue": "A",
-          "opponent": "Le Havre",
-          "opponent_position": 18,
-          "score": "3-1",
-          "T": 13.0,
-          "TA": 6.0,
+          "date": "2026-10-29",
+          "venue": "H",
+          "opponent": "Lecce",
+          "opponent_position": 14,
+          "score": "5-1",
+          "T": 26.0,
+          "TA": 9.0,
           "TR": 15.0,
           "TAR": 6.0,
           "red_card": false,
@@ -1538,43 +1554,43 @@
           "red_card_players": []
         },
         {
-          "date": "2026-10-11",
+          "date": "2026-10-25",
           "venue": "A",
-          "opponent": "Rennes",
-          "opponent_position": 6,
-          "score": "1-4",
-          "T": 12.0,
-          "TA": 5.0,
-          "TR": 21.0,
-          "TAR": 11.0,
+          "opponent": "Atalanta",
+          "opponent_position": 12,
+          "score": "4-4",
+          "T": 24.0,
+          "TA": 10.0,
+          "TR": 22.0,
+          "TAR": 9.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
         },
         {
-          "date": "2026-09-20",
+          "date": "2026-10-16",
           "venue": "H",
-          "opponent": "Brest",
-          "opponent_position": 11,
-          "score": "2-1",
-          "T": 11.0,
-          "TA": 4.0,
-          "TR": 8.0,
-          "TAR": 2.0,
+          "opponent": "Sassuolo",
+          "opponent_position": 15,
+          "score": "4-2",
+          "T": 21.0,
+          "TA": 10.0,
+          "TR": 14.0,
+          "TAR": 6.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
         },
         {
-          "date": "2026-09-12",
-          "venue": "H",
-          "opponent": "Nice",
-          "opponent_position": 8,
-          "score": "1-0",
-          "T": 11.0,
-          "TA": 7.0,
-          "TR": 12.0,
-          "TAR": 4.0,
+          "date": "2026-10-10",
+          "venue": "A",
+          "opponent": "Napoli",
+          "opponent_position": 7,
+          "score": "0-3",
+          "T": 17.0,
+          "TA": 1.0,
+          "TR": 19.0,
+          "TAR": 8.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
@@ -1582,116 +1598,116 @@
       ],
       "away_form": [
         {
-          "date": "2026-10-16",
+          "date": "2026-10-27",
           "venue": "H",
-          "opponent": "Toulouse",
-          "opponent_position": 12,
-          "score": "0-3",
+          "opponent": "Como",
+          "opponent_position": 4,
+          "score": "1-3",
           "T": 11.0,
-          "TA": 1.0,
-          "TR": 13.0,
+          "TA": 5.0,
+          "TR": 18.0,
           "TAR": 5.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
         },
         {
-          "date": "2026-09-19",
+          "date": "2026-10-23",
           "venue": "H",
-          "opponent": "Lorient",
-          "opponent_position": 7,
-          "score": "2-1",
-          "T": 11.0,
+          "opponent": "Monza",
+          "opponent_position": 16,
+          "score": "3-2",
+          "T": 17.0,
           "TA": 7.0,
-          "TR": 9.0,
-          "TAR": 2.0,
+          "TR": 7.0,
+          "TAR": 3.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
         },
         {
-          "date": "2026-09-13",
+          "date": "2026-10-19",
+          "venue": "A",
+          "opponent": "Parma Calcio 1913",
+          "opponent_position": 19,
+          "score": "3-0",
+          "T": 9.0,
+          "TA": 3.0,
+          "TR": 25.0,
+          "TAR": 8.0,
+          "red_card": false,
+          "red_card_fallback": false,
+          "red_card_players": []
+        },
+        {
+          "date": "2026-10-12",
           "venue": "H",
-          "opponent": "Lens",
-          "opponent_position": 9,
-          "score": "2-2",
+          "opponent": "Udinese",
+          "opponent_position": 17,
+          "score": "2-1",
           "T": 12.0,
           "TA": 4.0,
-          "TR": 16.0,
-          "TAR": 6.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-09-05",
-          "venue": "A",
-          "opponent": "Nice",
-          "opponent_position": 8,
-          "score": "1-1",
-          "T": 8.0,
-          "TA": 3.0,
-          "TR": 8.0,
-          "TAR": 2.0,
+          "TR": 15.0,
+          "TAR": 1.0,
           "red_card": false,
           "red_card_fallback": false,
           "red_card_players": []
         }
       ],
       "home_averages": {
-        "T": 11.75,
-        "TA": 5.5,
-        "TR": 14.0,
-        "TAR": 5.75
+        "T": 22.0,
+        "TA": 7.5,
+        "TR": 17.5,
+        "TAR": 7.25
       },
       "away_averages": {
-        "T": 10.5,
-        "TA": 3.75,
-        "TR": 11.5,
-        "TAR": 3.75
+        "T": 12.25,
+        "TA": 4.75,
+        "TR": 16.25,
+        "TAR": 4.25
       },
       "h2h": [],
       "home_components": {
         "current_form": {
-          "T": 11.75,
-          "TA": 5.5,
-          "TR": 14.0,
-          "TAR": 5.75
+          "T": 22.0,
+          "TA": 7.5,
+          "TR": 17.5,
+          "TAR": 7.25
         },
         "same_venue_h2h": null,
         "two_h2h_average": null
       },
       "away_components": {
         "current_form": {
-          "T": 10.5,
-          "TA": 3.75,
-          "TR": 11.5,
-          "TAR": 3.75
+          "T": 12.25,
+          "TA": 4.75,
+          "TR": 16.25,
+          "TAR": 4.25
         },
         "same_venue_h2h": null,
         "two_h2h_average": null
       },
       "components": {
-        "T1": 22.25,
-        "TA1": 9.25,
+        "T1": 34.25,
+        "TA1": 12.25,
         "T2": null,
         "TA2": null,
         "T3": null,
         "TA3": null
       },
       "forecasts": {
-        "home_shots": 11.75,
-        "away_shots": 10.5,
-        "combined_shots": 22.25,
-        "home_sot": 5.5,
-        "away_sot": 3.75,
-        "combined_sot": 9.25
+        "home_shots": 22.0,
+        "away_shots": 12.25,
+        "combined_shots": 34.25,
+        "home_sot": 7.5,
+        "away_sot": 4.75,
+        "combined_sot": 12.25
       }
     }
   ],
   "player_stats": {
     "season": "2026-27",
-    "data_cutoff_et": "2026-10-23T22:44:03.799582-04:00",
+    "data_cutoff_et": "2026-10-30T21:55:26.518550-04:00",
     "scope": "Current top-flight Understat shot events through the cutoff for the 11 reviewed newcomers; matches involving excluded clubs are removed.",
     "teams": [
       {
@@ -1699,7 +1715,7 @@
         "team_id": "294",
         "team": "Coventry",
         "canonical_team": "Coventry",
-        "matches_counted": 5,
+        "matches_counted": 6,
         "players": [
           {
             "player_id": "12955",
@@ -1710,14 +1726,14 @@
           {
             "player_id": "8483",
             "player": "Bobby Thomas",
-            "shots": 6,
+            "shots": 8,
             "sot": 0
           },
           {
             "player_id": "14745",
             "player": "Brandon Thomas-Asante",
-            "shots": 8,
-            "sot": 3
+            "shots": 11,
+            "sot": 4
           },
           {
             "player_id": "14744",
@@ -1740,7 +1756,7 @@
           {
             "player_id": "9678",
             "player": "Ethan Pinnock",
-            "shots": 2,
+            "shots": 3,
             "sot": 0
           },
           {
@@ -1752,7 +1768,7 @@
           {
             "player_id": "14747",
             "player": "Jack Rudoni",
-            "shots": 7,
+            "shots": 8,
             "sot": 3
           },
           {
@@ -1770,20 +1786,26 @@
           {
             "player_id": "1045",
             "player": "Matt Grimes",
-            "shots": 3,
+            "shots": 4,
+            "sot": 0
+          },
+          {
+            "player_id": "14742",
+            "player": "Milan van Ewijk",
+            "shots": 1,
             "sot": 0
           },
           {
             "player_id": "12847",
             "player": "Sidiki Chérif",
-            "shots": 4,
+            "shots": 5,
             "sot": 2
           },
           {
             "player_id": "14054",
             "player": "Stephen Mfuni",
-            "shots": 2,
-            "sot": 2
+            "shots": 4,
+            "sot": 3
           },
           {
             "player_id": "7814",
@@ -1794,7 +1816,7 @@
           {
             "player_id": "14749",
             "player": "Tatsuhiro Sakamoto",
-            "shots": 2,
+            "shots": 3,
             "sot": 0
           }
         ]
@@ -1804,7 +1826,7 @@
         "team_id": "91",
         "team": "Hull",
         "canonical_team": "Hull",
-        "matches_counted": 5,
+        "matches_counted": 6,
         "players": [
           {
             "player_id": "14763",
@@ -1815,13 +1837,13 @@
           {
             "player_id": "9339",
             "player": "Joe Gelhardt",
-            "shots": 7,
+            "shots": 9,
             "sot": 3
           },
           {
             "player_id": "7703",
             "player": "John Egan",
-            "shots": 2,
+            "shots": 3,
             "sot": 1
           },
           {
@@ -1851,13 +1873,13 @@
           {
             "player_id": "8685",
             "player": "Mohamed Ali-Cho",
-            "shots": 2,
-            "sot": 2
+            "shots": 3,
+            "sot": 3
           },
           {
             "player_id": "14760",
             "player": "Mohamed Belloumi",
-            "shots": 13,
+            "shots": 17,
             "sot": 4
           },
           {
@@ -1869,13 +1891,13 @@
           {
             "player_id": "1736",
             "player": "Oliver McBurnie",
-            "shots": 6,
-            "sot": 0
+            "shots": 7,
+            "sot": 1
           },
           {
             "player_id": "14762",
             "player": "Regan Slater",
-            "shots": 4,
+            "shots": 6,
             "sot": 1
           },
           {
@@ -1893,7 +1915,7 @@
           {
             "player_id": "9554",
             "player": "Tim Iroegbunam",
-            "shots": 2,
+            "shots": 3,
             "sot": 0
           }
         ]
@@ -2230,19 +2252,19 @@
         "team_id": "293",
         "team": "Racing Santander",
         "canonical_team": "Racing Santander",
-        "matches_counted": 8,
+        "matches_counted": 9,
         "players": [
           {
             "player_id": "11057",
             "player": "André Almeida",
-            "shots": 3,
-            "sot": 1
+            "shots": 4,
+            "sot": 2
           },
           {
             "player_id": "9814",
             "player": "Andrés Martín",
-            "shots": 12,
-            "sot": 5
+            "shots": 15,
+            "sot": 6
           },
           {
             "player_id": "5173",
@@ -2265,8 +2287,8 @@
           {
             "player_id": "8921",
             "player": "Iñigo Vicente",
-            "shots": 5,
-            "sot": 2
+            "shots": 7,
+            "sot": 3
           },
           {
             "player_id": "14324",
@@ -2283,19 +2305,19 @@
           {
             "player_id": "10300",
             "player": "Jeanuël Belocian",
-            "shots": 3,
-            "sot": 1
+            "shots": 5,
+            "sot": 2
           },
           {
             "player_id": "14687",
             "player": "Jorge Salinas",
-            "shots": 4,
-            "sot": 2
+            "shots": 8,
+            "sot": 3
           },
           {
             "player_id": "14686",
             "player": "Álvaro Mantilla",
-            "shots": 2,
+            "shots": 3,
             "sot": 0
           },
           {
@@ -2319,20 +2341,26 @@
           {
             "player_id": "13376",
             "player": "Pablo García",
-            "shots": 11,
+            "shots": 13,
             "sot": 5
           },
           {
             "player_id": "9477",
             "player": "Pablo Ramón",
-            "shots": 2,
+            "shots": 3,
             "sot": 1
+          },
+          {
+            "player_id": "14122",
+            "player": "Pedro Felipe",
+            "shots": 1,
+            "sot": 0
           },
           {
             "player_id": "2571",
             "player": "Sergio Canales",
-            "shots": 20,
-            "sot": 7
+            "shots": 22,
+            "sot": 8
           },
           {
             "player_id": "14688",
@@ -2343,8 +2371,8 @@
           {
             "player_id": "14459",
             "player": "Yassir Zabiri",
-            "shots": 16,
-            "sot": 9
+            "shots": 20,
+            "sot": 11
           }
         ]
       },
@@ -2353,7 +2381,7 @@
         "team_id": "295",
         "team": "Le Mans",
         "canonical_team": "Le Mans",
-        "matches_counted": 6,
+        "matches_counted": 7,
         "players": [
           {
             "player_id": "14817",
@@ -2382,7 +2410,7 @@
           {
             "player_id": "14818",
             "player": "Dame Gueye",
-            "shots": 5,
+            "shots": 7,
             "sot": 1
           },
           {
@@ -2394,7 +2422,7 @@
           {
             "player_id": "3357",
             "player": "Djibril Sidibe",
-            "shots": 1,
+            "shots": 3,
             "sot": 0
           },
           {
@@ -2412,14 +2440,14 @@
           {
             "player_id": "15009",
             "player": "Jean Vercruysse",
-            "shots": 6,
+            "shots": 7,
             "sot": 1
           },
           {
             "player_id": "10342",
             "player": "Louis Mafouta",
-            "shots": 15,
-            "sot": 8
+            "shots": 18,
+            "sot": 9
           },
           {
             "player_id": "14820",
@@ -2430,8 +2458,8 @@
           {
             "player_id": "7157",
             "player": "Lucas Buades",
-            "shots": 1,
-            "sot": 1
+            "shots": 4,
+            "sot": 2
           },
           {
             "player_id": "10131",
@@ -2458,7 +2486,7 @@
         "team_id": "172",
         "team": "Troyes",
         "canonical_team": "Troyes",
-        "matches_counted": 7,
+        "matches_counted": 8,
         "players": [
           {
             "player_id": "14828",
@@ -2475,7 +2503,7 @@
           {
             "player_id": "14833",
             "player": "Antoine Mille",
-            "shots": 10,
+            "shots": 12,
             "sot": 3
           },
           {
@@ -2487,7 +2515,7 @@
           {
             "player_id": "13795",
             "player": "Dermane Karim",
-            "shots": 9,
+            "shots": 10,
             "sot": 1
           },
           {
@@ -2523,7 +2551,7 @@
           {
             "player_id": "14832",
             "player": "Merwan Ifnaoui",
-            "shots": 1,
+            "shots": 3,
             "sot": 0
           },
           {
@@ -2535,7 +2563,7 @@
           {
             "player_id": "14831",
             "player": "Mouhamed Diop",
-            "shots": 7,
+            "shots": 8,
             "sot": 0
           },
           {
@@ -2553,13 +2581,13 @@
           {
             "player_id": "6864",
             "player": "Renaud Ripart",
-            "shots": 14,
+            "shots": 15,
             "sot": 5
           },
           {
             "player_id": "7541",
             "player": "Timothee Nkada",
-            "shots": 13,
+            "shots": 14,
             "sot": 4
           },
           {
@@ -2581,13 +2609,13 @@
         "team_id": "112",
         "team": "Frosinone",
         "canonical_team": "Frosinone",
-        "matches_counted": 6,
+        "matches_counted": 8,
         "players": [
           {
             "player_id": "7911",
             "player": "Aleksa Terzic",
-            "shots": 1,
-            "sot": 0
+            "shots": 5,
+            "sot": 1
           },
           {
             "player_id": "4911",
@@ -2598,20 +2626,32 @@
           {
             "player_id": "11879",
             "player": "Anthony Oyono",
-            "shots": 8,
-            "sot": 1
+            "shots": 9,
+            "sot": 2
           },
           {
             "player_id": "9539",
             "player": "Antonio Raimondo",
-            "shots": 23,
-            "sot": 10
+            "shots": 27,
+            "sot": 11
+          },
+          {
+            "player_id": "14987",
+            "player": "Daniel Bîrligea",
+            "shots": 3,
+            "sot": 2
+          },
+          {
+            "player_id": "10375",
+            "player": "Enzo Tchato Mbiayi",
+            "shots": 1,
+            "sot": 1
           },
           {
             "player_id": "12303",
             "player": "Farès Ghedjemis",
-            "shots": 11,
-            "sot": 4
+            "shots": 22,
+            "sot": 8
           },
           {
             "player_id": "14888",
@@ -2622,26 +2662,26 @@
           {
             "player_id": "14887",
             "player": "Gabriele Calvani",
-            "shots": 2,
+            "shots": 3,
             "sot": 0
           },
           {
             "player_id": "1814",
             "player": "Giacomo Calo",
-            "shots": 15,
-            "sot": 5
+            "shots": 20,
+            "sot": 8
           },
           {
             "player_id": "11882",
             "player": "Giorgi Kvernadze",
-            "shots": 18,
-            "sot": 5
+            "shots": 26,
+            "sot": 6
           },
           {
             "player_id": "10268",
             "player": "Giorgio Cittadini",
-            "shots": 1,
-            "sot": 0
+            "shots": 2,
+            "sot": 1
           },
           {
             "player_id": "8197",
@@ -2652,26 +2692,26 @@
           {
             "player_id": "12347",
             "player": "Luis Hasa",
-            "shots": 3,
+            "shots": 5,
             "sot": 1
           },
           {
             "player_id": "14889",
             "player": "Matteo Cichella",
-            "shots": 2,
-            "sot": 1
+            "shots": 3,
+            "sot": 2
           },
           {
             "player_id": "12777",
             "player": "Patrizio Masini",
-            "shots": 4,
+            "shots": 5,
             "sot": 0
           },
           {
             "player_id": "9069",
             "player": "Romano Schmid",
-            "shots": 4,
-            "sot": 2
+            "shots": 11,
+            "sot": 5
           },
           {
             "player_id": "12011",
@@ -2692,7 +2732,7 @@
         "team_id": "271",
         "team": "Monza",
         "canonical_team": "Monza",
-        "matches_counted": 7,
+        "matches_counted": 8,
         "players": [
           {
             "player_id": "14791",
@@ -2709,7 +2749,7 @@
           {
             "player_id": "6718",
             "player": "Andrea Colpani",
-            "shots": 7,
+            "shots": 8,
             "sot": 3
           },
           {
@@ -2739,14 +2779,20 @@
           {
             "player_id": "14794",
             "player": "Gustavo Varela",
-            "shots": 13,
-            "sot": 7
+            "shots": 19,
+            "sot": 10
           },
           {
             "player_id": "13582",
             "player": "Jay Robinson",
             "shots": 10,
             "sot": 6
+          },
+          {
+            "player_id": "11283",
+            "player": "Leonardo Colombo",
+            "shots": 1,
+            "sot": 0
           },
           {
             "player_id": "12877",
@@ -2757,8 +2803,8 @@
           {
             "player_id": "14792",
             "player": "Manga Foe Ondoa",
-            "shots": 4,
-            "sot": 1
+            "shots": 7,
+            "sot": 2
           },
           {
             "player_id": "14793",
@@ -2799,8 +2845,8 @@
           {
             "player_id": "10892",
             "player": "Samuele Birindelli",
-            "shots": 11,
-            "sot": 3
+            "shots": 12,
+            "sot": 4
           },
           {
             "player_id": "14211",
@@ -2815,13 +2861,13 @@
         "team_id": "265",
         "team": "Venezia",
         "canonical_team": "Venezia",
-        "matches_counted": 6,
+        "matches_counted": 7,
         "players": [
           {
             "player_id": "11783",
             "player": "Akor Adams",
-            "shots": 24,
-            "sot": 9
+            "shots": 26,
+            "sot": 11
           },
           {
             "player_id": "14878",
@@ -2832,7 +2878,7 @@
           {
             "player_id": "12785",
             "player": "Antoine Hainaut",
-            "shots": 7,
+            "shots": 9,
             "sot": 3
           },
           {
@@ -2856,8 +2902,8 @@
           {
             "player_id": "7234",
             "player": "John Yeboah",
-            "shots": 17,
-            "sot": 5
+            "shots": 20,
+            "sot": 6
           },
           {
             "player_id": "13006",
@@ -2866,22 +2912,40 @@
             "sot": 0
           },
           {
+            "player_id": "1247",
+            "player": "Juan Jesus",
+            "shots": 1,
+            "sot": 0
+          },
+          {
             "player_id": "8470",
             "player": "Kike Pérez",
-            "shots": 3,
-            "sot": 1
+            "shots": 5,
+            "sot": 2
+          },
+          {
+            "player_id": "14879",
+            "player": "Lion Lauberbach",
+            "shots": 1,
+            "sot": 0
           },
           {
             "player_id": "13083",
             "player": "Matías Moreno",
-            "shots": 5,
+            "shots": 6,
+            "sot": 0
+          },
+          {
+            "player_id": "14877",
+            "player": "Matteo Dagasso",
+            "shots": 3,
             "sot": 0
           },
           {
             "player_id": "10013",
             "player": "Redouane Halal",
-            "shots": 2,
-            "sot": 0
+            "shots": 3,
+            "sot": 1
           },
           {
             "player_id": "12874",
@@ -2898,7 +2962,7 @@
           {
             "player_id": "9029",
             "player": "Simon Sohm",
-            "shots": 2,
+            "shots": 3,
             "sot": 1
           },
           {
@@ -2916,7 +2980,7 @@
           {
             "player_id": "6902",
             "player": "Toma Basic",
-            "shots": 2,
+            "shots": 4,
             "sot": 1
           }
         ]
