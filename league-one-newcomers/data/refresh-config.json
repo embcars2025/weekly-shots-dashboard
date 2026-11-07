@@ -2,6 +2,6 @@
   "mode": "gateway",
   "endpoint": "https://weekly-shots-refresh.alllots1324.workers.dev/api/newcomers/refresh",
   "status_endpoint": "https://weekly-shots-refresh.alllots1324.workers.dev/api/newcomers/refresh/status",
-  "requires_code": true,
+  "requires_code": false,
   "workflow_url": "https://github.com/embcars2025/soccer-sports-bet/actions/workflows/refresh-newcomers.yml"
 }

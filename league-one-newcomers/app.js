@@ -506,6 +506,10 @@
   async function loadRefreshConfig() {
     try {
       refreshConfig = validateRefreshConfig(await fetchJson(REFRESH_CONFIG_URL), window.location.href);
+      // No code needed (the owner's choice, 7 Nov 2026): hide the code field.
+      const codeField = elements.codeInput && typeof elements.codeInput.closest === 'function' ?
+        elements.codeInput.closest('.secure-code-field') : null;
+      if (codeField) codeField.classList.toggle('hidden', !refreshConfig.requires_code);
       if (refreshConfig.workflow_url) {
         elements.workflowLink.href = refreshConfig.workflow_url;
         elements.workflowLink.classList.toggle('hidden', refreshConfig.mode !== 'github');
