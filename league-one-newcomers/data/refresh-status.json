@@ -1,13 +1,13 @@
 {
   "status": "ready",
   "publication_state": "live",
-  "generated_at_utc": "2026-11-07T05:22:40.071826+00:00",
-  "refresh_effective_et": "2026-11-07T00:22:34.478553-05:00",
-  "data_cutoff_et": "2026-11-07T00:22:34.478553-05:00",
+  "generated_at_utc": "2026-11-08T05:50:19.810536+00:00",
+  "refresh_effective_et": "2026-11-08T00:50:14.978976-05:00",
+  "data_cutoff_et": "2026-11-08T00:50:14.978976-05:00",
   "window_end_et": "2026-11-08T23:59:59-05:00",
   "refresh_schedule": "manual_and_scoped_push",
   "next_scheduled_refresh_et": null,
-  "candidate_fixture_count": 6,
-  "ready_fixture_count": 5,
+  "candidate_fixture_count": 3,
+  "ready_fixture_count": 2,
   "waiting_fixture_count": 1
 }
