@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-11-25T01:14:32.685076+00:00",
-  "refresh_effective_et": "2026-11-24T20:14:27.614809-05:00",
+  "generated_at_utc": "2026-11-28T00:48:39.302966+00:00",
+  "refresh_effective_et": "2026-11-27T19:48:35.444366-05:00",
   "window_end_et": "2026-11-29T23:59:59-05:00",
-  "next_scheduled_refresh_et": "2026-11-27T13:00:00-05:00",
-  "published_eligible_fixture_count": 15
+  "next_scheduled_refresh_et": "2026-11-30T00:00:00-05:00",
+  "published_eligible_fixture_count": 14
 }

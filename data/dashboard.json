@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-25T01:14:32.685076+00:00",
+  "generated_at_utc": "2026-11-28T00:48:39.302966+00:00",
   "player_stats": {
     "season": "2026-27",
     "data_cutoff_et": "2026-11-01T00:34:30.561168-04:00",
@@ -1869,134 +1869,6 @@
       },
       {
         "league": "Ligue_1",
-        "team_id": "241",
-        "team": "Brest",
-        "matches_counted": 7,
-        "players": [
-          {
-            "player_id": "9826",
-            "player": "Axel Camblan",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "9659",
-            "player": "Bradley Locko",
-            "shots": 3,
-            "sot": 0
-          },
-          {
-            "player_id": "13311",
-            "player": "Djylian N&#039;Guessan",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "3701",
-            "player": "Gautier Lloris",
-            "shots": 6,
-            "sot": 2
-          },
-          {
-            "player_id": "11406",
-            "player": "Giovani Versini",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "5742",
-            "player": "Hugo Magnetti",
-            "shots": 5,
-            "sot": 2
-          },
-          {
-            "player_id": "12962",
-            "player": "Ibrahim Kanté",
-            "shots": 3,
-            "sot": 1
-          },
-          {
-            "player_id": "7739",
-            "player": "Joris Chotard",
-            "shots": 8,
-            "sot": 2
-          },
-          {
-            "player_id": "12170",
-            "player": "Joseph Nonge",
-            "shots": 2,
-            "sot": 0
-          },
-          {
-            "player_id": "10100",
-            "player": "Kamory Doumbia",
-            "shots": 12,
-            "sot": 5
-          },
-          {
-            "player_id": "5975",
-            "player": "Kenny Lala",
-            "shots": 8,
-            "sot": 3
-          },
-          {
-            "player_id": "3743",
-            "player": "Lucas Tousart",
-            "shots": 6,
-            "sot": 4
-          },
-          {
-            "player_id": "12258",
-            "player": "Luc Zogbe",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "6905",
-            "player": "Ludovic Ajorque",
-            "shots": 15,
-            "sot": 6
-          },
-          {
-            "player_id": "7747",
-            "player": "Mama Baldé",
-            "shots": 10,
-            "sot": 3
-          },
-          {
-            "player_id": "14823",
-            "player": "Mamady Diambou",
-            "shots": 6,
-            "sot": 2
-          },
-          {
-            "player_id": "12330",
-            "player": "Noah Edjouma",
-            "shots": 4,
-            "sot": 1
-          },
-          {
-            "player_id": "14052",
-            "player": "Pathé Mboup",
-            "shots": 18,
-            "sot": 9
-          },
-          {
-            "player_id": "13283",
-            "player": "Raphaël Le Guen",
-            "shots": 8,
-            "sot": 0
-          },
-          {
-            "player_id": "3721",
-            "player": "Romain Del Castillo",
-            "shots": 1,
-            "sot": 1
-          }
-        ]
-      },
-      {
-        "league": "Ligue_1",
         "team_id": "282",
         "team": "Le Havre",
         "matches_counted": 7,
@@ -2560,104 +2432,6 @@
             "player": "Vanderson",
             "shots": 6,
             "sot": 2
-          }
-        ]
-      },
-      {
-        "league": "Ligue_1",
-        "team_id": "290",
-        "team": "Paris FC",
-        "matches_counted": 8,
-        "players": [
-          {
-            "player_id": "13805",
-            "player": "Adama Camara",
-            "shots": 3,
-            "sot": 2
-          },
-          {
-            "player_id": "3239",
-            "player": "Hamari Traore",
-            "shots": 1,
-            "sot": 1
-          },
-          {
-            "player_id": "9656",
-            "player": "Ilan Kebbal",
-            "shots": 17,
-            "sot": 6
-          },
-          {
-            "player_id": "10815",
-            "player": "Lassine Sinayoko",
-            "shots": 26,
-            "sot": 12
-          },
-          {
-            "player_id": "10620",
-            "player": "Luca Koleosho",
-            "shots": 16,
-            "sot": 4
-          },
-          {
-            "player_id": "3772",
-            "player": "Maxime Lopez",
-            "shots": 6,
-            "sot": 3
-          },
-          {
-            "player_id": "7169",
-            "player": "Moses Simon",
-            "shots": 3,
-            "sot": 1
-          },
-          {
-            "player_id": "14839",
-            "player": "Omar Sissoko",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "13871",
-            "player": "Otávio",
-            "shots": 1,
-            "sot": 0
-          },
-          {
-            "player_id": "10347",
-            "player": "Pablo Pagis",
-            "shots": 15,
-            "sot": 2
-          },
-          {
-            "player_id": "5619",
-            "player": "Pierre Lees-Melou",
-            "shots": 7,
-            "sot": 0
-          },
-          {
-            "player_id": "13577",
-            "player": "Rudy Matondo",
-            "shots": 3,
-            "sot": 2
-          },
-          {
-            "player_id": "13800",
-            "player": "Samir Chergui",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "5696",
-            "player": "Vincent Marchetti",
-            "shots": 2,
-            "sot": 1
-          },
-          {
-            "player_id": "13385",
-            "player": "Zabi Gueu",
-            "shots": 2,
-            "sot": 0
           }
         ]
       },
@@ -3489,227 +3263,12 @@
   },
   "fixtures": [
     {
-      "match_id": "fd-F1-2026-brest-parisfc",
-      "league": "Ligue_1",
-      "league_name": "Ligue 1",
-      "kickoff_utc": "2026-11-27T19:45:00+00:00",
-      "kickoff_et": "2026-11-27T14:45:00-05:00",
-      "data_cutoff_et": "2026-11-24T20:14:27.614809-05:00",
-      "previous_season_label": "2025-26",
-      "home_team": "Brest",
-      "away_team": "Paris FC",
-      "home_position": 6,
-      "away_position": 2,
-      "home_form": [
-        {
-          "date": "2026-11-21",
-          "venue": "A",
-          "opponent": "Strasbourg",
-          "opponent_position": 16,
-          "score": "1-0",
-          "T": 16.0,
-          "TA": 2.0,
-          "TR": 15.0,
-          "TAR": 5.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-11-08",
-          "venue": "H",
-          "opponent": "Lyon",
-          "opponent_position": 4,
-          "score": "2-0",
-          "T": 13.0,
-          "TA": 6.0,
-          "TR": 10.0,
-          "TAR": 2.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-11-02",
-          "venue": "A",
-          "opponent": "Lorient",
-          "opponent_position": 10,
-          "score": "2-0",
-          "T": 12.0,
-          "TA": 4.0,
-          "TR": 15.0,
-          "TAR": 0.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-10-23",
-          "venue": "H",
-          "opponent": "Nice",
-          "opponent_position": 7,
-          "score": "1-2",
-          "T": 13.0,
-          "TA": 7.0,
-          "TR": 9.0,
-          "TAR": 2.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "away_form": [
-        {
-          "date": "2026-11-22",
-          "venue": "H",
-          "opponent": "Angers",
-          "opponent_position": 17,
-          "score": "4-0",
-          "T": 18.0,
-          "TA": 9.0,
-          "TR": 9.0,
-          "TAR": 1.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-11-07",
-          "venue": "A",
-          "opponent": "Auxerre",
-          "opponent_position": 15,
-          "score": "1-0",
-          "T": 10.0,
-          "TA": 3.0,
-          "TR": 7.0,
-          "TAR": 2.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-11-01",
-          "venue": "H",
-          "opponent": "Monaco",
-          "opponent_position": 8,
-          "score": "3-1",
-          "T": 19.0,
-          "TA": 10.0,
-          "TR": 9.0,
-          "TAR": 2.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        },
-        {
-          "date": "2026-10-24",
-          "venue": "A",
-          "opponent": "Lens",
-          "opponent_position": 11,
-          "score": "1-2",
-          "T": 4.0,
-          "TA": 1.0,
-          "TR": 9.0,
-          "TAR": 3.0,
-          "red_card": false,
-          "red_card_fallback": false,
-          "red_card_players": []
-        }
-      ],
-      "home_averages": {
-        "T": 13.5,
-        "TA": 4.75,
-        "TR": 12.25,
-        "TAR": 2.25
-      },
-      "away_averages": {
-        "T": 12.75,
-        "TA": 5.75,
-        "TR": 8.5,
-        "TAR": 2.0
-      },
-      "h2h": [
-        {
-          "date": "2025-09-14",
-          "fixture": "Brest vs Paris FC",
-          "score": "1-2",
-          "home_team": "Brest",
-          "away_team": "Paris FC",
-          "team_a_T": 23.0,
-          "team_a_TA": 8.0,
-          "team_b_T": 7.0,
-          "team_b_TA": 4.0,
-          "same_venue": true
-        },
-        {
-          "date": "2026-05-03",
-          "fixture": "Paris FC vs Brest",
-          "score": "4-0",
-          "home_team": "Paris FC",
-          "away_team": "Brest",
-          "team_a_T": 10.0,
-          "team_a_TA": 1.0,
-          "team_b_T": 17.0,
-          "team_b_TA": 8.0,
-          "same_venue": false
-        }
-      ],
-      "home_components": {
-        "current_form": {
-          "T": 13.5,
-          "TA": 4.75,
-          "TR": 12.25,
-          "TAR": 2.25
-        },
-        "same_venue_h2h": {
-          "T": 23.0,
-          "TA": 8.0
-        },
-        "two_h2h_average": {
-          "T": 16.5,
-          "TA": 4.5
-        }
-      },
-      "away_components": {
-        "current_form": {
-          "T": 12.75,
-          "TA": 5.75,
-          "TR": 8.5,
-          "TAR": 2.0
-        },
-        "same_venue_h2h": {
-          "T": 7.0,
-          "TA": 4.0
-        },
-        "two_h2h_average": {
-          "T": 12.0,
-          "TA": 6.0
-        }
-      },
-      "components": {
-        "T1": 26.25,
-        "TA1": 10.5,
-        "T2": 30.0,
-        "TA2": 12.0,
-        "T3": 28.5,
-        "TA3": 10.5
-      },
-      "forecasts": {
-        "home_shots": 17.666666666666668,
-        "away_shots": 10.583333333333334,
-        "combined_shots": 28.25,
-        "home_sot": 5.75,
-        "away_sot": 5.25,
-        "combined_sot": 11.0
-      }
-    },
-    {
       "match_id": "fd-SP1-2026-betis-vallecano",
       "league": "La_liga",
       "league_name": "La Liga",
       "kickoff_utc": "2026-11-28T13:00:00+00:00",
       "kickoff_et": "2026-11-28T08:00:00-05:00",
-      "data_cutoff_et": "2026-11-24T20:14:27.614809-05:00",
+      "data_cutoff_et": "2026-11-27T19:48:35.444366-05:00",
       "previous_season_label": "2025-26",
       "home_team": "Real Betis",
       "away_team": "Rayo Vallecano",
@@ -3924,7 +3483,7 @@
       "league_name": "Ligue 1",
       "kickoff_utc": "2026-11-28T16:15:00+00:00",
       "kickoff_et": "2026-11-28T11:15:00-05:00",
-      "data_cutoff_et": "2026-11-24T20:14:27.614809-05:00",
+      "data_cutoff_et": "2026-11-27T19:48:35.444366-05:00",
       "previous_season_label": "2025-26",
       "home_team": "Angers",
       "away_team": "Lens",
@@ -4139,7 +3698,7 @@
       "league_name": "Serie A",
       "kickoff_utc": "2026-11-28T17:00:00+00:00",
       "kickoff_et": "2026-11-28T12:00:00-05:00",
-      "data_cutoff_et": "2026-11-24T20:14:27.614809-05:00",
+      "data_cutoff_et": "2026-11-27T19:48:35.444366-05:00",
       "previous_season_label": "2025-26",
       "home_team": "Torino",
       "away_team": "Lazio",
@@ -4354,7 +3913,7 @@
       "league_name": "Ligue 1",
       "kickoff_utc": "2026-11-28T19:45:00+00:00",
       "kickoff_et": "2026-11-28T14:45:00-05:00",
-      "data_cutoff_et": "2026-11-24T20:14:27.614809-05:00",
+      "data_cutoff_et": "2026-11-27T19:48:35.444366-05:00",
       "previous_season_label": "2025-26",
       "home_team": "Le Havre",
       "away_team": "Strasbourg",
@@ -4569,7 +4128,7 @@
       "league_name": "La Liga",
       "kickoff_utc": "2026-11-29T13:00:00+00:00",
       "kickoff_et": "2026-11-29T08:00:00-05:00",
-      "data_cutoff_et": "2026-11-24T20:14:27.614809-05:00",
+      "data_cutoff_et": "2026-11-27T19:48:35.444366-05:00",
       "previous_season_label": "2025-26",
       "home_team": "Valencia",
       "away_team": "Osasuna",
@@ -4784,7 +4343,7 @@
       "league_name": "Ligue 1",
       "kickoff_utc": "2026-11-29T14:00:00+00:00",
       "kickoff_et": "2026-11-29T09:00:00-05:00",
-      "data_cutoff_et": "2026-11-24T20:14:27.614809-05:00",
+      "data_cutoff_et": "2026-11-27T19:48:35.444366-05:00",
       "previous_season_label": "2025-26",
       "home_team": "Auxerre",
       "away_team": "Marseille",
@@ -4999,7 +4558,7 @@
       "league_name": "Serie A",
       "kickoff_utc": "2026-11-29T14:00:00+00:00",
       "kickoff_et": "2026-11-29T09:00:00-05:00",
-      "data_cutoff_et": "2026-11-24T20:14:27.614809-05:00",
+      "data_cutoff_et": "2026-11-27T19:48:35.444366-05:00",
       "previous_season_label": "2025-26",
       "home_team": "Sassuolo",
       "away_team": "Napoli",
@@ -5214,7 +4773,7 @@
       "league_name": "Premier League",
       "kickoff_utc": "2026-11-29T14:05:00+00:00",
       "kickoff_et": "2026-11-29T09:05:00-05:00",
-      "data_cutoff_et": "2026-11-24T20:14:27.614809-05:00",
+      "data_cutoff_et": "2026-11-27T19:48:35.444366-05:00",
       "previous_season_label": "2025-26",
       "home_team": "Brighton",
       "away_team": "Newcastle United",
@@ -5420,7 +4979,7 @@
       "league_name": "Premier League",
       "kickoff_utc": "2026-11-29T14:05:00+00:00",
       "kickoff_et": "2026-11-29T09:05:00-05:00",
-      "data_cutoff_et": "2026-11-24T20:14:27.614809-05:00",
+      "data_cutoff_et": "2026-11-27T19:48:35.444366-05:00",
       "previous_season_label": "2025-26",
       "home_team": "Fulham",
       "away_team": "Bournemouth",
@@ -5635,7 +5194,7 @@
       "league_name": "Premier League",
       "kickoff_utc": "2026-11-29T14:05:00+00:00",
       "kickoff_et": "2026-11-29T09:05:00-05:00",
-      "data_cutoff_et": "2026-11-24T20:14:27.614809-05:00",
+      "data_cutoff_et": "2026-11-27T19:48:35.444366-05:00",
       "previous_season_label": "2025-26",
       "home_team": "Sunderland",
       "away_team": "Tottenham",
@@ -5850,7 +5409,7 @@
       "league_name": "Ligue 1",
       "kickoff_utc": "2026-11-29T16:15:00+00:00",
       "kickoff_et": "2026-11-29T11:15:00-05:00",
-      "data_cutoff_et": "2026-11-24T20:14:27.614809-05:00",
+      "data_cutoff_et": "2026-11-27T19:48:35.444366-05:00",
       "previous_season_label": "2025-26",
       "home_team": "Toulouse",
       "away_team": "Rennes",
@@ -6065,7 +5624,7 @@
       "league_name": "La Liga",
       "kickoff_utc": "2026-11-29T17:30:00+00:00",
       "kickoff_et": "2026-11-29T12:30:00-05:00",
-      "data_cutoff_et": "2026-11-24T20:14:27.614809-05:00",
+      "data_cutoff_et": "2026-11-27T19:48:35.444366-05:00",
       "previous_season_label": "2025-26",
       "home_team": "Celta Vigo",
       "away_team": "Villarreal",
@@ -6280,7 +5839,7 @@
       "league_name": "Ligue 1",
       "kickoff_utc": "2026-11-29T19:45:00+00:00",
       "kickoff_et": "2026-11-29T14:45:00-05:00",
-      "data_cutoff_et": "2026-11-24T20:14:27.614809-05:00",
+      "data_cutoff_et": "2026-11-27T19:48:35.444366-05:00",
       "previous_season_label": "2025-26",
       "home_team": "Lyon",
       "away_team": "Monaco",
@@ -6495,7 +6054,7 @@
       "league_name": "La Liga",
       "kickoff_utc": "2026-11-29T20:00:00+00:00",
       "kickoff_et": "2026-11-29T15:00:00-05:00",
-      "data_cutoff_et": "2026-11-24T20:14:27.614809-05:00",
+      "data_cutoff_et": "2026-11-27T19:48:35.444366-05:00",
       "previous_season_label": "2025-26",
       "home_team": "Real Sociedad",
       "away_team": "Sevilla",
